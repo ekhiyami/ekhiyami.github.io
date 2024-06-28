@@ -9,4 +9,22 @@ published: true
 
 
 
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
 I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.
+
+I entered the software business by accident in 2000.I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.
+
+I entered the software business by accident in 2000.
+I entered the software business by accident in 2000.
+
