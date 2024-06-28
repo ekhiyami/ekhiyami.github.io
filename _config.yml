@@ -6,10 +6,6 @@ description: Technologist | Cloud Architect | Builder
 baseurl: "/"
 url: "https://ekhiyami.github.io"
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
-
 # Pagination
 paginate: 10
 permalink: /blog/:year/:title/
