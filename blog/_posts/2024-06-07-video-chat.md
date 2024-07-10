@@ -1,26 +1,29 @@
 ---
 layout: post
-title: Gen-AI Video Chat App that Went Viral
+title: My Gen-AI Video Chat App that Went Viral
 ---
 
-A few months ago, I started learning about Generative AI. Despite everyone claiming to be an expert on social media, most of the content of the type “top AI tools that can do X” is not very helpful. It’s really hard to find a well-structured, academic-like course or content to walk you through this technology as a beginner. Since I work for AWS, I wanted to learn this technology from AWS's perspective, so I started listening to a 7-hour course by my colleague on Generative AI and how it's implemented using AWS services. The course was nice but too long, and I struggled to complete it, so I tried a different approach.
+As part of learning Gen AI, I built an app that ** summarizes YouTube videos and makes them conversational**.
 
-After understanding the basics of foundational models, how they work, and the main services that support them on AWS, I wanted to build something and learn by doing. The best thing to build is something that solves a real-world problem.
+* You can try it [here](https://video-chat.streamlit.app/).
 
-I started building an app that summarizes long YouTube videos, gives me a summary, and then builds a chat interface so that I can chat with the video content.
+The whole process, from starting building the code to writing a blog post about it, took about 6 hours. The app was received with celebration by many VPs at AWS because it shows how efficiently you can build a quick product that solves real problems using the AWS Gen AI Stack.
 
-I wrote a blog post on how I did that, using Amazon Q and Amazon Bedrock as building blocks. I didn’t have to write the code from scratch because I wanted to learn Amazon Q's capabilities as part of my experiment.
+To date, the app has been used by more than 100k users. Wow, beyond my expectations. Maybe I should build a commercial version?
 
-After releasing the app, I was surprised by the attention it received internally from AWS and from the community. It was publicly referenced by multiple VPs as a “master class in efficiency” in building a simple app using simple approaches. It was talked about by multiple community influencers, and I was invited multiple times to talk about it on podcasts. Since its release, the app has received 100k users.
+My blog post on how I built it on the AWS community blog can be found [here](https://community.aws/content/2hPtf0UuIXSLqJk5MKolbOoA7Qv/how-i-built-a-video-chatter-app-with-almost-zero-code?lang=en).
 
-Give it a try here:
-[Link to the app]
+### What people say about it
 
-The blog post I published:
-[Link to the blog post]
 
-Some social media references:
-[Links to social media references]
+* [Matt Wood (VP of AI Products AWS) post](https://lnkd.in/guKvGrmV)
 
-![Video Chat App](video-chat-matt.png)
+* [Jeff Barr (VP of Evangelism AWS) Goodies newsletter](https://lnkd.in/g3KV5_S4)
+
+* [Swami Sivasubramanian (VP Data/AI AWS)](https://lnkd.in/giAJuTZC)
+
+* [CloudFix news and reviews](https://lnkd.in/gvYvPqZM)
+
+* [AWS Community builder page](https://lnkd.in/gnZr9XPZ)
+
 
