@@ -13,7 +13,7 @@ To date, the app has been used by more than 100k users. Wow, beyond my expectati
 
 My blog post on how I built it on the AWS community blog can be found [here](https://community.aws/content/2hPtf0UuIXSLqJk5MKolbOoA7Qv/how-i-built-a-video-chatter-app-with-almost-zero-code?lang=en).
 
-### What people say about it
+#### What people say about it
 
 
 * [Matt Wood (VP of AI Products AWS) post](https://lnkd.in/guKvGrmV)
