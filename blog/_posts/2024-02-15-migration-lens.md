@@ -131,7 +131,8 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 
 ![placeholder](http://placehold.it/800x400 "Large example image")
 ![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](https://drive.google.com/file/d/1K-58S1_r7hWOBMkQMpooIVy0w2DFIwm2/view "Small example image")
+
+![Image Description](https://drive.google.com/uc?export=view&id=1K-58S1_r7hWOBMkQMpooIVy0w2DFIwm2)
 
 ### Tables
 
