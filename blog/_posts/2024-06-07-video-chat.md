@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Gen-AI Video Chat App that Went Viral
+title: My Gen-AI Video Summarizer that Went Viral
 ---
 
 As part of learning Gen AI, I built an app that **summarizes YouTube videos and makes them conversational**.
