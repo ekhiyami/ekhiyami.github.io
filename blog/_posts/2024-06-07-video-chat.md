@@ -3,7 +3,7 @@ layout: post
 title: My Gen-AI Video Chat App that Went Viral
 ---
 
-As part of learning Gen AI, I built an app that ** summarizes YouTube videos and makes them conversational**.
+As part of learning Gen AI, I built an app that **summarizes YouTube videos and makes them conversational**.
 
 * You can try it [here](https://video-chat.streamlit.app/).
 
