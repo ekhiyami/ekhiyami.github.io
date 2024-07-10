@@ -31,4 +31,4 @@ To date (July 7 2024), the app has been used by more than **100k** users. Wow, b
 * [AWS Community builder page](https://lnkd.in/gnZr9XPZ)
 
 
-![Video Chat App](video-chat-matt.png)
+![Video Chat App](./video-chat-matt.png)
