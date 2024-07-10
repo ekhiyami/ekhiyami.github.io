@@ -9,7 +9,7 @@ As part of learning Gen AI, I built an app that **summarizes YouTube videos and 
 
 The whole process, from starting building the code to writing a blog post about it, took about 6 hours. The app was received with celebration by many VPs at AWS because it shows how efficiently you can build a quick product that solves real problems using the AWS Gen AI Stack.
 
-To date, the app has been used by more than **100k** users. Wow, beyond my expectations. Maybe I should build a commercial version?
+To date (July 7 2024), the app has been used by more than **100k** users. Wow, beyond my expectations. Maybe I should build a commercial version?
 
 - My blog post on how I built it on the AWS community blog can be found [here](https://community.aws/content/2hPtf0UuIXSLqJk5MKolbOoA7Qv/how-i-built-a-video-chatter-app-with-almost-zero-code?lang=en).
 
