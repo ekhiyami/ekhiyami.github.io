@@ -36,6 +36,8 @@ By the time I graduated from engineering school, I had built enough confidence t
 
 Since then, I have held multiple roles: **technician, software developer, tech support, salesperson, system administrator, network administrator, database administrator, architect, manager, project manager, entrepreneur, and solution architect**. I am also a **husband, father, mentor**, and **hobbyist visual creator**.
 
+![me](me/HEIC)
+
 ***
 
 Currently, I am employed at **Amazon Web Services**, where I support multiple teams. My business title is Solutions Architect. I’m an SME in **Cloud Optimization, Migration and Modernization, Resiliency**, and a few other areas. I enjoy building things that solve customers' problems and evangelizing them. Breaking down complex problems into manageable solutions and then documenting and sharing them comes naturally to me.
