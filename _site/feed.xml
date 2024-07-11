@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-11T11:04:41-05:00</updated><id>/feed.xml</id><title type="html">Ebrahim Khiyami</title><subtitle></subtitle><author><name>Blog Author</name></author><entry><title type="html">My YouTube Summarizer that Went Viral</title><link href="/video-chat/" rel="alternate" type="text/html" title="My YouTube Summarizer that Went Viral" /><published>2024-06-10T00:00:00-05:00</published><updated>2024-06-10T00:00:00-05:00</updated><id>/video-chat</id><content type="html" xml:base="/video-chat/"><![CDATA[<p>As part of learning Gen AI, I built an app that ‘summarizes YouTube videos and makes them conversational’.</p>
+
+<blockquote>
+  <p>You can try it <a href="#">here</a>.</p>
+</blockquote>
+
+<p><img src="/assets/video-chat.png" alt="Video Chat App" /></p>
+
+<p>The whole process from starting building the code to writing a blog post about it took about 6 hours. The app was received with celebration by the community and many VPs at AWS because it shows how efficiently you can be to build quick products that solve real problems using AWS Gen AI Stack.</p>
+
+<p>To date, the app has been used by more than <strong>*100k</strong> users. Wow, beyond my expectation. Maybe I should build a commercial version?</p>
+
+<ul>
+  <li>
+    <p>My blog post on how I built and a demo it is on the <a href="https://community.aws/content/2hPtf0UuIXSLqJk5MKolbOoA7Qv/how-i-built-a-video-chatter-app-with-almost-zero-code?lang=en">AWS Community Blog</a>.</p>
+  </li>
+  <li>
+    <p>My LinkedIn <a href="https://www.linkedin.com/in/eb-khiyami/recent-activity/all/">Post</a> about the story with references.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="whats-next">What’s next</h3>
+
+<p>The app is being utlized by multiple teams internally and i’m working on adding more features to it for traslations and support of languages other than English. There is alos something public coming about it..can’t disclose this one yet.</p>
+
+<h3 id="what-people-say-about-it">What people say about it</h3>
+
+<p><strong>Matt Wood (VP of AI Products, AWS)</strong></p>
+
+<p><img src="/assets/video-chat-matt.png" alt="Video Chat App" /></p>
+
+<p><strong>Swami SivasubramanianSwami Sivasubramanian (VP, AI and Data, AWS)</strong></p>
+
+<p><img src="/assets/video-chat-swami.png" alt="Video Chat App" /></p>
+
+<p><strong>Jeff Barr (VP, Chief Evangelist, AWS)</strong></p>
+
+<p><img src="/assets/video-chat-jeff.png" alt="Video Chat App" /></p>]]></content><author><name>Blog Author</name></author><summary type="html"><![CDATA[As part of learning Gen AI, I built an app that ‘summarizes YouTube videos and makes them conversational’. You can try it here. The whole process from starting building the code to writing a blog post about it took about 6 hours. The app was received with celebration by the community and many VPs at AWS because it shows how efficiently you can be to build quick products that solve real problems using AWS Gen AI Stack. To date, the app has been used by more than *100k users. Wow, beyond my expectation. Maybe I should build a commercial version? My blog post on how I built and a demo it is on the AWS Community Blog. My LinkedIn Post about the story with references. What’s next The app is being utlized by multiple teams internally and i’m working on adding more features to it for traslations and support of languages other than English. There is alos something public coming about it..can’t disclose this one yet. What people say about it Matt Wood (VP of AI Products, AWS) Swami SivasubramanianSwami Sivasubramanian (VP, AI and Data, AWS) Jeff Barr (VP, Chief Evangelist, AWS)]]></summary></entry><entry><title type="html">The AWS Well-Architected Migration Lens</title><link href="/migration-lens/" rel="alternate" type="text/html" title="The AWS Well-Architected Migration Lens" /><published>2024-03-01T00:00:00-06:00</published><updated>2024-03-01T00:00:00-06:00</updated><id>/migration-lens</id><content type="html" xml:base="/migration-lens/"><![CDATA[<p>This is one of the important projects I created, led, and delivered.</p>
+
+<p>Here is the story of the Migration Lens.</p>
+
+<p>At AWS, there is something called TFC (Technical Field Community) that consists of experts in different domains. For example, there are Migration TFCs, Networking TFC, AI TFC, etc.</p>
+
+<p>In 2023, I was part of the leadership team of the Migration and Modernization TFC. As I was digging into some data to find out the most needed or frequently encountered issues by customers, I found that a significant percentage of the requests coming to the TFC were about questions related to implementing specific best practices in migration projects.</p>
+
+<p>Most of the questions could be categorized under this category:</p>
+
+<blockquote>
+  <p><strong>How do I make sure my migration project follows AWS best practices?</strong></p>
+</blockquote>
+
+<p>It seemed like an opportunity to fill this gap, especially because there was no comprehensive content available online covering end-to-end migration projects, from securing executive sponsorship to discovery to building the landing zone on AWS, to migrating and then modernizing applications on AWS.</p>
+
+<p>In Amazon fashion, to start a project, you need to write a two-pager and go through several iterations with leaders and stakeholders to secure sponsorship. In a few weeks, I secured leadership support across multiple teams and was given the OK to build the team to create what we call the Migration Lens.</p>
+
+<blockquote>
+  <p><strong>The Migration Lens is a collection of best practices that extend the original, well-known Well-Architected Framework but specifically addresses best practices across the three phases of migration (assess, mobilize, migrate) and intersects them with the six pillars of the Well-Architected Framework. So, there were 18 areas to address</strong></p>
+</blockquote>
+
+<p>I built and led a team of about <a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/contributors.html">30 SMEs</a> across all areas, and we started defining the structure of how the content should look. It took us about 10 months to build it and clear all the review requirements and bar-raising from different experts.</p>
+
+<h2 id="the-package-i-built-included-the-following">The package I built included the following:</h2>
+
+<h4 id="content">Content</h4>
+<ul>
+  <li><strong><a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html">The Migration Lens Whitepaper</a></strong> – The main source of AWS Migration best practices.</li>
+  <li><strong><a href="https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/">Blog Post for the Whitepaper Announcement</a></strong></li>
+</ul>
+
+<h4 id="aws-service">AWS Service</h4>
+<ul>
+  <li><strong><a href="https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/">Integration with AWS Well-Architected Tool in AWS Console</a></strong></li>
+  <li><strong>JSON File</strong> – Contains all the content for customers who like to customize it for their standards (available on demand).</li>
+</ul>
+
+<h4 id="training-and-enablement">Training and Enablement</h4>
+<ul>
+  <li><strong>Internal Only</strong> – A wiki with all the training material to train AWS migration specialists on how to deliver the migration review to their customers.</li>
+</ul>
+
+<h4 id="reporting">Reporting</h4>
+<ul>
+  <li><strong>Internal Only</strong> – To measure the risk remediation.</li>
+</ul>
+
+<hr />
+
+<h4 id="so-what">SO WHAT?</h4>
+
+<ul>
+  <li>The whitepaper has been reviewed about 30k times as per the date of this blog</li>
+  <li>has been used to improve the migration of a number of strategic customers that I can’t disclose here.</li>
+  <li>and is being referenced by many of my colleagues and AWS partners to improve customers’ migrations to AWS.</li>
+</ul>
+
+<blockquote>
+  <p>Check my LinkedIn <strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:7155987327771701249/">Post</a></strong> for more context</p>
+</blockquote>
+
+<h3 id="what-people-say-about-it">What People Say About It</h3>
+
+<p><strong>Jeff Kratz (VP WW Publci Sector, AWS)</strong></p>
+
+<p><img src="/assets/migration-lens1.png" alt="migrationlens" /></p>
+
+<p><strong>Donilo Poccia (Chief Evangelist, AWS)</strong></p>
+
+<p><img src="/assets/migration-lens2.png" alt="migration lens" /></p>
+
+<p><strong>Community and Partners</strong></p>
+<ul>
+  <li>https://www.infoq.com/news/2024/01/well-architected-migration-lens/</li>
+  <li>https://expertcloudconsulting.com/blog/aws-well-architected-migration-lens</li>
+  <li>https://aragoncloud.bbtvnewmedia.com/announcing-the-aws-well-architected-migration-lens-93553be9a615</li>
+</ul>]]></content><author><name>Blog Author</name></author><summary type="html"><![CDATA[This is one of the important projects I created, led, and delivered. Here is the story of the Migration Lens. At AWS, there is something called TFC (Technical Field Community) that consists of experts in different domains. For example, there are Migration TFCs, Networking TFC, AI TFC, etc. In 2023, I was part of the leadership team of the Migration and Modernization TFC. As I was digging into some data to find out the most needed or frequently encountered issues by customers, I found that a significant percentage of the requests coming to the TFC were about questions related to implementing specific best practices in migration projects. Most of the questions could be categorized under this category: How do I make sure my migration project follows AWS best practices? It seemed like an opportunity to fill this gap, especially because there was no comprehensive content available online covering end-to-end migration projects, from securing executive sponsorship to discovery to building the landing zone on AWS, to migrating and then modernizing applications on AWS. In Amazon fashion, to start a project, you need to write a two-pager and go through several iterations with leaders and stakeholders to secure sponsorship. In a few weeks, I secured leadership support across multiple teams and was given the OK to build the team to create what we call the Migration Lens. The Migration Lens is a collection of best practices that extend the original, well-known Well-Architected Framework but specifically addresses best practices across the three phases of migration (assess, mobilize, migrate) and intersects them with the six pillars of the Well-Architected Framework. So, there were 18 areas to address I built and led a team of about 30 SMEs across all areas, and we started defining the structure of how the content should look. It took us about 10 months to build it and clear all the review requirements and bar-raising from different experts. The package I built included the following: Content The Migration Lens Whitepaper – The main source of AWS Migration best practices. Blog Post for the Whitepaper Announcement AWS Service Integration with AWS Well-Architected Tool in AWS Console JSON File – Contains all the content for customers who like to customize it for their standards (available on demand). Training and Enablement Internal Only – A wiki with all the training material to train AWS migration specialists on how to deliver the migration review to their customers. Reporting Internal Only – To measure the risk remediation.]]></summary></entry><entry><title type="html">Advanced examples</title><link href="/advanced-examples/" rel="alternate" type="text/html" title="Advanced examples" /><published>2017-01-01T00:00:00-06:00</published><updated>2017-01-01T00:00:00-06:00</updated><id>/advanced-examples</id><content type="html" xml:base="/advanced-examples/"><![CDATA[<p><img src="https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg" alt="Swiss Alps" /></p>
+
+<h2 id="mathjax">MathJax</h2>
+
+<p>You can enable MathJax by setting <code class="language-plaintext highlighter-rouge">mathjax: true</code> on a page or globally in the <code class="language-plaintext highlighter-rouge">_config.yml</code>. Some examples:</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Euler%27s_formula">Euler’s formula</a> relates the  complex exponential function to the trigonometric functions.</p>
+
+\[e^{i\theta}=\cos(\theta)+i\sin(\theta)\]
+
+<p>The <a href="https://en.wikipedia.org/wiki/Lagrangian_mechanics">Euler-Lagrange</a> differential equation is the fundamental equation of calculus of variations.</p>
+
+\[\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac{\partial L}{\partial \dot{q}} \right ) = \frac{\partial L}{\partial q}\]
+
+<p>The <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation">Schrödinger equation</a> describes how the quantum state of a quantum system changes with time.</p>
+
+\[i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)\]
+
+<h2 id="code">Code</h2>
+
+<p>Embed code by putting <code class="language-plaintext highlighter-rouge">{% highlight language %}</code> <code class="language-plaintext highlighter-rouge">{% endhighlight %}</code> blocks around it. Adding the parameter <code class="language-plaintext highlighter-rouge">linenos</code> will show source lines besides the code.</p>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
+    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
+    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">"asyncEnabled"</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="gists">Gists</h2>
+
+<p>With the <code class="language-plaintext highlighter-rouge">jekyll-gist</code> plugin, which is preinstalled on Github Pages, you can embed gists simply by using the <code class="language-plaintext highlighter-rouge">gist</code> command:</p>
+
+<script src="https://gist.github.com/5555251.js?file=gist.md"></script>
+
+<h2 id="images">Images</h2>
+
+<p>Upload an image to the <em>assets</em> folder and embed it with <code class="language-plaintext highlighter-rouge">![title](/assets/name.jpg))</code>. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.</p>
+
+<p>A wrapper <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">large</code> can be used to increase the width of an image or iframe.</p>
+
+<p><img src="https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg" alt="Flower" /></p>
+
+<p><a href="https://unsplash.com/photos/iGrsa9rL11o">Flower</a> by Tj Holowaychuk</p>
+
+<h2 id="embedded-content">Embedded content</h2>
+
+<p>You can also embed a lot of stuff, for example from YouTube, using the <code class="language-plaintext highlighter-rouge">embed.html</code> include.</p>
+
+<div style="position: relative; margin: 1.5em 0; padding-bottom: 56.25%;">
+  <iframe style="position: absolute;" src="https://www.youtube.com/embed/_C0A5zX-iqM" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+</div>]]></content><author><name>Blog Author</name></author><category term="media" /><summary type="html"><![CDATA[]]></summary></entry></feed>
