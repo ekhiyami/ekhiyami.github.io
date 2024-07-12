@@ -1,0 +1,33 @@
+---
+title:  "Disaster Recovery for Azure/GCP on AWS"
+layout: post
+---
+
+I built a solution to set up Disaster Recovery sites on AWS for Azure and GCP customers. After being used successfully by multiple customers and translated into multiple languages as blog posts, the solution became part of the official AWS Disaster Recovery Service (AWS DRS).
+
+Here is the full story
+Last year, I took on a new challenge to expand my technical impact by joining the Resilience Technical Field Community (TFC) at AWS as a Disaster Recovery SME. This role complemented my work on the Well-Architected team, where I engaged with several customers whose main workloads were on Azure or GCP. These customers wanted to leverage AWS Disaster Recovery Service (AWS DRS) to build a disaster recovery solution on AWS.
+
+During my interactions, I discovered a significant gap in the AWS Disaster Recovery Service (AWS DRS) failback process (from AWS to GCP/Azure). The failback client provided by AWS DRS was not directly compatible with booting on Azure/GCP VMs. Many customers had to manually build a custom image on EC2 with the failback client before creating a compatible VM on the respective cloud.
+
+Last year, I took on a new challenge to expand my technical impact by joining the Resilience Technical Field Community (TFC) at AWS as a Disaster Recovery SME. This role complemented my work on the Well-Architected team, where I engaged with several customers whose main workloads were on Azure or GCP. These customers wanted to leverage AWS Disaster Recovery Service (AWS DRS) to build a disaster recovery solution on AWS.
+
+During my interactions, I discovered a significant gap in the AWS Disaster Recovery Service (AWS DRS) failback process (from AWS to GCP/Azure). The failback client provided by AWS DRS was not directly compatible with booting on Azure/GCP VMs. Many customers had to manually build a custom image on EC2 with the failback client before creating a compatible VM on the respective cloud.
+
+In a DR solution, there are two main steps: failover, which is to fail from a primary site to your backup site in case of a disaster, and failback, which is the opposite operation, to fail back from the backup site to the main site after the disaster situation is cleared.
+
+To address this issue, I developed a solution to automate the steps needed to build an Azure/GCP-compatible VM with AWS DRS, ready to boot from. I collaborated with the head of product at AWS DRS to get my solution approved and published it on AWS Sample (an official AWS repo for sample solutions approved by AWS, ready for customers to use). This solution included automation scripts that both Azure and GCP customers could use to streamline the failback process while building their DR on AWS.
+
+To help the community, I also wrote a series of three blog posts titled "Building a Disaster Recovery Site on AWS for Multi-cloud Workloads," providing a step-by-step implementation guide. Since releasing these solutions, they have helped numerous customers unblock their DR projects on AWS. It also assisted the AWS Support team in resolving multiple SIMs and contributed to progressing SFDC opportunities, generating significant ARR.
+
+Here is what I delivered
+Blog posts:
+Building a disaster recovery site on AWS for workloads on Google Cloud Part 1 (Japanese)
+Building a disaster recovery site on AWS for workloads on Google Cloud Part 2 (Japanese)
+Securely installing AWS Replication Agent using AWS Security Token Service
+Building a disaster recovery site on AWS for workloads on Google Cloud Part 2
+Building a disaster recovery site on AWS for workloads on Google Cloud Part 1
+Configurando un plan de recuperación de desastres (DRP) entre AWS y Azure utilizando CloudEndure (Spanish)
+AWS DRS Documentation:
+AWS Disaster Recovery Service Documentation
+What people say about it
