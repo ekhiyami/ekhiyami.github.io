@@ -1,30 +1,25 @@
 ---
-title: "AboutMe"
+title: "About Me"
 permalink: "/about/"
 layout: page
 ---
 
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Document</title>
+    <title>About Me</title>
 </head>
 <body>
-
-
-
-<p>Hi, you can call me <strong>EB</strong>. I'm an <strong><i class="fa-solid fa-laptop-mobile"></i>Engineer</strong>, <strong><i class="fas fa-cogs"></i> Technologist</strong>, <strong><i class="fas fa-cloud"></i> Cloud Architect</strong>, and a <strong><i class="fas fa-wrench"></i> Builder</strong>.</p>
-<p>Thanks for your interest in knowing more about me. While LinkedIn is great, it has a limit on how much content you can include in your profile. So, I built this website as an online resume to showcase my professional experience and some public work items I've delivered over the years.</p>
-<p>You can see my work samples <a href="https://ekhiyami.github.io/">here</a>. 
-<p>Feel free to say hi on <a href="https://www.linkedin.com/in/eb-khiyami/">LinkedIn</a>.</p>
-
-<p>If you'd like to know more about me keep reading.</p>
+    <p>Hi, you can call me <strong>EB</strong>. I'm an <strong><i class="fa-solid fa-laptop-mobile"></i> Engineer</strong>, <strong><i class="fas fa-cogs"></i> Technologist</strong>, <strong><i class="fas fa-cloud"></i> Cloud Architect</strong>, and a <strong><i class="fas fa-wrench"></i> Builder</strong>.</p>
+    <p>Thanks for your interest in knowing more about me. While LinkedIn is great, it has a limit on how much content you can include in your profile. So, I built this website as an online resume to showcase my professional experience and some public work items I've delivered over the years.</p>
+    <p>You can see my work samples <a href="https://ekhiyami.github.io/">here</a>.</p>
+    <p>Feel free to say hi on <a href="https://www.linkedin.com/in/eb-khiyami/">LinkedIn</a>.</p>
+    <p>If you'd like to know more about me, keep reading.</p>
 </body>
 </html>
-
 
 ***
 
@@ -36,8 +31,8 @@ By the time I graduated from engineering school, I had built enough confidence t
 
 Since then, I have held multiple roles: **technician, software developer, tech support, salesperson, system administrator, network administrator, database administrator, architect, manager, project manager, entrepreneur, and solution architect**. I am also a **husband, father, mentor**, and **hobbyist visual creator**.
 
-![me](/assets/me.png)![image](https://github.com/user-attachments/assets/7d39b2f8-9b0e-411c-a880-cb00b3b76922)
-
+![me](/assets/me.png)
+![image](https://github.com/user-attachments/assets/7d39b2f8-9b0e-411c-a880-cb00b3b76922)
 
 ***
 
@@ -49,22 +44,19 @@ I like to think of my role as a **customer advisor**, a transformer, a **bridge*
 
 I do this through **speaking, writing, coding**, and occasionally **illustrating**.
 
-----
-
+---
 
 ![me](/assets/myjob2.png)
 
-
-*** 
+***
 
 This website serves as a platform for me to share the things I build. Over time, the list of projects has grown quite long and doesn't fit well on my LinkedIn profile page. Unless otherwise stated, all artifacts shared here are owned by my employer and represent their opinions.
 
 I work only on things that I enjoy. If I'm working on something I like, I may steal a few hours from weekends, nights, or bedtime to make progress. Given that context, I'm not a typical 9-5 person, but also not a geek.
 
-
 ***
 
-## Summary of Work experince
+## Summary of Work Experience
 
 * #### [Amazon Web Services (AWS)](https://aws.amazon.com/): 2019 - Present
   * Solutions Architect, specializing in Migration/Modernization and Cloud Optimization.
@@ -79,9 +71,7 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
 * #### [Damascus Securities Exchange](http://www.dse.gov.sy/index.php?lang=en): 2005 - 2012
   * Infrastructure Manager/System Lead/Tech Support.
 
-
 ***
-
 
 ## Education 
 
@@ -89,19 +79,6 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
   * Master of Science in Information Technology, Enterprise Resource Planning
 * #### Damascus University, Schools of Business - 2010
   * Master of Business Administration 2010
-* #### Damascus University, School of Information Technology Engineering -2004 
+* #### Damascus University, School of Information Technology Engineering - 2004 
   * Bachelor of Engineering in Information and Communications Technology
-* #### And a Long List of Professional Certificates... 
-
-
-
-
-
-
-
-
-
-
-
-
-
+* #### And a Long List of Professional Certificates...
