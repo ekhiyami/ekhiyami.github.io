@@ -51,7 +51,7 @@ I do this through **speaking, writing, coding**, and occasionally **illustrating
 ----
 
 
-![me](/assets/myjob2.png)
+
 
 
 *** 
