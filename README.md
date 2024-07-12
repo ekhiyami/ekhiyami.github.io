@@ -36,7 +36,7 @@ By the time I graduated from engineering school, I had built enough confidence t
 
 Since then, I have held multiple roles: **technician, software developer, tech support, salesperson, system administrator, network administrator, database administrator, architect, manager, project manager, entrepreneur, and solution architect**. I am also a **husband, father, mentor**, and **hobbyist visual creator**.
 
-![me](/assets/me.png)
+
 
 ***
 
