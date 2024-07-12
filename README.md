@@ -42,7 +42,16 @@ Since then, I have held multiple roles: **technician, software developer, tech s
 
 Currently, I am employed at **Amazon Web Services**, where I support multiple teams. My business title is Solutions Architect. I’m an SME in **Cloud Optimization, Migration and Modernization, Resiliency**, and a few other areas. I enjoy building things that solve customers' problems and evangelizing them. Breaking down complex problems into manageable solutions and then documenting and sharing them comes naturally to me.
 
-I've been an architect in customer-facing roles for the past 10 years. I like to think of my role as a **customer advisor**, a transformer, a bridge between complex and sometimes messy technical terms and customers. I help customers understand technology and navigate it to transform their business in plain language. I do this through **speaking, writing, coding**, and occasionally **illustrating**.
+I've been an architect in customer-facing roles for the past 10 years. 
+
+I like to think of my role as a **customer advisor**, a transformer, a **bridge** between complex and sometimes messy technical terms and customers. I help customers understand technology and navigate it to transform their business in plain language. 
+
+I do this through **speaking, writing, coding**, and occasionally **illustrating**.
+
+----
+
+
+![me](/assets/myjob2.png)
 
 
 *** 
