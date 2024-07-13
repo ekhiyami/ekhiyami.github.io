@@ -1,6 +1,5 @@
-
 ---
-title:  "Migrate to AWS the Well-Architected Way"
+title:  "The AWS Well-Architected Migration Lens "
 layout: post
 ---
 
