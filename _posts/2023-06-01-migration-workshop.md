@@ -2,6 +2,7 @@
 title:  "Migration Best Practices Workshop"
 layout: post
 ---
+
 **[Deliverable: re:invent workshop]**
 
 This is one of the most popular workshops and the first of its kind that combines two important topics: Migration and Well-Architected.
