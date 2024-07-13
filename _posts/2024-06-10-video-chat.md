@@ -3,9 +3,11 @@ title: "My YouTube Summarizer that Went Viral"
 layout: post
 ---
 
+[Deliverable: YouTube Summarizer, blog post, more].
+
 As part of learning Gen AI, I built an app that 'summarizes YouTube videos and makes them conversational'.
 
-> You can try it [here](#).
+> **You can try it [here](#).**
 
 ![Video Chat App](/assets/video-chat.png) 
 
