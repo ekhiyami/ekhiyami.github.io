@@ -1,7 +1,7 @@
 ---
 title:  "Migration Best Practices Workshop"
 layout: post
-category: media
+categories: media
 ---
 
 **[Deliverable: re:invent workshop]**.
