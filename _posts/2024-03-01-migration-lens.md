@@ -3,6 +3,9 @@ title:  "The AWS Well-Architected Migration Lens "
 layout: post
 ---
 
+**[Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].**
+
+
 This is one of the important projects I created, led, and delivered. 
 
 Here is the story of the Migration Lens.
@@ -31,6 +34,8 @@ I built and led a team of about [30 SMEs](https://docs.aws.amazon.com/wellarchit
 
 #### AWS Service
 - **[Integration with AWS Well-Architected Tool in AWS Console](https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/)**
+- Migration Lens is part of the **[Lens Catalog](https://docs.aws.amazon.com/wellarchitected/latest/userguide/lens-catalog.html).
+- Migration Lens is fully integrated in the AWS Migration Hub. 
 - **JSON File** – Contains all the content for customers who like to customize it for their standards (available on demand).
 
 #### Training and Enablement
