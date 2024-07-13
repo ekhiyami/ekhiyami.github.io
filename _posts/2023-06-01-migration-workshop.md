@@ -5,10 +5,11 @@ layout: post
 
 **[Deliverable: re:invent workshop]**
 
+This is one of the most popular workshops and the first of its kind that combines two important topics: Migration and Well-Architected.
+
+
 ![workshop](/assets/workshop1.png) 
 
-
-This is one of the most popular workshops and the first of its kind that combines two important topics: Migration and Well-Architected.
 
 I had the idea of building a workshop right after joining the Well-Architected Team, coming from the Migration Specialists SAs team. This is what I like about moving teams: it broadens your perspective.
 
