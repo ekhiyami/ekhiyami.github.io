@@ -7,7 +7,7 @@ layout: post
 
 As part of learning Gen AI, I built an app that 'summarizes YouTube videos and makes them conversational'.
 
-> **You can try it [here](#).**
+> **You can try it [here](https://video-chat.streamlit.app/).**
 
 ![Video Chat App](/assets/video-chat.png) 
 
