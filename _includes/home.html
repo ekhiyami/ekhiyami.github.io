@@ -2,7 +2,7 @@
 {% for post in posts %}
   <article>
     {% include meta.html post=post preview=true %}
-    <p>{{ post.excerpt | strip_html | truncatewords: 100 }}</p>
+    <p>{{ post.excerpt | strip_html |  truncate: 300 }}</p>
     <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
   </article>
 {% endfor %}
