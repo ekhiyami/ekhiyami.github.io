@@ -1,0 +1,31 @@
+---
+title:  "The Well-Architected Foundation Digital Course"
+layout: post
+---
+
+**[Deliverable: Digital Training, 4 Blog Posts].**
+
+
+![migrationlens](/assets/wa.png) 
+
+* I led a cross-org team to create and launch the [AWS Well-Architected Foundation course](https://explore.skillbuilder.aws/learn/course/external/view/elearning/108/aws-well-architected-foundations).
+
+* This course is available for AWS customers, partners, and AWS field teams and provides a badge that can be validated through [Credly](https://info.credly.com/).
+
+* The content was created based on the latest best practices from the Well-Architected Framework and included new topics like best practices on how to perform an AWS Well-Architected Framework review.
+
+* The team included SMEs from Well-Architected SAs and SMEs from the AWS Training and Certifications.
+
+* As of the time of writing, the course has been used to train about **70k** students.
+
+* I'm are currently working on creating the intermediate version.
+
+
+## The package I delivered included:
+
+- **Launch blog post**: [5 steps to learn AWS best practices and become Well-Architected](https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/)
+- **AWS Well-Architected Framework foundation course**: [AWS Well-Architected Foundation course](https://explore.skillbuilder.aws/learn/course/external/view/elearning/108/aws-well-architected-foundations)
+- **How to perform Well-Architected Framework Review blog post series**:
+  - [How to perform a Well-Architected Framework Review - Part 1](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/)
+  - [How to perform a Well-Architected Framework Review - Part 2](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2/)
+  - [How to perform a Well-Architected Framework Review - Part 3](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/)
