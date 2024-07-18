@@ -3,8 +3,12 @@ title:  "Migration Best Practices Workshop"
 layout: post
 categories: media
 ---
-
 ![workshop](/assets/workshop1.png) 
+
+
+
+
+
 
 **[Deliverable: re:invent workshop]**.
 
