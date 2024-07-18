@@ -1,7 +1,7 @@
 {%- assign posts = paginator.posts | default: site.posts -%}
 {% for post in posts %}
   <article>
-    {% include meta.html post=post preview=true %}
+    {% include meta.html post=post preview=false %}
     <p>{{ post.excerpt | strip_html }}</p>
     <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
   </article>
