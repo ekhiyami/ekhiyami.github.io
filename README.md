@@ -55,7 +55,7 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
 
 ***
 
-## Summary of Work Experience
+## Work
 
 * #### [Amazon Web Services (AWS)](https://aws.amazon.com/): 2019 - Present
   * Solutions Architect, specializing in Migration/Modernization and Cloud Optimization.
