@@ -1,16 +1,13 @@
 ---
-title:  "Migration Best Practices Workshop"
+title:  "Migration Best Practices- re:Invent Workshop"
 layout: post
 categories: media
 ---
+**[Deliverable: re:invent workshop]**.
+
 ![workshop](/assets/workshop1.png) 
 
 
-
-
-
-
-**[Deliverable: re:invent workshop]**.
 
 This is one of the most popular workshops and the first of its kind that combines two important topics: Migration and Well-Architected.
 
