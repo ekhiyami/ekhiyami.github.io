@@ -15,9 +15,12 @@ Additionally, I **presented a session titled "Proactive Cloud Management: How to
 
 The event was well-received, with positive feedback on the session, particularly for the practical examples discussed on creating Cloud Operations Centers at scale, such as those at Fidelity and Cox Automotive using the Well-Architected framework.
 
-Event link: https://event.ciofutureit.com/futureit-dallas/
 
-Speakers: https://event.ciofutureit.com/futureit-dallas/futureit-dallas-2024-meet-our-expert-speakers/
+[EventLink](https://event.ciofutureit.com/futureit-dallas/)
+
+[Speakers](https://event.ciofutureit.com/futureit-dallas/futureit-dallas-2024-meet-our-expert-speakers/)
+
+
 
 ![idc1](/assets/idc1.png) 
 
