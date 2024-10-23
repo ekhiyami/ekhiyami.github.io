@@ -55,6 +55,24 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
 
 ***
 
+## Official Bio
+
+![me](/assets/EB_Khiyami-Profile.png)
+
+Ebrahim (EB) Khiyami is a technology leader with two decades of experience in IT architecture and systems engineering. He helps organizations of all sizes—from startups to large enterprises—leverage cloud technologies to solve business challenges and build innovative, data-driven models. 
+
+In his current role as a Cloud Optimization Solutions Architect at AWS, EB assists customers in designing and operating cloud workloads according to AWS architectural best practices. He ensures that customers gain visibility into the health of their architectures, develop strategies to mitigate risks, and maximize the value of their cloud investments.
+
+Before joining the Cloud Optimization team, EB worked as a Migration Specialist, where he played a key role in building the AWS Migration Acceleration Program (MAP) and founded the MAP Automator, which has accelerated the migration of thousands of customer workloads to AWS.
+
+Prior to joining AWS, EB served as a Technical Architect, where he helped multiple large enterprises design and implement their Enterprise Resource Planning (ERP) systems and its supporting infrastructure. His industry experience spans financial services, manufacturing and education companies.
+
+EB is also a recognized thought leader and published author, having contributed to and authored multiple papers on AWS Migration, Modernization, Disaster Recovery, and Cloud Optimization in various languages. He holds a B.S. in Computer Engineering, a Master’s degree in IT Management, and a Master’s degree in Enterprise Resource Planning from the Florida Institute of Technology. Over the years, EB has guided numerous professionals in pursuing or transitioning into careers in cloud computing.
+
+Outside of work, he enjoys coaching and playing sports with his three boys and is a master at binge-watching shows at night.
+
+---
+
 ## Work
 
 * #### [Amazon Web Services (AWS)](https://aws.amazon.com/): 2019 - Present
