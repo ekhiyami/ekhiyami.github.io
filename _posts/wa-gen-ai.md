@@ -3,7 +3,7 @@ title: "Gen-AI Assisted AWS Well-Architected Review"
 layout: post
 ---
 
-![Video Chat App](/assets/wa-genai.png) 
+![wa-gen-ai](/assets/wa-genai.png) 
 
 This is WA-Gen-AI app.My second Gen-AI POC that I built this year after the success I had in building the first one, the [YouTube Summarizer](https://ekhiyami.github.io/video-chat/).
 
@@ -16,22 +16,36 @@ and the **Well-Architected Review**  is the process to validate your architectur
 
 The **WA-Gen-AI App** takes a CloudFormation template uploaded by the user, uses AWS Bedrock for Gen-AI and Streamlit for the front-end, and Python to interact with the AWS Well-Architected Tool, iterate through best practices, and complete the review.
 
+----
 
 > **You can try it [here](https://wa-genai.streamlit.app/).**
 
+----
 
 In my testing, I was able to complete the review in a few minutes, compared with a few hours that were traditionally needed by customers or the AWS team to bring everyone into the same room and answer the 57 of review questions manually. 
 
 In the 3-tier classic application I tested, the WA-Gen-AI app was able to answer about **50%** of the questions and save **hours** of manual review. 
 
+---
+
 ### What's next
 
 There are many potentials for customers to adopt this solution and benefit from it. Currently, this solution is hosted on my own repo, but I'm working to make it an official solution hosted on the AWS official repo. Will update here as we make progress.
 
-### More details here
+---
+
+### More details
+
+
 
 - [Blog post with architecture and technical details](https://community.aws/content/2hYteYyGPff8nuzG3ye8HZQOtCf/how-i-cut-the-time-to-complete-a-well-architected-review-from-hours-to-minutes?lang=en)
 - [Video Demo](https://youtu.be/agTKnB1PS2M) 
 - [Github Repo (personal)](https://github.com/ekhiyami/well-architected-genai)
-```
+- What People Say [LinkedIn Post](https://www.linkedin.com/posts/eb-khiyami_how-i-cut-the-time-to-complete-a-well-architected-activity-7242641906160050176-Dz1L?utm_source=share&utm_medium=member_desktop)
+
+----
+
+
+![wa-gen-ai-post](/assets/wa-genai-post.png)  
+  
 
