@@ -5,7 +5,7 @@ layout: post
 
 **[Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].**
 
-![wa-migration](/assets/wa-migration.png) 
+![wa-migration](/assets/migration-lens0.png) 
 
 
 This is one of the important projects I created, led, and delivered. 
