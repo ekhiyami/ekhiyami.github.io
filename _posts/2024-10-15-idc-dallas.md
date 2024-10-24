@@ -20,9 +20,7 @@ The event was well-received, with positive feedback on the session, particularly
 
 [Speakers](https://event.ciofutureit.com/futureit-dallas/futureit-dallas-2024-meet-our-expert-speakers/)
 
-
-
-![idc1](/assets/idc1.png) 
+---
 
 
 ![idc2](/assets/idc2.jpeg) 
