@@ -3,10 +3,13 @@ title: "Services"
 permalink: "/services/"
 layout: page
 ---
-## 🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
+**You can use my 20+ year of experince in big tech industry through one of these services.**
 
 ### 🚀 Mock Interview
 
+🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
+
+I'll put you through a true-to-life interview and provide a hire/no-hire decision with actionable feedback.
 I specialize in helping candidates understand the question behind the question—a crucial skill for acing interviews. I also help you tailor your story to match the seniority level you’re interviewing for. Whether it’s a behavioral or technical interview, I’ll teach you how to craft high-quality answers that make an impact. Let’s get you hired or promoted!
 
 > 💡 When an interviewer asks, “Tell me about a mistake you made,” they aren’t interested in the mistake itself. They want to understand your attitude toward failure, how you fix mistakes, and how you prevent them. You often have just 20 seconds to process and respond effectively. Mastering this kind of insight is key to a successful interview.
