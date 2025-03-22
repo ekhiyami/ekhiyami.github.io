@@ -5,7 +5,7 @@ layout: page
 ---
 **You can use my 20+ year of experince in big tech industry through one of these services.**
 
-> ### 🚀Mock Interview
+### 🚀Mock Interview
 
 🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
 
@@ -16,7 +16,7 @@ I specialize in helping candidates understand the question behind the question�
 
 Most of my candidates are mid-career professionals transitioning into IT, Cloud, AI, or Pre-Sales (Solutions Architect roles). Whether you’re feeling stuck, looking to move up, or switching careers, I’ll guide you through the process.
 
->> ### 📌 What You Get
+> ### 📌 What You Get
 
 - 🎤 **Interview Preparation** – Phone screens, on-site interviews, and behavioral questions for junior, senior, and principal roles.
 - 📊 **Actionable Feedback** – Detailed analysis with an improvement plan and mock hiring decisions.
@@ -26,7 +26,7 @@ Most of my candidates are mid-career professionals transitioning into IT, Cloud,
 
 ---
 
-> ### 📄 Resume Review
+### 📄 Resume Review
 
 AI can scan your resume, but it can’t craft a compelling story that gets you hired. With years of experience coaching candidates for top tech roles, I provide personalized, actionable feedback that goes beyond generic AI suggestions. I’ll fine-tune your resume to highlight your strengths, optimize it for ATS, and ensure it speaks directly to hiring managers. Let’s make your resume work for you—book now!
 
@@ -34,13 +34,13 @@ AI can scan your resume, but it can’t craft a compelling story that gets you h
 
 ---
 
-> ### 🎓 Career Mentoring
+### 🎓 Career Mentoring
 
 ### 📚 Career Mentoring Package – 5 Sessions
 
 Kickstart your career with structured mentoring designed for early-career professionals and students. This five-session program provides personalized guidance to help you stand out in a competitive job market.
 
->> ### 📌 What’s Included?
+> ### 📌 What’s Included?
 
 ✅ **Customizable Resume & LinkedIn Profile** – Get tailored feedback to optimize your job applications.  
 ✅ **Master Your Elevator Pitch** – Learn to answer "tell me about yourself" and grab attention in the first 20 seconds.  
