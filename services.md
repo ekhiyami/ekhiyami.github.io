@@ -3,9 +3,9 @@ title: "Services"
 permalink: "/services/"
 layout: page
 ---
-🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
+## 🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
 
-## 🚀 Mock Interview
+### 🚀 Mock Interview
 
 I specialize in helping candidates understand the question behind the question—a crucial skill for acing interviews. I also help you tailor your story to match the seniority level you’re interviewing for. Whether it’s a behavioral or technical interview, I’ll teach you how to craft high-quality answers that make an impact. Let’s get you hired or promoted!
 
@@ -23,7 +23,7 @@ Most of my candidates are mid-career professionals transitioning into IT, Cloud,
 
 ---
 
-## 📄 Resume Review
+### 📄 Resume Review
 
 AI can scan your resume, but it can’t craft a compelling story that gets you hired. With years of experience coaching candidates for top tech roles, I provide personalized, actionable feedback that goes beyond generic AI suggestions. I’ll fine-tune your resume to highlight your strengths, optimize it for ATS, and ensure it speaks directly to hiring managers. Let’s make your resume work for you—book now!
 
@@ -31,7 +31,7 @@ AI can scan your resume, but it can’t craft a compelling story that gets you h
 
 ---
 
-## 🎓 Career Mentoring
+### 🎓 Career Mentoring
 
 ### 📚 Career Mentoring Package – 5 Sessions
 
