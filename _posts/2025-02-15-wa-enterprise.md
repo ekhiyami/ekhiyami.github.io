@@ -6,7 +6,6 @@ categories: media
 
 **[Deliverable: AWS Training & Certifications Digital Course Available for Customers, Partners, and Field, Blog Post]**
 
-<span style="color: red;">This text is red</span>
 
 **Short Summary**
 
