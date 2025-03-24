@@ -1,15 +1,15 @@
 ---
-title:  "Gen-AI Assisted AWS Well-Architected Review"
+title:  "New Digital Course: AWS Well-Architected for Enterprise"
 layout: post
 categories: media
 ---
 
-**Deliverable: Digital Course Available for Customers, Partners, and Field, Blog Post**
+**Deliverable: AWS Training & Certifications Digital Course Available for Customers, Partners, and Field, Blog Post**
 
 
 **Short Summary**
 
-This is my latest publication. After publishing the [Well-Architected Foundation digital course](https://ekhiyami.github.io/wa-course/) last year and making it available for AWS customers and partners, I received feedback that the course is basic and doesn’t go into the details and advanced options. So, I took the lead on creating an advanced version of it. We called it **Well-Architected for Enterprises**.
+This is my latest publication. After publishing the [Well-Architected Foundation digital course](https://ekhiyami.github.io/wa-course/) last year and making it available for AWS customers and partners, I received feedback that the course is basic and doesn’t go into the details and advanced options. So, I took the lead on creating an advanced version of it. We called it **Well-Architected for Enterprises**. As the name implies, it's designed to teach our customers how to do scale adoption of best practices for 100s of applications and show them what tools, programs, solutions available for them to do so. 
 
 The course took about **6 months** to complete, including planning, assembling a team of SMEs and reviewers, creating the content, and developing knowledge checks. At the time of writing this post, the course has received **positive feedback** and has been taken by about **5k individuals**.
 
