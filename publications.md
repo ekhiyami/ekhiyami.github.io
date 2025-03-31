@@ -8,7 +8,8 @@ layout: page
 
 | Blog Post                                                                                   |  Publication Date  | Language |
 | ------------------------------------------------------------------------------------------- | ------------------ | -------- |
-| [Well-Architected for Enterprises](https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/) | 01 Mar 2025      | English  |
+| [Well-Architected for Enterprises blog+ Digital Course](https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/) | 01 Mar 2025      | English  |
+| [Gen-AI Well-Architected Review Accelerator](https://community.aws/content/2hYteYyGPff8nuzG3ye8HZQOtCf/how-i-cut-the-time-to-complete-a-well-architected-review-from-hours-to-minutes?lang=en) | 26 Sep 2024      | English  |
 | [The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices](https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/) | 26 Mar 2024      | English  |
 | [Announcing The AWS Well-Architected Migration Lens](https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/) | 24 Jan 2024      | English  |
 | [Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)](https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/) | 18 Sep 2023      | Spanish  |
