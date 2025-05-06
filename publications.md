@@ -8,6 +8,7 @@ layout: page
 
 | Blog Post                                                                                   |  Publication Date  | Language |
 | ------------------------------------------------------------------------------------------- | ------------------ | -------- |
+| [Chat with Your AWS Bill Using Amazon Q CLI](https://ekhiyami.github.io/chat-with-aws/) | 07 May 2025      | English  |
 | [Well-Architected for Enterprises blog+ Digital Course](https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/) | 01 Mar 2025      | English  |
 | [Gen-AI Well-Architected Review Accelerator](https://community.aws/content/2hYteYyGPff8nuzG3ye8HZQOtCf/how-i-cut-the-time-to-complete-a-well-architected-review-from-hours-to-minutes?lang=en) | 26 Sep 2024      | English  |
 | [The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices](https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/) | 26 Mar 2024      | English  |
