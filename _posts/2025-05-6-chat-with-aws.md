@@ -1,5 +1,5 @@
 ---
-title:  "Chat with your AWS bill using AWS MCP, Amazon Q and Well-Architected"
+title:  "Chat with your AWS bill using AWS MCP, Amazon Q CLI"
 layout: post
 categories: media
 ---
