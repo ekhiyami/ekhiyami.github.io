@@ -4,7 +4,7 @@ permalink: "/publications/"
 layout: page
 ---
 
-## AWS Blog Posts
+## AWS Blog Posts and AWS Community Blogs
 
 | Blog Post                                                                                   |  Publication Date  | Language |
 | ------------------------------------------------------------------------------------------- | ------------------ | -------- |
