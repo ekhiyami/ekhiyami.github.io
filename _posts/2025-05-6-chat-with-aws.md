@@ -57,6 +57,9 @@ To enable cost optimization queries, you need to link Amazon Q with the correct 
 ~/.aws/amazonq/mcp.json
 
 Paste the following configuration:
+
+
+
 {
   "mcpServers": {
     "awslabs.core-mcp-server": {
