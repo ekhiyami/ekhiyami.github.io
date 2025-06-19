@@ -84,6 +84,14 @@ Paste the following configuration:
 }
 
 Restart your session and start asking questions about your AWS spend. Check the video above for examples.
+
+[Watch the demo](https://www.youtube.com/watch?v=VIDEO_ID)
+[LinkedIn Post](https://www.linkedin.com/posts/eb-khiyami_chat-with-your-aws-bill-activity-7325533983788662786-PT-6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALV-AEByriO-neqsWiP7QcZkthfNqE6-Oo) 
+
+![chatbill](/assets/chatbill.png)
+
+
+
 ## 🔗 Helpful Resources
 
 - [List of all AWS MCP servers](https://github.com/aws-samples/amazon-q-mcp-servers)  
