@@ -4,6 +4,12 @@ permalink: "/publications/"
 layout: page
 ---
 
+## Sample of my AWS Publications in different formats 
+Below are sample artifacts I’ve published publicly for AWS, where I was the lead author or a co-author.
+There are many others where I served as a reviewer, bar raiser, or contributor. I’ve also published numerous internal documents.
+Listing them all would take several pages.
+
+
 ## AWS Blog Posts and AWS Community Blogs
 
 | Blog Post                                                                                   |  Publication Date  | Language |
@@ -40,3 +46,9 @@ layout: page
 | [Monitoring Oracle to PostgreSQL Migration using AWS DMS](https://d1.awsstatic.com/whitepapers/oracle-postgres-cdc-monitoring-aws-dms.pdf?did=wp_card&trk=wp_card) | 2023             | English  |
 
 
+## AWS Digital Training 
+
+| Course                                                                                   |  Publication Date  | Language |
+| -------------------------------------------------------------------------------------------- | ------------------ | -------- |
+| [AWS Well-Architected For Enterprises](https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises) | 2025             | English  |
+| [AWS Well-Architected Foundations](https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations) | 2023             | English  |
