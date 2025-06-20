@@ -52,3 +52,9 @@ Listing them all would take several pages.
 | -------------------------------------------------------------------------------------------- | ------------------ | -------- |
 | [AWS Well-Architected For Enterprises](https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises) | 2025             | English  |
 | [AWS Well-Architected Foundations](https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations) | 2023             | English  |
+
+
+
+## AWS Hands-on Workshop
+
+//List is being built ,, check later pls
