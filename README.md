@@ -15,7 +15,7 @@ layout: page
     <p>Hi, you can call me <strong>EB</strong>. I'm an <strong><i class="fa-solid fa-laptop-mobile"></i> Engineer</strong>, <strong><i class="fas fa-cogs"></i> Technologist</strong>, <strong><i class="fas fa-cloud"></i> Cloud Architect</strong>, and a <strong><i class="fas fa-wrench"></i> Builder</strong>.</p>
     <p>Thanks for your interest in knowing more about me. While LinkedIn is great, it has a limit on how much content you can include in your profile. So, I built this website as an online resume to showcase my professional experience and some public work items I've delivered over the years.</p>
     <p>You can see my work samples <a href="https://ekhiyami.github.io/">here</a>.</p>
-    <p>You can check my services <a href="https://ekhiyami.github.io/services/">here</a>.</p>
+    <p>You can check my services <a href="https://topmate.io/ekhiyami">here</a>.</p>
     <p>Feel free to say hi on <a href="https://www.linkedin.com/in/eb-khiyami/">LinkedIn</a>.</p>
     <p>If you'd like to know more about me, keep reading.</p>
 </body>
