@@ -79,7 +79,7 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
       </p>
     </td>
     <td style="width: 50%; text-align: center;">
-      <img src="/assets/EB_Khiyami-Profile.png" alt="EB Khiyami Profile" width="1500" height="300">
+      <img src="/assets/EB.jpg" alt="EB Khiyami Profile" width="1500" height="300">
       <p style="text-align: center;">
         <a href="https://drive.google.com/file/d/1FDgtbDHVssnWghP7qqA08LgdwLGYEmiX/view?usp=drive_linkE" style="text-decoration: none; color: blue;"> Download</a>
       </p>
