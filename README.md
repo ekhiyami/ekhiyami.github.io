@@ -96,6 +96,8 @@ I work only on things that I enjoy. If I'm working on something I like, I may st
   * Solutions Architect, specializing in Migration/Modernization and Cloud Optimization.
 * #### [Allegion](https://www.allegion.com/corp/en/index.html): 2015 - 2018  
   * ERP Technical Architect and System Lead for designing, implementing, and supporting the full stack of Microsoft Dynamics AX 2012/365 for a global security devices manufacturer.
+* #### [Microsoft](https://www.microsoft.com): 2016 - 2017  
+  * ERP Dynacmics AX Support Engineer.
 * #### [Kumon North America](https://www.kumon.com/): 2013 - 2015   
   * Architect and System Lead for supporting the implementation of Microsoft Dynamics AX 2009/2012 for a global education provider.
 * #### [Unidos Financial](https://www.unidosfinancial.com/): 2012
