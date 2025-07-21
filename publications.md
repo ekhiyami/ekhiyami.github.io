@@ -4,57 +4,591 @@ permalink: "/publications/"
 layout: page
 ---
 
-## Sample of my AWS Publications in different formats 
-Below are sample artifacts I’ve published publicly for AWS, where I was the lead author or a co-author.
-There are many others where I served as a reviewer, bar raiser, or contributor. I’ve also published numerous internal documents.
-Listing them all would take several pages.
+<div class="publications-section bg-white min-h-screen pt-1 pb-4">
 
+<!-- Publications Header Section -->
+<div class="bg-white py-16 px-4" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto">
+    <!-- Creative Header -->
+    <div class="mb-16">
+      <div class="relative">
+        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
+          My <span class="px-3 py-1 bg-black text-white rounded-md relative">Publications
+            <div class="absolute -bottom-2 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></div>
+          </span>
+        </h1>
+      </div>
+    </div>
+    
+    <!-- Description aligned with content -->
+    <div class="mb-16">
+      <p class="text-gray-600 text-base leading-relaxed max-w-2xl">
+        This is a sample of my technical publication for AWS in different formats - official blog posts, community articles whitepapers, training courses, and workshops. The list of my publications is way longer. Many of them are internal or customers related. So can't be shared here. 
+      </p>
+    </div>
+  </div>
+</div>
 
-## AWS Blog Posts and AWS Community Blogs
+<!-- Stats Section -->
+<div class="grid md:grid-cols-4 gap-6 mb-16" data-aos="fade-up" data-aos-delay="200">
+  <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div class="p-3 bg-blue-600 rounded-full w-fit mx-auto mb-4">
+      <i data-lucide="edit-3" class="w-6 h-6 text-white"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-black">35+</h3>
+    <p class="text-gray-600 font-medium">Blog Posts</p>
+  </div>
+  <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div class="p-3 bg-green-600 rounded-full w-fit mx-auto mb-4">
+      <i data-lucide="play-circle" class="w-6 h-6 text-white"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-black">2</h3>
+    <p class="text-gray-600 font-medium">Training Courses</p>
+  </div>
+  <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div class="p-3 bg-purple-600 rounded-full w-fit mx-auto mb-4">
+      <i data-lucide="file-text" class="w-6 h-6 text-white"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-black">2</h3>
+    <p class="text-gray-600 font-medium">Whitepapers</p>
+  </div>
+  <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div class="p-3 bg-orange-600 rounded-full w-fit mx-auto mb-4">
+      <i data-lucide="wrench" class="w-6 h-6 text-white"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-black">3</h3>
+    <p class="text-gray-600 font-medium">Workshops</p>
+  </div>
+</div>
 
-| Blog Post                                                                                   |  Publication Date  | Language |
-| ------------------------------------------------------------------------------------------- | ------------------ | -------- |
-| [Chat with Your AWS Bill Using Amazon Q CLI](https://ekhiyami.github.io/chat-with-aws/) | 07 May 2025      | English  |
-| [Well-Architected for Enterprises blog+ Digital Course](https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/) | 01 Mar 2025      | English  |
-| [Gen-AI Well-Architected Review Accelerator](https://community.aws/content/2hYteYyGPff8nuzG3ye8HZQOtCf/how-i-cut-the-time-to-complete-a-well-architected-review-from-hours-to-minutes?lang=en) | 26 Sep 2024      | English  |
-| [The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices](https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/) | 26 Mar 2024      | English  |
-| [Announcing The AWS Well-Architected Migration Lens](https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/) | 24 Jan 2024      | English  |
-| [Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)](https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/) | 18 Sep 2023      | Spanish  |
-| [Cómo realizar una revisión de Well-Architected Framework - Parte 2 (Spanish)](https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-2/) | 29 Sep 2023      | Spanish  |
-| [Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)](https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/) | 10 Oct 2023      | Spanish  |
-| [How to perform a Well-Architected Framework Review- Part 1](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/) | 03 Aug 2023      | English  |
-| [How to perform a Well-Architected Framework Review- Part 2](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2) | 03 Aug 2023      | English  |
-| [How to perform a Well-Architected Framework Review- Part 3](https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/) | 03 Aug 2023      | English  |
-| [Building a disaster recovery site on AWS for workloads on Microsoft Azure](https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/) | 23 Mar 2023      | English  |
-| [5 Steps to learn AWS best practices and become Well-Architected](https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/) | 25 Jul 2023      | English  |
-| [Building a disaster recovery site on AWS for workloads on Google Cloud Part 1 (Japanese)](https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/) | 28 Jul 2023      | Japanese |
-| [Building a disaster recovery site on AWS for workloads on Google Cloud Part 2 (Japanese)](https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/) | 28 Jul 2023      | Japanese |
-| [Securely installing AWS Replication Agent using AWS Security Token Service](https://aws.amazon.com/blogs/storage/securely-installing-aws-replication-agent-using-aws-security-token-service/) | 13 Jun 2022      | English  |
-| [Building a disaster recovery site on AWS for workloads on Google Cloud Part 2](https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/) | 24 Jun 2022      | English  |
-| [Building a disaster recovery site on AWS for workloads on Google Cloud Part 1](https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/) | 24 Jun 2022      | English  |
-| [Configurando un plan de recuperación de desastres (DRP) entre AWS y Azure utilizando CloudEndure (Spanish)](https://aws.amazon.com/es/blogs/aws-spanish/configurando-un-plan-de-recuperacion-de-desastres-drp-entre-aws-y-azure-utilizando-cloudendure/) | 16 Jul 2021      | Spanish  |
-| [Accelerate vCenter Migration using AWS Migration Service Agentless Migration](https://aws.amazon.com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/) | 21 Jan 2021      | English  |
-| [Migrating your Microsoft Windows clusters to AWS using CloudEndure Migration](https://aws.amazon.com/blogs/storage/migrating-your-microsoft-windows-clusters-to-aws-using-cloudendure-migration/) | 22 Jan 2021      | English  |
-| [Field Notes: Building a Disaster Recovery site on AWS for your Azure Workload](https://aws.amazon.com/blogs/architecture/field-notes-building-a-disaster-recovery-site-on-aws-for-your-azure-workload/) | 24 Jul 2020      | English  |
-| [Field Notes: Choosing a Rehost Migration Tool – CloudEndure or AWS SMS](https://aws.amazon.com/blogs/architecture/field-notes-choosing-a-rehost-migration-tool-cloudendure-or-aws-sms/) | 10 Jun 2020      | English  |
+<!-- Publications Table -->
+<div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+  <div class="bg-gray-50 border-b border-gray-200 px-8 py-4">
+    <h2 class="text-xl font-semibold text-black flex items-center">
+      <i data-lucide="file-text" class="w-5 h-5 mr-3 text-black"></i>
+      All Publications
+    </h2>
+  </div>
+  
+  <div class="overflow-x-auto">
+    <table class="w-full">
+      <thead class="bg-gray-50 border-b border-gray-200">
+        <tr>
+          <th class="px-8 py-4 text-left font-bold text-black text-lg">Title</th>
+          <th class="px-6 py-4 text-left font-bold text-black text-lg">Date</th>
+          <th class="px-6 py-4 text-left font-bold text-black text-lg">Type</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://ekhiyami.github.io/chat-with-aws/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Chat with Your AWS Bill Using Amazon Q CLI
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">07 May 2025</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Well-Architected for Enterprises blog+ Digital Course
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 Mar 2025</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected For Enterprises
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2025</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://community.aws/content/2hYteYyGPff8nuzG3ye8HZQOtCf/how-i-cut-the-time-to-complete-a-well-architected-review-from-hours-to-minutes?lang=en" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Gen-AI Well-Architected Review Accelerator
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">26 Sep 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected Migration Lens
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <span class="text-black font-medium text-lg leading-relaxed">
+              Building Serverless Applications with AWS Lambda
+            </span>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
+              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">26 Mar 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Announcing The AWS Well-Architected Migration Lens
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">24 Jan 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://d1.awsstatic.com/whitepapers/oracle-postgres-cdc-monitoring-aws-dms.pdf" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Monitoring Oracle to PostgreSQL Migration using AWS DMS
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected Foundations
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">18 Sep 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Cómo realizar una revisión de Well-Architected Framework - Parte 2 (Spanish)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">29 Sep 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">10 Oct 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              How to perform a Well-Architected Framework Review- Part 1
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              How to perform a Well-Architected Framework Review- Part 2
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              How to perform a Well-Architected Framework Review- Part 3
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              5 Steps to learn AWS best practices and become Well-Architected
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">25 Jul 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Google Cloud Part 1 (Japanese)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">28 Jul 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Google Cloud Part 2 (Japanese)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">28 Jul 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Microsoft Azure
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">23 Mar 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/wa-gen-ai/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Gen-AI Assisted AWS Well-Architected Review
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">23 Oct 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/idc-dallas/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              FutureIT Dallas Summit
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">15 Oct 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/video-chat/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              My YouTube Summarizer that Went Viral
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">10 Jun 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/dr/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Disaster Recovery for Azure/GCP on AWS
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 May 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Top 20 Blog Posts I Authored for AWS
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">15 Mar 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/map/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              The AWS MAP Automation
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 Feb 2024</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/wa-course/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              The Well-Architected Foundation Digital Course
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 Jul 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/migration-workshop/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Migration Best Practices- re:Invent Workshop
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 Jun 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
+              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="/wa-blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              How to Perform WA Review Blog Series
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">01 May 2023</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/storage/securely-installing-aws-replication-agent-using-aws-security-token-service/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Securely installing AWS Replication Agent using AWS Security Token Service
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">13 Jun 2022</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Google Cloud Part 2
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">24 Jun 2022</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Google Cloud Part 1
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">24 Jun 2022</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/es/blogs/aws-spanish/configurando-un-plan-de-recuperacion-de-desastres-drp-entre-aws-y-azure-utilizando-cloudendure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Configurando un plan de recuperación de desastres (DRP) entre AWS y Azure utilizando CloudEndure (Spanish)
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">16 Jul 2021</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Accelerate vCenter Migration using AWS Migration Service Agentless Migration
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">21 Jan 2021</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/storage/migrating-your-microsoft-windows-clusters-to-aws-using-cloudendure-migration/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Migrating your Microsoft Windows clusters to AWS using CloudEndure Migration
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">22 Jan 2021</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/architecture/field-notes-building-a-disaster-recovery-site-on-aws-for-your-azure-workload/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Field Notes: Building a Disaster Recovery site on AWS for your Azure Workload
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">24 Jul 2020</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://aws.amazon.com/blogs/architecture/field-notes-choosing-a-rehost-migration-tool-cloudendure-or-aws-sms/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Field Notes: Choosing a Rehost Migration Tool – CloudEndure or AWS SMS
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">10 Jun 2020</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <span class="text-black font-medium text-lg leading-relaxed">
+              Implementing Infrastructure as Code using AWS CloudFormation
+            </span>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">2025</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
+              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-## AWS Whitepapers
+</div>
 
-| Whitepaper                                                                                   |  Publication Date  | Language |
-| -------------------------------------------------------------------------------------------- | ------------------ | -------- |
-| [AWS Well-Architected Migration Lens](https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html) | 2024             | English  |
-| [Monitoring Oracle to PostgreSQL Migration using AWS DMS](https://d1.awsstatic.com/whitepapers/oracle-postgres-cdc-monitoring-aws-dms.pdf?did=wp_card&trk=wp_card) | 2023             | English  |
-
-
-## AWS Digital Training 
-
-| Course                                                                                   |  Publication Date  | Language |
-| -------------------------------------------------------------------------------------------- | ------------------ | -------- |
-| [AWS Well-Architected For Enterprises](https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises) | 2025             | English  |
-| [AWS Well-Architected Foundations](https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations) | 2023             | English  |
-
-
-
-## AWS Hands-on Workshop
-
-//List is being built ,, check later pls
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+    AOS.init({
+        once: true,
+        duration: 800,
+        easing: 'ease-out',
+        offset: 50,
+    });
+</script>

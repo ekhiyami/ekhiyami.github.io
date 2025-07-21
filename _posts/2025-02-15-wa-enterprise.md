@@ -61,4 +61,4 @@ Learn how **generative AI** can optimize and automate parts of WAFR, saving **ti
 - ----
 
 
-![wa-gen-ai](/assets/wa-enterprise.png) 
+  <img src="/assets/wa-enterprise.png" alt="wa-gen-ai">

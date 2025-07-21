@@ -3,51 +3,99 @@ title: "Services"
 permalink: "/services/"
 layout: page
 ---
-**You can use my 20+ year of experince in big tech industry through one of these services.**
 
-### 🚀Mock Interview
-[📅 Book Now](https://topmate.io/ekhiyami/1469939)
+<div class="services-section">
+<h2>My Services</h2>
+<p>Use my 20+ years of experience in big tech industry through one of these services.</p>
 
-🎯 **If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.**
+<div class="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
+                    
+                    <!-- Mock Interview -->
+                    <div class="bg-primary p-8 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center mb-4">
+                            <div class="p-3 bg-accent/20 rounded-full mr-4">
+                                <i data-lucide="mic" class="w-6 h-6 text-accent"></i>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-primary-text">🚀 Mock Interview</h3>
+                        </div>
+                        <p class="text-secondary mb-4">
+                            🎯 <strong>If you have an upcoming interview, this will be the most valuable time and money you invest—I guarantee it.</strong>
+                        </p>
+                        <p class="text-secondary mb-4">
+                            I'll put you through a true-to-life interview and provide a hire/no-hire decision with actionable feedback.
+                            I specialize in helping candidates understand the question behind the question—a crucial skill for acing interviews. I also help you tailor your story to match the seniority level you're interviewing for. Whether it's a behavioral or technical interview, I'll teach you how to craft high-quality answers that make an impact. Let's get you hired or promoted!
+                        </p>
+                        <div class="bg-light-grey-bg p-4 rounded-lg mb-4">
+                            <p class="text-secondary text-sm">
+                                💡 When an interviewer asks, "Tell me about a mistake you made," they aren't interested in the mistake itself. They want to understand your attitude toward failure, how you fix mistakes, and how you prevent them. You often have just 20 seconds to process and respond effectively. Mastering this kind of insight is key to a successful interview.
+                            </p>
+                        </div>
+                        <p class="text-secondary mb-6">
+                            Most of my candidates are mid-career professionals transitioning into IT, Cloud, AI, or Pre-Sales (Solutions Architect roles). Whether you're feeling stuck, looking to move up, or switching careers, I'll guide you through the process.
+                        </p>
+                        <h4 class="text-lg font-semibold text-primary-text mb-3">📌 What You Get</h4>
+                        <ul class="text-secondary mb-6 space-y-2">
+                            <li>🎤 <strong>Interview Preparation</strong> – Phone screens, on-site interviews, and behavioral questions for junior, senior, and principal roles.</li>
+                            <li>📊 <strong>Actionable Feedback</strong> – Detailed analysis with an improvement plan and mock hiring decisions.</li>
+                            <li>🔄 <strong>Unlimited Follow-ups</strong> – Ongoing guidance to fine-tune your approach.</li>
+                        </ul>
+                        <a href="https://topmate.io/ekhiyami/1469939" target="_blank" rel="noopener" class="cta-button">
+                            📅 Book a Mock Interview <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
 
-I'll put you through a true-to-life interview and provide a hire/no-hire decision with actionable feedback.
-I specialize in helping candidates understand the question behind the question—a crucial skill for acing interviews. I also help you tailor your story to match the seniority level you’re interviewing for. Whether it’s a behavioral or technical interview, I’ll teach you how to craft high-quality answers that make an impact. Let’s get you hired or promoted!
+                    <!-- Resume Review -->
+                    <div class="bg-primary p-8 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center mb-4">
+                            <div class="p-3 bg-accent/20 rounded-full mr-4">
+                                <i data-lucide="file-text" class="w-6 h-6 text-accent"></i>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-primary-text">📄 Resume Review</h3>
+                        </div>
+                        <p class="text-secondary mb-6">
+                            AI can scan your resume, but it can't craft a compelling story that gets you hired. With years of experience coaching candidates for top tech roles, I provide personalized, actionable feedback that goes beyond generic AI suggestions. I'll fine-tune your resume to highlight your strengths, optimize it for ATS, and ensure it speaks directly to hiring managers. Let's make your resume work for you—book now!
+                        </p>
+                        <a href="https://topmate.io/ekhiyami/1469822" target="_blank" rel="noopener" class="cta-button">
+                            📝 Get Your Resume Reviewed <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
 
-> 💡 When an interviewer asks, “Tell me about a mistake you made,” they aren’t interested in the mistake itself. They want to understand your attitude toward failure, how you fix mistakes, and how you prevent them. You often have just 20 seconds to process and respond effectively. Mastering this kind of insight is key to a successful interview.
+                    <!-- Career Mentoring Package -->
+                    <div class="bg-primary p-8 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center mb-4">
+                            <div class="p-3 bg-accent/20 rounded-full mr-4">
+                                <i data-lucide="users" class="w-6 h-6 text-accent"></i>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-primary-text">📚 Career Mentoring Package – 5 Sessions</h3>
+                        </div>
+                        <p class="text-secondary mb-4">
+                            Kickstart your career with structured mentoring designed for early-career professionals and students. This five-session program provides personalized guidance to help you stand out in a competitive job market.
+                        </p>
+                        <h4 class="text-lg font-semibold text-primary-text mb-3">📌 What's Included?</h4>
+                        <ul class="text-secondary mb-6 space-y-2">
+                            <li>✅ <strong>Customizable Resume & LinkedIn Profile</strong> – Get tailored feedback to optimize your job applications.</li>
+                            <li>✅ <strong>Master Your Elevator Pitch</strong> – Learn to answer "tell me about yourself" and grab attention in the first 20 seconds.</li>
+                            <li>✅ <strong>Building Your Online Brand</strong> – Establish a strong digital presence that sets you apart.</li>
+                            <li>✅ <strong>Interview Preparation</strong> – Simulate real-world pressure with mock behavioral interviews.</li>
+                            <li>✅ <strong>Possible Referral Services</strong> – Gain access to referral opportunities.</li>
+                            <li>✅ <strong>Unlimited Follow-up & Ask Me Anything</strong> – Ongoing support via email and chat.</li>
+                        </ul>
+                        <a href="https://topmate.io/ekhiyami/1471426" target="_blank" rel="noopener" class="cta-button">
+                            🎯 Start Career Mentoring <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
 
-Most of my candidates are mid-career professionals transitioning into IT, Cloud, AI, or Pre-Sales (Solutions Architect roles). Whether you’re feeling stuck, looking to move up, or switching careers, I’ll guide you through the process.
+</div>
+</div>
 
-#### 📌 What You Get
-
-- 🎤 **Interview Preparation** – Phone screens, on-site interviews, and behavioral questions for junior, senior, and principal roles.
-- 📊 **Actionable Feedback** – Detailed analysis with an improvement plan and mock hiring decisions.
-- 🔄 **Unlimited Follow-ups** – Ongoing guidance to fine-tune your approach.
-
-[📅 Book a Mock Interview](https://topmate.io/ekhiyami/1469939)
-
----
-
-### 📄 Resume Review
-[📅 Book Now](https://topmate.io/ekhiyami/1469822)
-
-AI can scan your resume, but it can’t craft a compelling story that gets you hired. With years of experience coaching candidates for top tech roles, I provide personalized, actionable feedback that goes beyond generic AI suggestions. I’ll fine-tune your resume to highlight your strengths, optimize it for ATS, and ensure it speaks directly to hiring managers. Let’s make your resume work for you—book now!
-
-[📝 Get Your Resume Reviewed](https://topmate.io/ekhiyami/1469822)
-
----
-
-### 📚 Career Mentoring Package – 5 Sessions
-[📅 Book Now](https://topmate.io/ekhiyami/1471426)
-
-Kickstart your career with structured mentoring designed for early-career professionals and students. This five-session program provides personalized guidance to help you stand out in a competitive job market.
-
-#### 📌 What’s Included?
-
-✅ **Customizable Resume & LinkedIn Profile** – Get tailored feedback to optimize your job applications.  
-✅ **Master Your Elevator Pitch** – Learn to answer "tell me about yourself" and grab attention in the first 20 seconds.  
-✅ **Building Your Online Brand** – Establish a strong digital presence that sets you apart.  
-✅ **Interview Preparation** – Simulate real-world pressure with mock behavioral interviews.  
-✅ **Possible Referral Services** – Gain access to referral opportunities.  
-✅ **Unlimited Follow-up & Ask Me Anything** – Ongoing support via email and chat.
-
-[🎯 Start Career Mentoring](https://topmate.io/ekhiyami/1471426)
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+    AOS.init({
+        once: true,
+        duration: 800,
+        easing: 'ease-out',
+        offset: 50,
+    });
+</script>

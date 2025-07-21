@@ -5,7 +5,7 @@ layout: post
 
 **[Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].**
 
-![wa-migration](/assets/migration-lens0.png) 
+  <img src="/assets/migration-lens0.png" alt="wa-migration">
 
 
 This is one of the important projects I created, led, and delivered. 
@@ -64,11 +64,11 @@ I built and led a team of about [30 SMEs](https://docs.aws.amazon.com/wellarchit
 
 **Jeff Kratz (VP WW Publci Sector, AWS)**
 
-![migrationlens](/assets/migration-lens1.png) 
+  <img src="/assets/migration-lens1.png" alt="migrationlens">
 
 **Donilo Poccia (Chief Evangelist, AWS)**
 
-![migration lens](/assets/migration-lens2.png) 
+  <img src="/assets/migration-lens2.png" alt="migration lens">
 
 **Community and Partners**
 - https://www.infoq.com/news/2024/01/well-architected-migration-lens/

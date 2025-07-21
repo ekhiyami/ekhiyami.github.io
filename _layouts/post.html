@@ -2,13 +2,209 @@
 layout: default
 ---
 
-<article>
-  {% include meta.html post=page %}
-  {{ content }}
-  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
-    <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
-    <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
-</article>
+<div class="blog-post-section bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen pt-1 pb-4">
+
+<!-- Blog Post Header -->
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-slate-200">
+    <!-- Post Meta -->
+    <div class="flex items-center mb-6 text-sm text-slate-500">
+      <div class="flex items-center mr-6">
+        <i data-lucide="calendar" class="w-4 h-4 mr-2"></i>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+      <div class="flex items-center mr-6">
+        <i data-lucide="clock" class="w-4 h-4 mr-2"></i>
+        <span>5 min read</span>
+      </div>
+      {% if page.categories %}
+        <div class="flex items-center">
+          <i data-lucide="tag" class="w-4 h-4 mr-2"></i>
+          <span>{{ page.categories | join: ', ' }}</span>
+        </div>
+      {% endif %}
+    </div>
+    
+    <!-- Post Title -->
+    <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-6 leading-tight">{{ page.title }}</h1>
+    
+    <!-- Author Info -->
+    <div class="flex items-center mb-8 pb-6 border-b border-slate-200">
+      {% if page.author_image %}
+        <img src="{{ page.author_image }}" alt="{{ page.author | default: 'Ebrahim Khiyami' }}" class="w-12 h-12 rounded-full object-cover mr-4">
+      {% else %}
+        <img src="/assets/eb-clean.jpg" alt="Ebrahim Khiyami" class="w-12 h-12 rounded-full object-cover mr-4">
+      {% endif %}
+      <div>
+        <p class="font-semibold text-slate-800">{{ page.author | default: 'Ebrahim Khiyami' }}</p>
+        <p class="text-sm text-slate-500">{% if page.author == 'Amazon Q Developer' %}AI Assistant by AWS{% else %}Solutions Architect at AWS{% endif %}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Post Content -->
+<div class="max-w-4xl mx-auto px-4 pb-8">
+  <div class="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
+    <article class="post-content p-8 md:p-12">
+      {{ content }}
+    </article>
+  </div>
+</div>
+
+<!-- Back to Blog -->
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <div class="text-center">
+    <a href="/" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+      <i data-lucide="arrow-left" class="w-4 h-4 mr-2"></i>
+      Back to All Posts
+    </a>
+  </div>
+</div>
+
+</div>
+
+<style>
+  .post-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #475569;
+  }
+  
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    color: #1e293b;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .post-content h1 {
+    font-size: 2.25em;
+    margin-top: 1.5em;
+  }
+  
+  .post-content h2 {
+    font-size: 1.875em;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5em;
+  }
+  
+  .post-content h3 {
+    font-size: 1.5em;
+    color: #2563eb;
+  }
+  
+  .post-content p {
+    margin-bottom: 1.5em;
+  }
+  
+  .post-content ul, .post-content ol {
+    margin: 1.5em 0;
+    padding-left: 2em;
+  }
+  
+  .post-content li {
+    margin-bottom: 0.5em;
+  }
+  
+  .post-content a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .post-content a:hover {
+    border-bottom-color: #2563eb;
+  }
+  
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 2em auto;
+    display: block;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content blockquote {
+    border-left: 4px solid #2563eb;
+    background: #f8fafc;
+    padding: 1.5em;
+    margin: 2em 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #475569;
+  }
+  
+  .post-content code {
+    background-color: #f1f5f9;
+    color: #e11d48;
+    padding: 0.25em 0.5em;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+    font-size: 0.9em;
+  }
+  
+  .post-content pre {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 1.5em;
+    border-radius: 12px;
+    overflow-x: auto;
+    margin: 2em 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+  
+  .post-content hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #e2e8f0, #2563eb, #e2e8f0);
+    margin: 3em 0;
+    border-radius: 1px;
+  }
+  
+  .post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content th, .post-content td {
+    padding: 1em;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .post-content th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #1e293b;
+  }
+  
+  .post-content strong {
+    color: #1e293b;
+    font-weight: 600;
+  }
+  
+  .post-content em {
+    color: #64748b;
+  }
+</style>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>

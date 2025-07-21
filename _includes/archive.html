@@ -1,11 +1,21 @@
-<article>
-  <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <ul class="archive">
+<div class="archive-section">
+  <h2 class="text-2xl font-bold text-primary-text mb-8">{{ include.title | default: "All Posts" }}</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {% for post in site.posts %}
-    <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
+      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 50 }}">
+        <div class="flex items-center justify-between mb-3">
+          <time class="text-sm text-secondary font-medium" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          <div class="p-1 bg-accent/20 rounded-full">
+            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
+          </div>
+        </div>
+        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
+          <a href="{{ post.url | relative_url }}" class="text-primary-text hover:text-accent no-underline">{{ post.title }}</a>
+        </h3>
+        {% if post.excerpt %}
+          <p class="text-secondary text-sm mt-2 line-clamp-2">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+        {% endif %}
+      </div>
     {% endfor %}
-  </ul>
-</article>
+  </div>
+</div>

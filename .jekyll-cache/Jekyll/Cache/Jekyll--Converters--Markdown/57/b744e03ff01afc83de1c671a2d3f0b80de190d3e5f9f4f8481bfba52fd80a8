@@ -1,0 +1,92 @@
+I"�<p>This blog post was first published on <a href="https://community.aws/editor/posts/edit/content/2mIzefdB2B2g94f3YxoxkVObuTo?v=2wjQFa02dCwNzdevZPZIy9nplr4">AWS Community</a></p>
+
+<p># Chat with Your AWS Bill Using Amazon Q CLI</p>
+
+<p>In this blog post, I’ll walk you through a simple demo to chat with your AWS bill—break it down, analyze it, and get cost optimization recommendations based on the AWS Well-Architected best practices. This uses the latest <strong>MCP support</strong> recently added to the <strong>Amazon Q CLI</strong>.</p>
+
+<hr />
+
+<h2 id="-what-can-you-ask">💬 What can you ask?</h2>
+
+<p>With this setup, you can ask Amazon Q natural language questions like:</p>
+
+<ul>
+  <li>What is my storage cost across all regions?</li>
+  <li>What is my total spend in the last month?</li>
+  <li>Based on my S3 usage, can you recommend ways to reduce costs?</li>
+  <li>…and much more.</li>
+</ul>
+
+<p>Amazon Q will understand your question using one MCP server, then route it to another server that can fetch and calculate the data. In some cases, it may even generate and run scripts on your behalf to get the answer. For example, if you ask for the <strong>total cost of EBS storage across all regions</strong>, it may need to gather and compute data that’s not directly available from the Cost Explorer API.</p>
+
+<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Watch the Demo">
+  <img src="/assets/yt.png" alt="Watch the video" width="40" />
+</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the demo</a></p>
+
+<hr />
+
+<p><strong>The architecture is a standard MCP server architecture</strong>.</p>
+
+<p><img src="/assets/chat-bill.png" alt="chat-bill" /></p>
+
+<hr />
+
+<h2 id="-the-setup-is-simple">🧱 The setup is simple</h2>
+
+<h3 id="step-1-set-up-amazon-q-cli">Step 1: Set up Amazon Q CLI</h3>
+
+<ul>
+  <li>Install the Amazon Q CLI</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">q login</code></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">q chat</code></li>
+</ul>
+
+<h3 id="️-step-2-configure-mcp-servers">⚙️ Step 2: Configure MCP servers</h3>
+
+<p>To enable cost optimization queries, you need to link Amazon Q with the correct MCP servers. Do this by editing (or creating) the following file:</p>
+
+<p>```bash
+~/.aws/amazonq/mcp.json</p>
+
+<p>Paste the following configuration:</p>
+
+<p>{
+  “mcpServers”: {
+    “awslabs.core-mcp-server”: {
+      “command”: “/Users/ekhiyami/.local/bin/uvx”,
+      “args”: [“awslabs.core-mcp-server@latest”],
+      “env”: {
+        “FASTMCP_LOG_LEVEL”: “ERROR”
+      },
+      “autoApprove”: [“prompt_understanding”],
+      “disabled”: false
+    },
+    “awslabs.cost-analysis-mcp-server”: {
+      “command”: “/Users/ekhiyami/.local/bin/uvx”,
+      “args”: [“awslabs.cost-analysis-mcp-server@latest”],
+      “env”: {
+        “FASTMCP_LOG_LEVEL”: “ERROR”,
+        “AWS_PROFILE”: “default”
+      },
+      “autoApprove”: [“analyze_cdk_project”]
+    }
+  }
+}</p>
+
+<p>Restart your session and start asking questions about your AWS spend. Check the video above for examples.</p>
+
+<p><a href="https://www.linkedin.com/posts/eb-khiyami_chat-with-your-aws-bill-activity-7325533983788662786-PT-6?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAALV-AEByriO-neqsWiP7QcZkthfNqE6-Oo">LinkedIn Post</a></p>
+
+<p><img src="/assets/chatbill.png" alt="chatbill" /></p>
+
+<h2 id="-helpful-resources">🔗 Helpful Resources</h2>
+
+<ul>
+  <li><a href="https://github.com/aws-samples/amazon-q-mcp-servers">List of all AWS MCP servers</a></li>
+  <li><a href="https://docs.aws.amazon.com/q/developer-guide/getting-started-cli.html">Amazon Q Installation Guide</a></li>
+  <li><a href="https://github.com/aws-samples/amazon-q-cli">Amazon Q MCP Integration</a></li>
+  <li><a href="https://github.com/aws-samples/amazon-q-mcp-cost-analysis">Cost Analysis MCP Server</a></li>
+</ul>
+:ET

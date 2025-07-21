@@ -1,0 +1,118 @@
+I"{<p>This is an example of the blog posts I published on the official AWS Blog around topics of my specialty: Migration, Well-Architected, and Disaster Recovery. The blog posts below cumulatively received around 300k views.</p>
+
+<p>Some of them were selected as the most reviewed across AWS Blogs. Some of them were selected to be translated into other languages due to their importance.</p>
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Blog Post</th>
+      <th>Publication Date</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/">The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices</a></td>
+      <td>26 Mar 2024</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/">Announcing The AWS Well-Architected Migration Lens</a></td>
+      <td>24 Jan 2024</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/">Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)</a></td>
+      <td>18 Sep 2023</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-2/">Cómo realizar una revisión de Well-Architected Framework - Parte 2 (Spanish)</a></td>
+      <td>29 Sep 2023</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/">Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)</a></td>
+      <td>10 Oct 2023</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/">How to perform a Well-Architected Framework Review- Part 1</a></td>
+      <td>03 Aug 2023</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2">How to perform a Well-Architected Framework Review- Part 2</a></td>
+      <td>03 Aug 2023</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/">How to perform a Well-Architected Framework Review- Part 3</a></td>
+      <td>03 Aug 2023</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/">Building a disaster recovery site on AWS for workloads on Microsoft Azure</a></td>
+      <td>23 Mar 2023</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/">5 Steps to learn AWS best practices and become Well-Architected</a></td>
+      <td>25 Jul 2023</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/">Building a disaster recovery site on AWS for workloads on Google Cloud Part 1 (Japanese)</a></td>
+      <td>28 Jul 2023</td>
+      <td>Japanese</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/">Building a disaster recovery site on AWS for workloads on Google Cloud Part 2 (Japanese)</a></td>
+      <td>28 Jul 2023</td>
+      <td>Japanese</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/storage/securely-installing-aws-replication-agent-using-aws-security-token-service/">Securely installing AWS Replication Agent using AWS Security Token Service</a></td>
+      <td>13 Jun 2022</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/">Building a disaster recovery site on AWS for workloads on Google Cloud Part 2</a></td>
+      <td>24 Jun 2022</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/">Building a disaster recovery site on AWS for workloads on Google Cloud Part 1</a></td>
+      <td>24 Jun 2022</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/es/blogs/aws-spanish/configurando-un-plan-de-recuperacion-de-desastres-drp-entre-aws-y-azure-utilizando-cloudendure/">Configurando un plan de recuperación de desastres (DRP) entre AWS y Azure utilizando CloudEndure (Spanish)</a></td>
+      <td>16 Jul 2021</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/">Accelerate vCenter Migration using AWS Migration Service Agentless Migration</a></td>
+      <td>21 Jan 2021</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/storage/migrating-your-microsoft-windows-clusters-to-aws-using-cloudendure-migration/">Migrating your Microsoft Windows clusters to AWS using CloudEndure Migration</a></td>
+      <td>22 Jan 2021</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/architecture/field-notes-building-a-disaster-recovery-site-on-aws-for-your-azure-workload/">Field Notes: Building a Disaster Recovery site on AWS for your Azure Workload</a></td>
+      <td>24 Jul 2020</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td><a href="https://aws.amazon.com/blogs/architecture/field-notes-choosing-a-rehost-migration-tool-cloudendure-or-aws-sms/">Field Notes: Choosing a Rehost Migration Tool – CloudEndure or AWS SMS</a></td>
+      <td>10 Jun 2020</td>
+      <td>English</td>
+    </tr>
+  </tbody>
+</table>
+:ET

@@ -1,0 +1,67 @@
+I"v<p><strong>[Deliverable: AWS Training &amp; Certifications Digital Course Available for Customers, Partners, and Field, Blog Post]</strong></p>
+
+<p><strong>Short Summary</strong></p>
+
+<p>This is my latest publication. After publishing the <a href="https://ekhiyami.github.io/wa-course/">Well-Architected Foundation digital course</a> last year and making it available for AWS customers and partners, I received feedback that the course is basic and doesn’t go into the details and advanced options. So, I took the lead on creating an advanced version of it. We called it <strong>Well-Architected for Enterprises</strong>. As the name implies, it’s designed to teach our customers how to do scale adoption of best practices for 100s of applications and show them what tools, programs, solutions available for them to do so.</p>
+
+<p>The course took about <strong>6 months</strong> to complete, including planning, assembling a team of SMEs and reviewers, creating the content, and developing knowledge checks. At the time of writing this post, the course has received <strong>positive feedback</strong> and has been taken by about <strong>5k individuals</strong>.</p>
+
+<hr />
+
+<p><strong>Course Description</strong></p>
+
+<p>The course covers best practices for:</p>
+
+<ul>
+  <li>Preparing and running <strong>Well-Architected Framework Reviews (WAFR)</strong>.</li>
+  <li>Providing <strong>interactive scenarios</strong> to identify and remediate architecture risks.</li>
+  <li>Offering <strong>recommendations</strong> for building scalable mechanisms to use the Well-Architected Framework across multiple workloads and teams.</li>
+</ul>
+
+<p>It also covers key tools, resources, and programs such as:</p>
+
+<ul>
+  <li><a href="https://aws.amazon.com/well-architected-tool/">AWS Well-Architected Tool</a></li>
+  <li><a href="https://aws.amazon.com/well-architected/lenses/">AWS Well-Architected Lenses</a></li>
+  <li><a href="https://aws.amazon.com/partners/well-architected/">AWS Well-Architected Partner Program</a></li>
+</ul>
+
+<p>Furthermore, it explores how <strong>generative AI</strong> can be used to scale and streamline WAFRs.</p>
+
+<p><strong>What Does the Course Teach You?</strong></p>
+
+<p>✅ <strong>AWS Well-Architected Foundations</strong>
+The course begins with a review of the <strong>core elements</strong> of the Well-Architected Framework, including its <strong>pillars</strong>, <strong>design principles</strong>, and <strong>best practices</strong>. This section ensures a <strong>strong foundation</strong> for advanced topics.</p>
+
+<p>✅ <strong>How to Prepare and Run a Well-Architected Framework Review</strong>
+You’ll learn how to:</p>
+<ul>
+  <li>Identify workloads.</li>
+  <li>Maximize the value of the review through interactive scenarios and example workloads.</li>
+  <li>Use AWS tools like <strong>Trusted Advisor</strong> and <strong>Service Screener</strong> to enhance the review process.</li>
+</ul>
+
+<p>✅ <strong>How to Improve Workload Architecture</strong>
+Learn to identify <strong>architecture risks</strong>, prioritize them based on <strong>business goals</strong>, and develop <strong>remediation plans</strong> with recommended timelines.</p>
+
+<p>✅ <strong>How to Scale Across Large Organizations</strong>
+Discover mechanisms for <strong>standardizing processes</strong>, improving <strong>organizational visibility</strong>, and leveraging AWS tools for <strong>efficient adoption</strong> of Well-Architected best practices.</p>
+
+<p>✅ <strong>How to Leverage Generative AI</strong>
+Learn how <strong>generative AI</strong> can optimize and automate parts of WAFR, saving <strong>time</strong> and <strong>resources</strong> as your organization scales.</p>
+
+<p><strong>Launch Materials</strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/">Announcement Blog Post on AWS Training &amp; Certification Blog</a></p>
+  </li>
+  <li>
+    <p><a href="https://explore.skillbuilder.aws/learn/courses/21868/well-architected-for-enterprises/lessons">Well-Architected for Enterprises Digital Course</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p><img src="/assets/wa-enterprise.png" alt="wa-gen-ai" /></p>
+:ET

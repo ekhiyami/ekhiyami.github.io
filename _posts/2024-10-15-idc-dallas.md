@@ -2,6 +2,7 @@
 title:  "FutureIT Dallas Summit"
 layout: post
 categories: media
+tags: ["Public Speaking", "Optimization"]
 ---
 
 I recently had the opportunity to represent AWS at the [FutureIT2024 Dallas](https://event.ciofutureit.com/futureit-dallas/) conference held at AT&T Stadium. This is a significant networking event in the Dallas metro area, attended by 200+ IT and security executives and professionals, including managers, directors, VPs, CIOs, and other industry leaders.
@@ -23,4 +24,4 @@ The event was well-received, with positive feedback on the session, particularly
 ---
 
 
-![idc2](/assets/idc2.jpeg) 
+  <img src="/assets/idc2.jpeg" alt="idc2">

@@ -5,7 +5,7 @@ categories: media
 ---
 **[Deliverable: re:invent workshop]**.
 
-![workshop](/assets/workshop1.png) 
+  <img src="/assets/workshop1.png" alt="workshop">
 
 
 
@@ -30,4 +30,4 @@ Because of its popularity, I expanded this workshop, along with a group of my fr
 
 ***
 
-![workshop](/assets/workshop2.png) 
+  <img src="/assets/workshop2.png" alt="workshop">

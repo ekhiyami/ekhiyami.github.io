@@ -1,0 +1,86 @@
+{%- assign posts = paginator.posts | default: site.posts -%}
+
+<!-- Sample of My Work Section -->
+<div class="bg-gradient-to-br from-slate-50 to-blue-50 py-8 px-4">
+  <div class="max-w-7xl mx-auto">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+        Sample of My <span class="text-blue-600">Work</span>
+      </h2>
+      <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+        Explore my latest articles, insights, and contributions to the tech community.
+      </p>
+    </div>
+
+    <!-- Blog Posts Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for post in posts %}
+        <article class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-200 overflow-hidden group" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+          <div class="p-8">
+            <div class="flex items-center mb-6">
+              <div class="p-2 bg-blue-100 rounded-full mr-3 group-hover:bg-blue-200 transition-colors">
+                <i data-lucide="file-text" class="w-5 h-5 text-blue-600"></i>
+              </div>
+              <time class="text-sm text-slate-500 font-medium" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+            </div>
+            
+            <h3 class="text-xl font-bold text-slate-800 mb-4 leading-tight group-hover:text-blue-600 transition-colors">
+              <a href="{{ post.url | relative_url }}" class="text-slate-800 hover:text-blue-600 no-underline">
+                {{ post.title }}
+              </a>
+            </h3>
+            
+            <p class="text-slate-600 mb-6 line-clamp-3 leading-relaxed">
+              {{ post.excerpt | strip_html | truncatewords: 25 }}
+            </p>
+            
+            <div class="flex items-center justify-between">
+              <a href="{{ post.url | relative_url }}" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                Read More 
+                <i data-lucide="arrow-right" class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+              </a>
+              <div class="flex items-center text-slate-400">
+                <i data-lucide="clock" class="w-4 h-4 mr-1"></i>
+                <span class="text-sm">5 min read</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+  <div class="bg-gradient-to-br from-slate-50 to-blue-50 py-8 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-white rounded-2xl shadow-lg p-8 border border-slate-200">
+        <div class="flex justify-between items-center">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+              <i data-lucide="chevron-left" class="mr-2 w-4 h-4"></i> Newer Posts
+            </a>
+          {% else %}
+            <span></span>
+          {% endif %}
+          
+          <div class="flex items-center space-x-4">
+            <span class="text-slate-600 font-medium">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          </div>
+          
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+              Older Posts <i data-lucide="chevron-right" class="ml-2 w-4 h-4"></i>
+            </a>
+          {% else %}
+            <span></span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

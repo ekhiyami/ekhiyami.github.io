@@ -1,0 +1,22 @@
+I"!<p><strong>[Deliverable: 3-blog posts]</strong>.</p>
+
+<p><img src="/assets/wafr.png" alt="workshop" /></p>
+
+<p>This is my 3-part blog post series to explain in detail the steps and best practices to conduct a Well-Architected Review. The purpose of the WA review is to identify architecture risks and create a treatment plan to remediate them.</p>
+
+<p>This blog series is one of the most popular articles I have published because it’s original. There was no such blog post that talked about the WA review in detail before. At the time of writing, it had 200k+ views.</p>
+
+<p>The series was traslated to multiple langauges.</p>
+
+<p>Take a look</p>
+
+<ul>
+  <li><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/">How to perform a Well-Architected Framework Review- Part 1</a></li>
+  <li><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2">How to perform a Well-Architected Framework Review- Part 2</a></li>
+  <li><a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/">How to perform a Well-Architected Framework Review- Part 3</a></li>
+  <li><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/">Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)</a></li>
+  <li><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-2/">Cómo realizar una revisión de Well-Architected Framework - Parte 2 (Spanish)</a></li>
+  <li><a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/">Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)</a></li>
+</ul>
+
+:ET

@@ -4,118 +4,334 @@ permalink: "/about/"
 layout: page
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>About Me</title>
-</head>
-<body>
-    <p>Hi, you can call me <strong>EB</strong>. I'm an <strong><i class="fa-solid fa-laptop-mobile"></i> Engineer</strong>, <strong><i class="fas fa-cogs"></i> Technologist</strong>, <strong><i class="fas fa-cloud"></i> Cloud Architect</strong>, and a <strong><i class="fas fa-wrench"></i> Builder</strong>.</p>
-    <p>Thanks for your interest in knowing more about me. While LinkedIn is great, it has a limit on how much content you can include in your profile. So, I built this website as an online resume to showcase my professional experience and some public work items I've delivered over the years.</p>
-    <p>You can see my work samples <a href="https://ekhiyami.github.io/">here</a>.</p>
-    <p>You can see my official AWS publications <a href="https://ekhiyami.github.io/publications/">here</a>.</p>
-    <p>You can check my services <a href="https://topmate.io/ekhiyami">here</a>.</p>
-    <p>Feel free to say hi on <a href="https://www.linkedin.com/in/eb-khiyami/">LinkedIn</a>.</p>
-    <p>If you'd like to know more about me, keep reading.</p>
-</body>
-</html>
+<div class="about-section bg-white min-h-screen pt-1 pb-4">
 
-***
+<!-- About Me Section -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <!-- Creative Header -->
+    <div class="mb-16">
+      <div class="relative">
+        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
+          About <span class="px-3 py-1 bg-black text-white rounded-md relative">Me
+            <div class="absolute -bottom-2 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></div>
+          </span>
+        </h1>
+      </div>
+    </div>
+    
+    <!-- Hero Content -->
+    <div class="flex flex-col md:flex-row gap-12 items-center mb-16">
+      <div class="md:w-2/3 space-y-6">
+        <h2 class="text-4xl md:text-5xl font-bold text-black leading-tight">
+          Hi, I'm <span class="text-blue-600">EB</span>
+        </h2>
+        <p class="text-xl text-gray-600 leading-relaxed">
+          I'm an <strong class="text-black">Engineer</strong>, <strong class="text-black">Technologist</strong>, 
+          <strong class="text-black">Cloud Architect</strong>, and a <strong class="text-black">Builder</strong>.
+        </p>
+        <p class="text-lg text-gray-600">
+          <a href="#what-i-do-today" class="text-black hover:underline font-medium">Solutions Architect at AWS</a>. <a href="/mentoring/" class="text-black hover:underline font-medium">Technical Mentor</a>. 15+ years in technology leadership and cloud architecture.
+          Thanks for stopping by. <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="text-black hover:underline font-medium">LinkedIn</a> is great, but sometimes you want more space to tell your story.
+          I created this site to serve as my <a href="#work-history" class="text-black hover:underline font-medium">digital resume</a> and creative hub. You can check my <a href="/" class="text-black hover:underline font-medium">work sample</a>, or keep reading to know more about my <a href="#the-journey" class="text-black hover:underline font-medium">personal</a> and professional life. 
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="/" class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium">
+            <i data-lucide="briefcase" class="w-4 h-4 mr-2"></i>Work Samples
+          </a>
+          <a href="#work-history" class="inline-flex items-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium">
+            <i data-lucide="file-text" class="w-4 h-4 mr-2"></i>Resume
+          </a>
+          <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
+            <i data-lucide="linkedin" class="w-4 h-4 mr-2"></i>LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/3 flex justify-center">
+        <img src="/assets/eb-clean.jpg" alt="EB Khiyami Profile" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+      </div>
+    </div>
+  </div>
+</div>
 
-I entered the software business in 2000 when I got accepted into the School of Computer Engineering. During the 5-year program, I started working as a **freelance technical support specialist**, visiting customers at their homes or workplaces to fix their computers or printers. I then began **teaching IT courses**.
+<!-- Journey Section -->
+<div id="the-journey" class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-gray-200">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-gray-100 rounded-full mr-4">
+      <i data-lucide="map" class="w-6 h-6 text-gray-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">How It All Started</h2>
+  </div>
+  
+  <div class="space-y-6 text-gray-600">
+    <p class="text-lg leading-relaxed">
+      I started in tech around the year 2000 when I joined the School of Computer Engineering. While studying,
+      I worked freelance fixing computers and printers and later taught IT courses. This mix of learning and
+      hands-on work built my confidence.
+    </p>
+    <p class="text-lg leading-relaxed">
+      My first full-time role was as a <strong class="text-black">Network and System Administrator</strong>. Since then, I've worn many hats:
+      technician, developer, support engineer, architect, project manager, entrepreneur, and more.
+    </p>
+    <p class="text-lg leading-relaxed">
+      Outside of work, I'm a father of three boys, a mentor, and a creative hobbyist.
+    </p>
+  </div>
+  
+  <div class="flex justify-center mt-10">
+    <div class="text-center">
+      <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-3xl rounded-2xl shadow-lg">
+      <p class="text-sm text-gray-500 mt-3 italic">A driving break at the White Mountains, New Hampshire, taken on 2023. Photo credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
+    </div>
+  </div>
+</div>
 
-***
-
-By the time I graduated from engineering school, I had built enough confidence to land my first corporate role as a **network and system administrator**.
-
-Since then, I have held multiple roles: **technician, software developer, tech support, salesperson, system administrator, network administrator, database administrator, architect, manager, project manager, entrepreneur, and solution architect**. I am also a **husband, father, mentor**, and **hobbyist visual creator**.
-
-
-![me](/assets/me.png)
-
-***
-
-Currently, I am employed at **Amazon Web Services**, where I support multiple teams. My business title is Solutions Architect. I’m an SME in **Cloud Optimization, Migration and Modernization, Resiliency**, and a few other areas. I enjoy building things that solve customers' problems and evangelizing them. Breaking down complex problems into manageable solutions and then documenting and sharing them comes naturally to me.
-
-I've been an architect in customer-facing roles for the past 10 years. 
-
-I like to think of my role as a **customer advisor**, a transformer, a **bridge** between complex and sometimes messy technical terms and customers. I help customers understand technology and navigate it to transform their business in plain language. 
-
-I do this through **speaking, writing, coding**, and occasionally **illustrating**.
-
----
-
-![me](/assets/myjob2.png)
-
-***
-
-This website serves as a platform for me to share the things I build. Over time, the list of projects has grown quite long and doesn't fit well on my LinkedIn profile page. Unless otherwise stated, all artifacts shared here are owned by my employer and represent their opinions.
-
-I work only on things that I enjoy. If I'm working on something I like, I may steal a few hours from weekends, nights, or bedtime to make progress. Given that context, I'm not a typical 9-5 person, but also not a geek.
-
-***
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="vertical-align: top; width: 50%;">
-      <h2>Official Bio</h2>
-      <p>
-        Ebrahim (EB) Khiyami is a technology leader with two decades of experience in IT architecture and systems engineering. He helps organizations of all sizes—from startups to large enterprises—leverage cloud technologies to solve business challenges and build innovative, data-driven models.
+<!-- Current Role Section -->
+<div id="what-i-do-today" class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-gray-200">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-gray-100 rounded-full mr-4">
+      <i data-lucide="cloud" class="w-6 h-6 text-gray-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">What I Do Today</h2>
+  </div>
+  
+  <div class="space-y-6 text-gray-600">
+    <p class="text-lg leading-relaxed">
+      Today, I'm a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, supporting multiple teams and customers across industries. I'm focused on three key areas: <strong class="text-black">Cloud Migration & Modernization</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
+    </p>
+    <p class="text-lg leading-relaxed">
+      The team I support is Cloud Optimization—we own AWS best practices, the Well-Architected framework, and optimization tools. I work as part of a global team to ensure customers get the most out of their AWS investment. Migration has been my specialty for years. Between data centers, or data centers and AWS. I've also been involved in AWS Generative AI since 2023 to explore how it helps my customers and teams be more efficient. Some of my work on this area can be found in the work sample (check <a href="/video-chat/" class="text-black hover:underline font-medium">Youtube Summarizer</a>, <a href="/wa-gen-ai/" class="text-black hover:underline font-medium">Gen AI Well-Architected Review</a>, and <a href="/chat-with-aws/" class="text-black hover:underline font-medium">Chat with your AWS Bill</a> posts)
+    </p>
+    
+    <!-- What Is My Role Subsection -->
+    <div class="mt-8">
+      <h3 class="text-xl font-semibold text-black mb-4">What Is My Role?</h3>
+      <p class="text-lg leading-relaxed mb-4">
+        I like to think of my role as a customer advisor, a transformer, a bridge between complex and sometimes messy technical terms and customers. I help customers understand technology and navigate it to transform their business in plain language.
       </p>
-      <p>
-        In his current role as a Cloud Optimization Solutions Architect at AWS, EB assists customers in designing and operating cloud workloads according to AWS architectural best practices. He ensures that customers gain visibility into the health of their architectures, develop strategies to mitigate risks, and maximize the value of their cloud investments.
+      <p class="text-lg leading-relaxed">
+        I do this by leveraging multiple communication channels: writing, speaking, coding, building POCs, posting on LinkedIn, and occasionally illustrating.
       </p>
-      <p>
-        Before joining the Cloud Optimization team, EB worked as a Migration Specialist, where he played a key role in building the AWS Migration Acceleration Program (MAP) and founded the MAP Automator, which has accelerated the migration of thousands of customer workloads to AWS.
+    </div>
+  </div>
+  
+  <div class="flex justify-center mt-10">
+    <div class="text-center">
+      <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-3xl rounded-2xl shadow-lg">
+      <p class="text-sm text-gray-500 mt-3 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
+    </div>
+  </div>
+  
+  <!-- A Week in My Life Subsection -->
+  <div class="mt-10">
+    <h3 class="text-xl font-semibold text-black mb-6">A Week in My Life</h3>
+    <p class="text-gray-600 mb-6 text-lg">A typical week includes a combination of these activities:</p>
+    
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="space-y-4">
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Customer Meetings</p>
+            <p class="text-gray-600 text-sm">Optimization, Generative AI, Migration discussions</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Meeting Preparation</p>
+            <p class="text-gray-600 text-sm">Research and planning for customer engagements</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Internal Work</p>
+            <p class="text-gray-600 text-sm">Meetings, documentation, advocating for customers</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Continuous Learning</p>
+            <p class="text-gray-600 text-sm">I try not to pass a day without learning something new</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="space-y-4">
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Content Creation</p>
+            <p class="text-gray-600 text-sm">Writing, reviewing, raising the bar</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Building</p>
+            <p class="text-gray-600 text-sm">Workshops, conference talks, blog posts</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Mentoring</p>
+            <p class="text-gray-600 text-sm">Amazon folks during work hours, outside Amazon folks on weekends</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
+          <div>
+            <p class="text-black font-medium text-base">Office Commute</p>
+            <p class="text-gray-600 text-sm">I live in Dallas, TX. I commute 90 minutes/day</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-gray-50 rounded-lg p-6 mt-8 border border-gray-200">
+      <p class="text-gray-600 leading-relaxed">
+        For the most part, I work only on things that I enjoy. If I'm working on something I like, I may steal a few hours from weekends, nights, or bedtime to make progress. I have a flexible work style that extends beyond typical 9-5 hours when I'm passionate about a project, while still maintaining work-life balance.
       </p>
-      <p>
-        Prior to joining AWS, EB served as a Technical Architect, where he helped multiple large enterprises design and implement their Enterprise Resource Planning (ERP) systems and its supporting infrastructure. His industry experience spans financial services, manufacturing, and education companies.
-      </p>
-      <p>
-        EB is also a recognized thought leader and published author, having contributed to and authored multiple papers on AWS Migration, Modernization, Disaster Recovery, and Cloud Optimization in various languages. He holds a B.S. in Computer Engineering, a Master’s degree in IT Management, and a Master’s degree in Enterprise Resource Planning from the Florida Institute of Technology. Over the years, EB has guided numerous professionals in pursuing or transitioning into careers in cloud computing.
-      </p>
-      <p>
-        Outside of work, he enjoys coaching and playing sports with his three boys and is a master at binge-watching shows at night.
-      </p>
-    </td>
-    <td style="width: 50%; text-align: center;">
-      <img src="/assets/eb-clean.jpg" alt="EB Khiyami Profile" width="1500" height="300">
-      <p style="text-align: center;">
-        <a href="https://drive.google.com/file/d/1FDgtbDHVssnWghP7qqA08LgdwLGYEmiX/view?usp=drive_linkE" style="text-decoration: none; color: blue;"> Download</a>
-      </p>
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
+</div>
 
+<!-- Bio Section -->
+<div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-gray-200">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-gray-100 rounded-full mr-4">
+      <i data-lucide="user" class="w-6 h-6 text-gray-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">Official Bio</h2>
+  </div>
+  
+  <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+    <p>Ebrahim (EB) Khiyami is a technology leader with 15+ years of experience in IT architecture and systems engineering. He helps startups and enterprises build scalable, efficient, and secure cloud workloads.</p>
+    <p>As a Cloud Optimization Solutions Architect at AWS, EB works with customers to evaluate and improve the health of their cloud architecture, mitigate risks, and optimize cost and performance.</p>
+    <p>He previously served as a Migration Specialist, helping build the AWS Migration Acceleration Program (MAP) and creating the MAP Automator, used by customers worldwide.</p>
+    <p>Prior to AWS, EB worked for Microsft as an ERP escalation engineer. He also led ERP implementations across sectors like finance, manufacturing, and education.</p>
+    <p>He's a published author and frequent contributor to whitepapers, blog posts, and internal playbooks. He holds a B.S. in Computer Engineering and two Master's degrees—in IT Management and Enterprise Resource Planning.</p>
+    <p>Off the clock, EB enjoys sports with his boys and a good Netflix binge.</p>
+  </div>
+</div>
 
----
+<!-- Experience Grid -->
+<div class="grid md:grid-cols-2 gap-8 mb-12">
+  <!-- Work History -->
+  <div id="work-history" class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
+    <div class="flex items-center mb-6">
+      <div class="p-3 bg-gray-100 rounded-full mr-4">
+        <i data-lucide="briefcase" class="w-6 h-6 text-gray-600"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-black">Work History</h2>
+    </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-black pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">Solutions Architect</h3>
+        </div>
+        <a href="https://aws.amazon.com/" target="_blank" class="text-black font-medium hover:underline">Amazon Web Services (AWS)</a>
+        <p class="text-sm text-gray-500">2019–Present • Dallas, TX</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/allegion.com" alt="Allegion Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">ERP Architect</h3>
+        </div>
+        <a href="https://www.allegion.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Allegion</a>
+        <p class="text-sm text-gray-500">2017–2019 • Indianapolis, IN</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">Enterprise Resources Planning (ERP) Escalation Engineer</h3>
+        </div>
+        <a href="https://www.microsoft.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Microsoft</a>
+        <p class="text-sm text-gray-500">2016–2017 • New York, NY</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/kumon.com" alt="Kumon Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">AX Architect</h3>
+        </div>
+        <a href="https://www.kumon.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Kumon North America</a>
+        <p class="text-sm text-gray-500">2013–2015 • New York, NY</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/unidosfinancial.com" alt="Unidos Financial Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">Network & Security Consultant</h3>
+        </div>
+        <a href="https://www.unidosfinancial.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Unidos Financial</a>
+        <p class="text-sm text-gray-500">2012 • New York, NY</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/albaraka.com" alt="Al Baraka Bank Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">Infrastructure Architect</h3>
+        </div>
+        <a href="https://www.albaraka.com/en/" target="_blank" class="text-gray-600 font-medium hover:underline">Al Baraka Bank</a>
+        <p class="text-sm text-gray-500">2010–2012 • Damascus, Syria</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/dse.gov.sy" alt="Damascus Securities Exchange Logo" class="w-6 h-6 mr-3 rounded">
+          <h3 class="font-semibold text-black">Infrastructure Lead</h3>
+        </div>
+        <a href="http://www.dse.gov.sy/index.php?lang=en" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus Securities Exchange</a>
+        <p class="text-sm text-gray-500">2005–2012 • Damascus, Syria</p>
+      </div>
+    </div>
+  </div>
 
-## Work
+  <!-- Education -->
+  <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
+    <div class="flex items-center mb-6">
+      <div class="p-3 bg-gray-100 rounded-full mr-4">
+        <i data-lucide="graduation-cap" class="w-6 h-6 text-gray-600"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-black">Education</h2>
+    </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-black pl-4 py-2">
+        <h3 class="font-semibold text-black">M.Sc. in IT Management, ERP</h3>
+        <a href="https://www.fit.edu/" target="_blank" class="text-black font-medium hover:underline">Florida Institute of Technology</a>
+        <p class="text-sm text-gray-500">2018</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">MBA</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-sm text-gray-500">2010</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">B.Sc. in ICT Engineering</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-sm text-gray-500">2004</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">Professional Certifications</h3>
+        <p class="text-gray-600 text-sm">Multiple AWS, Microsoft, and industry certifications</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-* #### [Amazon Web Services (AWS)](https://aws.amazon.com/): 2019 - Present
-  * Solutions Architect, specializing in Migration/Modernization and Cloud Optimization.
-* #### [Allegion](https://www.allegion.com/corp/en/index.html): 2015 - 2018  
-  * ERP Technical Architect and System Lead for designing, implementing, and supporting the full stack of Microsoft Dynamics AX 2012/365 for a global security devices manufacturer.
-* #### [Microsoft](https://www.microsoft.com): 2016 - 2017  
-  * ERP Dynacmics AX Support Engineer.
-* #### [Kumon North America](https://www.kumon.com/): 2013 - 2015   
-  * Architect and System Lead for supporting the implementation of Microsoft Dynamics AX 2009/2012 for a global education provider.
-* #### [Unidos Financial](https://www.unidosfinancial.com/): 2012
-  * Network & Security Consultant.
-* #### [Al Baraka Bank](https://www.albaraka.com/en/): 2010 - 2012
-  * Infrastructure Architect, Manager
-* #### [Damascus Securities Exchange](http://www.dse.gov.sy/index.php?lang=en): 2005 - 2012
-  * Infrastructure Manager/System Lead/Tech Support.
+</div>
 
-***
-
-## Education 
-
-* #### Florida Institute of Technology, School of Business - 2018
-  * Master of Science in Information Technology, Enterprise Resource Planning
-* #### Damascus University, Schools of Business - 2010
-  * Master of Business Administration 2010
-* #### Damascus University, School of Information Technology Engineering - 2004 
-  * Bachelor of Engineering in Information and Communications Technology
-* #### And a Long List of Professional Certificates...
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+    AOS.init({
+        once: true,
+        duration: 800,
+        easing: 'ease-out',
+        offset: 50,
+    });
+</script>

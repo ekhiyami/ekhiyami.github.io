@@ -164,7 +164,7 @@ a:hover .icon { color: #909194; }
 
 .highlight .gi { color: #a6e22e; }
 
-@media (min-width: 40em) { body > header, body > article, body > footer { padding: 1.75em calc(40% - 17em); } }
+@media (min-width: 40em) { body > header, body > article, body > footer { padding: 0; } }
 
 body > header { box-shadow: 0 0 0.6em rgba(33, 34, 40, 0.04); border-bottom: 1px solid rgba(144, 145, 148, 0.14); }
 

@@ -164,13 +164,13 @@ a:hover .icon { color: #909194; }
 
 .highlight .gi { color: #a6e22e; }
 
-html { background: #d3d4db; padding: 0 calc(38% - 22em); }
+html { background: #d3d4db; padding: 0; }
 
 body { box-shadow: 0 0 0.3em #c5c7cf; }
 
 body > header, body > footer { background: #2d2e36; color: #ffffff; }
 
-@media (min-width: 32em) { body > header, body > article, body > footer { padding: 1.75em calc(22% - 6em); } }
+@media (min-width: 32em) { body > header, body > article, body > footer { padding: 1.75em calc(12% - 3em); } }
 
 @media (prefers-color-scheme: dark) { html { background: #18181d; } body > header, body > footer { background: #212228; } body, body > header, body > footer { box-shadow: 0 0 0 1px #33353e; } }
 

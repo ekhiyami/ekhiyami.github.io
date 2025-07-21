@@ -1,6 +1,7 @@
 ---
 title: "My YouTube Summarizer that Went Viral"
 layout: post
+tags: ["Generative AI", "POC"]
 ---
 
 **[Deliverable: YouTube Summarizer, blog post, more].**
@@ -9,7 +10,7 @@ As part of learning Gen AI, I built an app that 'summarizes YouTube videos and m
 
 > **You can try it [here](https://video-chat.streamlit.app/).**
 
-![Video Chat App](/assets/video-chat.png) 
+  <img src="/assets/video-chat.png" alt="Video Chat App">
 
 
 The whole process from starting building the code to writing a blog post about it took about 6 hours. The app was received with celebration by the community and many VPs at AWS because it shows how efficiently you can be to build quick products that solve real problems using AWS Gen AI Stack.
@@ -30,12 +31,12 @@ The app is being utlized by multiple teams internally and i'm working on adding 
 
 **Matt Wood (VP of AI Products, AWS)**
 
-![Video Chat App](/assets/video-chat-matt.png) 
+  <img src="/assets/video-chat-matt.png" alt="Video Chat App">
 
 **Swami SivasubramanianSwami Sivasubramanian (VP, AI and Data, AWS)**
 
-![Video Chat App](/assets/video-chat-swami.png) 
+  <img src="/assets/video-chat-swami.png" alt="Video Chat App">
 
 **Jeff Barr (VP, Chief Evangelist, AWS)**
 
-![Video Chat App](/assets/video-chat-jeff.png)
+  <img src="/assets/video-chat-jeff.png" alt="Video Chat App">
