@@ -56,7 +56,7 @@ layout: page
     <div class="p-3 bg-orange-600 rounded-full w-fit mx-auto mb-4">
       <i data-lucide="wrench" class="w-6 h-6 text-white"></i>
     </div>
-    <h3 class="text-2xl font-bold text-black">3</h3>
+    <h3 class="text-2xl font-bold text-black">4</h3>
     <p class="text-gray-600 font-medium">Workshops</p>
   </div>
 </div>
@@ -80,6 +80,19 @@ layout: page
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-7">
+            <a href="https://catalog.us-east-1.prod.workshops.aws/workshops/827bfeea-d375-4215-911d-62bf2c7d8cea/en-US" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Generative AI Accelerator for Well-Architected Review
+            </a>
+          </td>
+          <td class="px-6 py-7 text-gray-600 font-medium">22 Jul 2025</td>
+          <td class="px-6 py-7">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
+              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
+            </span>
+          </td>
+        </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-7">
             <a href="https://ekhiyami.github.io/chat-with-aws/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
