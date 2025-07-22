@@ -5,8 +5,12 @@ permalink: "/built-with-amazon-q/"
 ---
 
 <div class="post-content">
-  <img src="/assets/q.png" alt="Amazon Q" class="featured-image">
+  <img src="/assets/kiro.webp" alt="AWS Kiro" class="featured-image">
   <p><em>Disclaimer: This post was built 100% with Amazon Q</em></p>
+  
+  <h2>I Built My Entire Website Using AWS Kiro/Amazon Q Developer</h2>
+  <p>I re-built my entire website using <a href="https://kiro.dev/">AWS Kiro</a> and Amazon Q Developer. This is to show the capabilities of both tools. I was surprised (and mind blown) at the same time with the ease and simplicity of this process.</p>
+  <p>I'm not a web developer, but I was still able to live code the entire process that started with taking a basic Jekyll template and keep adding pages, visual components, and other functions to it until I was satisfied with its design. I then connected Kiro with my GitHub account and asked it to publish it to GitHub Pages.</p>
 
   <h2>Tech Stack</h2>
   <ul>
@@ -62,11 +66,11 @@ done</code></pre>
   </ul>
 
   <h2>Deployment Hell</h2>
-  <p>GitHub Pages kept rejecting the site with cryptic errors:</p>
+  <p>Initially, I had some errors in deployment due to Ruby compatibility issues. GitHub Pages kept rejecting the site with cryptic errors:</p>
 
   <pre><code>The github-pages gem can't satisfy your Gemfile's dependencies.</code></pre>
 
-  <p>Amazon Q diagnosed the issue - Jekyll 4.2.0 isn't supported by GitHub Pages. We tried:</p>
+  <p>Amazon Q diagnosed the issue - Jekyll 4.2.0 isn't supported by GitHub Pages, which uses Jekyll 3.9.x. We encountered Ruby version conflicts between my local Ruby 3.1.7 and GitHub's environment. We tried:</p>
   <ol>
     <li>Using the github-pages gem (failed)</li>
     <li>Custom GitHub Actions workflow (failed)</li>

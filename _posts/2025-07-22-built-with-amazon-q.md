@@ -6,9 +6,15 @@ tags: ["Generative AI", "Solution"]
 author: "Ebrahim Khiyami"
 ---
 
-![Amazon Q](/assets/q.png)
+![AWS Kiro](/assets/kiro.webp)
 
 *Disclaimer: This post was built 100% with Amazon Q*
+
+## I Built My Entire Website Using AWS Kiro/Amazon Q Developer
+
+I re-built my entire website using [AWS Kiro](https://kiro.dev/) and Amazon Q Developer. This is to show the capabilities of both tools. I was surprised (and mind blown) at the same time with the ease and simplicity of this process.
+
+I'm not a web developer, but I was still able to live code the entire process that started with taking a basic Jekyll template and keep adding pages, visual components, and other functions to it until I was satisfied with its design. I then connected Kiro with my GitHub account and asked it to publish it to GitHub Pages.
 
 ## Tech Stack
 - Jekyll 4.2.0
@@ -69,19 +75,19 @@ Now LinkedIn and Twitter previews actually look professional. Also added:
 
 ## Deployment Hell
 
-GitHub Pages kept rejecting the site with cryptic errors:
+Initially, I had some errors in deployment due to Ruby compatibility issues. GitHub Pages kept rejecting the site with cryptic errors:
 
 ```
 The github-pages gem can't satisfy your Gemfile's dependencies.
 ```
 
-Amazon Q diagnosed the issue - Jekyll 4.2.0 isn't supported by GitHub Pages. We tried:
+Amazon Q diagnosed the issue - Jekyll 4.2.0 isn't supported by GitHub Pages, which uses Jekyll 3.9.x. We encountered Ruby version conflicts between my local Ruby 3.1.7 and GitHub's environment. We tried:
 
-1. Using the github-pages gem (failed)
-2. Custom GitHub Actions workflow (failed)
+1. Using the github-pages gem (failed due to nokogiri compatibility issues)
+2. Custom GitHub Actions workflow (failed with exit code 16)
 3. Fixing SASS indentation errors (success!)
 
-The culprit was a single space vs. two spaces in sidebar.sass. Amazon Q spotted it immediately.
+The culprit was a single space vs. two spaces in sidebar.sass. Amazon Q spotted it immediately and fixed the Ruby compatibility issues by adjusting the Gemfile to use compatible versions.
 
 ## Branch Strategy
 
