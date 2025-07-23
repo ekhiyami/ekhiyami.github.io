@@ -10,7 +10,7 @@ author: "Ebrahim Khiyami"
 
 
 
-![Well-Architected Framework](/assets/gen-ai-wa-ws.png)
+![Well-Architected Framework](/assets/gen-ai-ws.png)
 
 Glad to announce the availability of this brand-new hands-on workshop on how to accelerate the **AWS Well-Architected Review process using Generative AI**. We also just completed an internal training for 50 **AWS SAs and TAMs** on using it.
 
