@@ -9,8 +9,9 @@ author: "Ebrahim Khiyami"
 **[Deliverable: hands-on workshop + Internal training]**.
 
 
-
 ![Well-Architected Framework](/assets/gen-ai-ws.png)
+
+
 
 Glad to announce the availability of this brand-new hands-on workshop on how to accelerate the **AWS Well-Architected Review process using Generative AI**. We also just completed an internal training for 50 **AWS SAs and TAMs** on using it.
 
@@ -20,8 +21,10 @@ This is based on the [Well-Architected Generative AI Accelerator](https://github
 
 The workshop walks you through the process of deploying the solution and testing it on sample workloads. The tests include validating architecture diagrams, code, and design documents for AWS best practices. It shows you how to complete a full WAR review in minutes (vs. hours using the traditional review process).
 
+
 ## Access the Workshop
+
 
 You can access the workshop here: [Generative AI Accelerator for Well-Architected Review](https://catalog.workshops.aws/wellarchitected-genai/en-US)
 
-![Well-Architected Gen AI](/assets/wa-genai.png)
+
