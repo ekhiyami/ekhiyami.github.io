@@ -241,7 +241,7 @@ layout: page
       <div class="border-l-4 border-gray-300 pl-4 py-2">
         <div class="flex items-center mb-2">
           <img src="https://logo.clearbit.com/allegion.com" alt="Allegion Logo" class="w-6 h-6 mr-3 rounded">
-          <h3 class="font-semibold text-black">ERP (DynamicsAX) Architect</h3>
+          <h3 class="font-semibold text-black">ERP Architect and System Admin Lead</h3>
         </div>
         <a href="https://www.allegion.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Allegion</a>
         <p class="text-sm text-gray-500">2017–2019 • Indianapolis, IN</p>
@@ -249,7 +249,7 @@ layout: page
       <div class="border-l-4 border-gray-300 pl-4 py-2">
         <div class="flex items-center mb-2">
           <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Logo" class="w-6 h-6 mr-3 rounded">
-          <h3 class="font-semibold text-black">ERP (DynamicsAX) Escalation Engineer</h3>
+          <h3 class="font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h3>
         </div>
         <a href="https://www.microsoft.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Microsoft</a>
         <p class="text-sm text-gray-500">2016–2017 • New York, NY</p>
@@ -257,7 +257,7 @@ layout: page
       <div class="border-l-4 border-gray-300 pl-4 py-2">
         <div class="flex items-center mb-2">
           <img src="https://logo.clearbit.com/kumon.com" alt="Kumon Logo" class="w-6 h-6 mr-3 rounded">
-          <h3 class="font-semibold text-black">AX Architect</h3>
+          <h3 class="font-semibold text-black">Technical Architect Lead</h3>
         </div>
         <a href="https://www.kumon.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Kumon North America</a>
         <p class="text-sm text-gray-500">2013–2015 • New York, NY</p>
