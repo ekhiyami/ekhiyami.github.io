@@ -12,6 +12,12 @@ author: "Ebrahim Khiyami"
 ![Well-Architected Framework](/assets/gen-ai-ws.png)
 
 
+This is a hands-on workshop that I built with my team to train customers and internal AWS SAs and account teams on how to use the[Well-Architected Review Gen-AI Accelerator](https://ekhiyami.github.io/wa-gen-ai/) that we released a few months ago.
+
+This is a pattern that I usually follow to scale: build something useful, then build a mechanism for other people to use it effectively. In this example, the solution was the IaC Analyzer and the mechanism is this workshop that we built for AWS folks to practice with. We've also made it available for our customers who want to train their teams.
+
+**This section is taken from my [announcement on LinkedIn](https://www.linkedin.com/posts/eb-khiyami_accelerate-well-architected-reviews-using-activity-7353858410670379010-H4Zj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALV-AEByriO-neqsWiP7QcZkthfNqE6-Oo)**
+
 
 Glad to announce the availability of this brand-new hands-on workshop on how to accelerate the **AWS Well-Architected Review process using Generative AI**. We also just completed an internal training for 50 **AWS SAs and TAMs** on using it.
 
