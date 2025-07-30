@@ -1,5 +1,5 @@
 ---
-title:  "I Built This Entire Site with Kiro/Amazon Q"
+title:  "I vibe-coded this webstite completely using Amazon Kiro/Q"
 layout: post
 categories: media
 tags: ["Generative AI", "Solution"]
