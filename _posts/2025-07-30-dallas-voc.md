@@ -12,7 +12,10 @@ Thanks to the 30+ customers who came to listen to my session last week at the AW
 
 I enjoyed opening up the day with a session about **"Building optimized workloads and making trade-off decisions"**.
 
-## The Core Message
+[Event Page](https://aws-experience.com/amer/smb/e/84047/migration-and-modernization-experience-day)
+[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7355623698227187712/)
+
+## My Core Message
 
 Optimizing for cloud is never perfect, so you have to make trade-off decisions. The quality and data you use to make these decisions is what makes the difference in your cloud optimization. This was the theme of my session.
 
