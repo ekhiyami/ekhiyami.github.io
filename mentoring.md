@@ -162,7 +162,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Ebrahim tries his best to help me thrive as much as possible. I am impressed by his understanding of my current situation. He tries to gives me directions which are suitable with my situation. I should say it is my honor he has been my mentor.."</p>
-      <p class="font-semibold text-black">— Ladan Nasseri (June 2025)</p>
+      <p class="font-semibold text-black">— Ladan N. (June 2025)</p>
     </div>
     
     <!-- Testimonial 2 -->
@@ -175,7 +175,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Ebrahim is a proactive mentor. He brought both clarity and strategic insight to our conversation. He was approachable, articulate, and immediately understood where I was in my journey. He offered practical advice, helped me see the bigger picture, and gave me actionable steps to move forward. His guidance had a meaningful impact on how I’m planning my next steps. I highly recommend Ebrahim to anyone looking for mentorship and career growth."</p>
-      <p class="font-semibold text-black">— Said Mahmoud (July 2025)</p>
+      <p class="font-semibold text-black">— Said M. (July 2025)</p>
     </div>
     
     <!-- Testimonial 3 -->
@@ -188,7 +188,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"EB has been in Silicon Valley long enough to understand the industry and provide insights for what I should focus on."</p>
-      <p class="font-semibold text-black">— Tim Rash (2025)</p>
+      <p class="font-semibold text-black">— Tim R. (2025)</p>
     </div>
     
     <!-- Testimonial 4 -->
@@ -202,7 +202,7 @@ layout: page
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"I worked with EB on a big interview I'm preparing for. He was recommended by a mutual friend. And I also recommend him. He provided feedback on my interview performance in real-time and recommended ways to improve the structure and quality of my story telling. We still have a few sessions and I highly recommend him for anyone preparing for a behavioral interview. The only feedback I had I wish I had a session recording which EB promised to fix in the future."</p>
       <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
-      <p class="font-semibold text-black">— Nick Peterson (2025)</p>
+      <p class="font-semibold text-black">— Nick P. (2025)</p>
     </div>
     
     <!-- Testimonial 5 -->
@@ -228,7 +228,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"EB has been super supportive and encouraging since the beginning. He not only guided me toward the right opportunities, like the AWS program, but also made me feel confident about my learning journey. His advice feels genuine and grounded, and I really appreciate how he checks in regularly without putting pressure. Grateful to have him as a mentor!"</p>
-      <p class="font-semibold text-black">— Yuva Rajkumar (March 2025)</p>
+      <p class="font-semibold text-black">— Yuva R. (March 2025)</p>
     </div>
   </div>
   
@@ -244,7 +244,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"</p>
-      <p class="font-semibold text-black">— Shilpi Pandey (July 2023)</p>
+      <p class="font-semibold text-black">— Shilpi P. (July 2023)</p>
     </div>
     
     <!-- Additional Testimonial 2 -->
@@ -257,7 +257,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Ebrahim gave me clear, actionable feedback on how to better organize my behavioral interview responses, and increased my confidence for future interviews."</p>
-      <p class="font-semibold text-black">— Jeff Ding (October 2021)</p>
+      <p class="font-semibold text-black">— Jeff D. (October 2021)</p>
     </div>
     
     <!-- Additional Testimonial 3 -->
@@ -270,7 +270,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Very well conducted and I liked how each question was either followed by an explanation of why it was asked and what is expected at each level. Thank you so much!"</p>
-      <p class="font-semibold text-black">— Srinivasan Venkataraman (April 2022)</p>
+      <p class="font-semibold text-black">— Srinivasan V. (April 2022)</p>
     </div>
     
     <!-- Additional Testimonial 4 -->
@@ -283,7 +283,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"I feel much better prepared for my interview after this session, thanks so much!"</p>
-      <p class="font-semibold text-black">— Sundar Balasubramanian (November 2021)</p>
+      <p class="font-semibold text-black">— Sundar B. (November 2021)</p>
     </div>
     
     <!-- Additional Testimonial 5 -->
@@ -296,7 +296,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Ebrahim was extremely professional, empathetic and calm through the process. He often subdivided the question into smaller parts for my understanding and learning."</p>
-      <p class="font-semibold text-black">— Neeti Miglani (March 2022)</p>
+      <p class="font-semibold text-black">— Neeti M. (March 2022)</p>
     </div>
     
     <!-- Additional Testimonial 6 -->
@@ -309,7 +309,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Interviewer clearly explained on the areas that I need to practice on. The feedback was concise and actionable. Totally appreciate his time in the Mock Interview."</p>
-      <p class="font-semibold text-black">— Chandrasekar Kadimanohar (August 2023)</p>
+      <p class="font-semibold text-black">— Chandrasekar K. (August 2023)</p>
     </div>
     
     <!-- Additional Testimonial 7 -->
@@ -322,7 +322,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Ebrahim was a very good listener, coach and judge of quality. I appreciated his feedback."</p>
-      <p class="font-semibold text-black">— Piyush Shah (May 2024)</p>
+      <p class="font-semibold text-black">— Piyush S. (May 2024)</p>
     </div>
     
     <!-- Additional Testimonial 8 -->
@@ -335,7 +335,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"It was great interviewing. I learnt really points from Ebrahim."</p>
-      <p class="font-semibold text-black">— Venkatesh Lanke (February 2022)</p>
+      <p class="font-semibold text-black">— Venkatesh L. (February 2022)</p>
     </div>
     
     <!-- Additional Testimonial 9 -->
@@ -348,7 +348,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-gray-300"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Felt great and was very understanding."</p>
-      <p class="font-semibold text-black">— Prajwal Kant Kota (March 2023)</p>
+      <p class="font-semibold text-black">— Prajwal K. (March 2023)</p>
     </div>
     
     <!-- Additional Testimonial 10 -->
@@ -361,7 +361,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-gray-300"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Very nice experience. Feedback given was very helpfull."</p>
-      <p class="font-semibold text-black">— Nishith Purwar (September 2022)</p>
+      <p class="font-semibold text-black">— Nishith P. (September 2022)</p>
     </div>
     
     <!-- Additional Testimonial 11 -->
@@ -374,7 +374,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-gray-300"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Interviewer was amazing and he gave lot of good feedback."</p>
-      <p class="font-semibold text-black">— Amit Ailiani (January 2022)</p>
+      <p class="font-semibold text-black">— Amit A. (January 2022)</p>
     </div>
     
     <!-- Additional Testimonial 12 -->
@@ -387,7 +387,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-gray-300"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"He gave good insights and instructions."</p>
-      <p class="font-semibold text-black">— Sindhu Shekar Chandrashekar (June 2023)</p>
+      <p class="font-semibold text-black">— Sindhu C. (June 2023)</p>
     </div>
     
     <!-- Additional Testimonial 13 -->
@@ -400,7 +400,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-gray-300"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Feedback for improvement was very helpful. I would like some additional inputs on how the answers can be reframed."</p>
-      <p class="font-semibold text-black">— Prema Krishnaswamy (April 2024)</p>
+      <p class="font-semibold text-black">— Prema K. (April 2024)</p>
     </div>
     
     <!-- Additional Testimonial 14 -->
@@ -413,7 +413,7 @@ layout: page
         <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
       </div>
       <p class="text-gray-600 mb-3 text-base italic">"Great Experience!"</p>
-      <p class="font-semibold text-black">— Sebastian Lopez (December 2021)</p>
+      <p class="font-semibold text-black">— Sebastian L. (December 2021)</p>
     </div>
   </div>
   
