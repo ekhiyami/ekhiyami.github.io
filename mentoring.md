@@ -27,34 +27,34 @@ layout: page
     <h2 class="text-2xl md:text-3xl font-bold text-black">My mentoring profile</h2>
   </div>
   
-  <div class="flex flex-col md:flex-row gap-8 items-center">
-    <div class="md:w-2/3 space-y-4">
-      <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+    <div class="md:w-2/3 space-y-3 md:space-y-4">
+      <p class="text-sm md:text-lg text-gray-600 leading-relaxed">
         <strong class="text-black">I wish I had a mentor earlier in my career.</strong> The right guidance could have saved me years of trial and error. Now, I'm that mentor for ambitious tech professionals who refuse to figure it out alone.
       </p>
-      <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+      <p class="text-sm md:text-lg text-gray-600 leading-relaxed">
         With <strong class="text-black">15+ years</strong> at Amazon, Microsoft, and Fortune 500 companies, I spot career blind spots others miss and show you exactly how to fix them.
       </p>
-      <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+      <p class="text-sm md:text-lg text-gray-600 leading-relaxed">
         Since 2020, I've conducted <strong class="text-black">200+</strong> interviews, reviewed <strong class="text-black">500+</strong> resumes, and guided <strong class="text-black">100s</strong> of professionals to breakthrough moments in their careers. I also founded <a href="https://mentory-sy.net" target="_blank" class="text-black font-medium hover:underline">mentory-sy.net</a>, a free mentoring platform for Syrian tech professionals.
       </p>
-      <p class="text-base md:text-lg text-gray-600 leading-relaxed font-medium">
+      <p class="text-sm md:text-lg text-gray-600 leading-relaxed font-medium">
         <strong class="text-black">Your career is too important to leave to chance.</strong> Let's accelerate your growth together.
       </p>
-      <div class="flex flex-wrap gap-4 pt-2">
-        <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="inline-flex items-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium text-lg">
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
+        <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium text-base md:text-lg">
           <i data-lucide="handshake" class="w-5 h-5 mr-2"></i>Start Mentoring
         </a>
-        <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
+        <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm md:text-base">
           <i data-lucide="linkedin" class="w-4 h-4 mr-2"></i>LinkedIn
         </a>
       </div>
     </div>
-    <div class="md:w-1/3 flex justify-center">
+    <div class="md:w-1/3 flex justify-center order-first md:order-last">
       <div class="relative">
-        <img src="https://topmate-staging.s3.amazonaws.com/h9Quj31LQm2gtRuiLfN8rM.jpeg" alt="Ebrahim Khiyami" class="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover shadow-xl border-4 border-white" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
-        <div class="absolute -bottom-4 -right-4 bg-black text-white p-3 rounded-full shadow-lg">
-          <i data-lucide="check-circle" class="w-6 h-6"></i>
+        <img src="https://topmate-staging.s3.amazonaws.com/h9Quj31LQm2gtRuiLfN8rM.jpeg" alt="Ebrahim Khiyami" class="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover shadow-xl border-4 border-white" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+        <div class="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-black text-white p-2 md:p-3 rounded-full shadow-lg">
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-6 md:h-6"></i>
         </div>
       </div>
     </div>
@@ -432,49 +432,49 @@ layout: page
     <h2 class="text-2xl md:text-3xl font-bold text-black">Monthly mentoring</h2>
   </div>
   
-  <div class="flex flex-col md:flex-row gap-8 items-center">
-    <div class="md:w-1/2">
-      <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-100 relative">
-        <div class="absolute top-0 right-0 -mt-4 -mr-4 bg-black text-white text-sm font-semibold px-4 py-2 rounded-full shadow-sm">
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+    <div class="w-full md:w-1/2">
+      <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-4 md:p-6 border border-gray-100 relative">
+        <div class="absolute top-0 right-0 -mt-3 -mr-3 md:-mt-4 md:-mr-4 bg-black text-white text-xs md:text-sm font-semibold px-3 py-1 md:px-4 md:py-2 rounded-full shadow-sm">
           Best Value
         </div>
         <div class="flex items-center mb-4">
-          <span class="text-4xl font-bold text-black">$100</span>
-          <span class="text-xl text-gray-600 ml-2">/month</span>
+          <span class="text-3xl md:text-4xl font-bold text-black">$100</span>
+          <span class="text-lg md:text-xl text-gray-600 ml-2">/month</span>
         </div>
-        <p class="text-base md:text-lg text-gray-600 mb-6">
+        <p class="text-sm md:text-lg text-gray-600 mb-4 md:mb-6">
           Monthly 1:1 sessions plus unlimited support to accelerate your career growth.
         </p>
-        <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="inline-flex items-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium">
+        <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="inline-flex items-center justify-center w-full px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium text-sm md:text-base">
           <i data-lucide="handshake" class="w-4 h-4 mr-2"></i>Start Monthly Mentoring
         </a>
       </div>
     </div>
-    <div class="md:w-1/2">
-      <h3 class="text-xl font-semibold text-black mb-4">What You Get:</h3>
-      <ul class="space-y-3">
+    <div class="w-full md:w-1/2">
+      <h3 class="text-lg md:text-xl font-semibold text-black mb-3 md:mb-4">What You Get:</h3>
+      <ul class="space-y-2 md:space-y-3">
         <li class="flex items-start">
-          <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
-          <span class="text-sm md:text-base text-gray-600">Monthly 1:1 strategy sessions</span>
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-5 md:h-5 text-green-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0"></i>
+          <span class="text-xs md:text-base text-gray-600">Monthly 1:1 strategy sessions</span>
         </li>
         <li class="flex items-start">
-          <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
-          <span class="text-sm md:text-base text-gray-600">Unlimited chat & email support</span>
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-5 md:h-5 text-green-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0"></i>
+          <span class="text-xs md:text-base text-gray-600">Unlimited chat & email support</span>
         </li>
         <li class="flex items-start">
-          <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
-          <span class="text-sm md:text-base text-gray-600">Resume & LinkedIn optimization</span>
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-5 md:h-5 text-green-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0"></i>
+          <span class="text-xs md:text-base text-gray-600">Resume & LinkedIn optimization</span>
         </li>
         <li class="flex items-start">
-          <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
-          <span class="text-sm md:text-base text-gray-600">Interview prep & mock sessions</span>
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-5 md:h-5 text-green-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0"></i>
+          <span class="text-xs md:text-base text-gray-600">Interview prep & mock sessions</span>
         </li>
         <li class="flex items-start">
-          <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5"></i>
-          <span class="text-sm md:text-base text-gray-600">Custom career roadmap</span>
+          <i data-lucide="check-circle" class="w-4 h-4 md:w-5 md:h-5 text-green-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0"></i>
+          <span class="text-xs md:text-base text-gray-600">Custom career roadmap</span>
         </li>
       </ul>
-      <p class="text-gray-500 mt-6 text-sm">
+      <p class="text-gray-500 mt-4 md:mt-6 text-xs md:text-sm">
         Questions? <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="text-black hover:underline">Connect on LinkedIn</a> or email me at ekhiyami@gmail.com
       </p>
     </div>

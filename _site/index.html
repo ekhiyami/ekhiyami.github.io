@@ -68,7 +68,7 @@
         padding: 0;
     }
 
-    /* Global Typography - Consistent with About Page */
+    /* Global Typography - Mobile Responsive */
     h1, h2, h3, h4, h5, h6 {
         color: #000000;
         font-weight: 700;
@@ -76,28 +76,44 @@
     }
 
     h1 {
-        font-size: 2.25rem;
+        font-size: 1.75rem;
         line-height: 1.2;
         margin-bottom: 1rem;
     }
 
     h2 {
-        font-size: 1.875rem;
+        font-size: 1.5rem;
         line-height: 1.3;
         margin-bottom: 0.75rem;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 1.4;
         margin-bottom: 0.5rem;
     }
 
     p {
         color: #000000;
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.75;
         margin-bottom: 1rem;
+    }
+
+    /* Desktop Typography */
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 2.25rem;
+        }
+        h2 {
+            font-size: 1.875rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1.125rem;
+        }
     }
 
     /* Ensure consistent styling across all pages */
@@ -122,7 +138,13 @@
 
     .section-header {
         background: white;
-        padding: 2rem 1rem;
+        padding: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        .section-header {
+            padding: 2rem 1rem;
+        }
     }
 
     .section-header .container {
@@ -132,11 +154,11 @@
 
     .section-title {
         position: relative;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .section-title h1 {
-        font-size: 1.875rem;
+        font-size: 1.5rem;
         font-weight: 300;
         color: #000000;
         letter-spacing: -0.025em;
@@ -145,6 +167,9 @@
     }
 
     @media (min-width: 768px) {
+        .section-title {
+            margin-bottom: 4rem;
+        }
         .section-title h1 {
             font-size: 2.25rem;
         }
@@ -175,12 +200,23 @@
         justify-content: center;
         background-color: var(--dark-bg);
         color: var(--primary-bg);
-        padding: 1rem 2rem;
+        padding: 0.75rem 1.5rem;
         border-radius: var(--border-radius-lg);
         font-weight: 600;
         transition: all 0.2s ease-in-out;
         text-decoration: none;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 0.875rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media (min-width: 768px) {
+        .cta-button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            width: auto;
+        }
     }
 
     .cta-button:hover {
@@ -223,6 +259,94 @@
         background-color: #000000;
         color: #ffffff;
     }
+    /* Mobile-specific improvements */
+    .mobile-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        .mobile-stack {
+            flex-direction: row;
+            gap: 2rem;
+        }
+    }
+
+    .mobile-full-width {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .mobile-full-width {
+            width: auto;
+        }
+    }
+
+    /* Table responsiveness */
+    .responsive-table {
+        font-size: 0.875rem;
+    }
+
+    @media (min-width: 768px) {
+        .responsive-table {
+            font-size: 1rem;
+        }
+    }
+
+    .responsive-table th,
+    .responsive-table td {
+        padding: 0.5rem;
+    }
+
+    @media (min-width: 768px) {
+        .responsive-table th,
+        .responsive-table td {
+            padding: 1.5rem;
+        }
+    }
+
+    /* Card improvements */
+    .responsive-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        .responsive-card {
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    /* Stats grid mobile optimization */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    @media (min-width: 640px) {
+        .stats-grid {
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+        }
+    }
+
+    /* Image responsiveness */
+    .responsive-image {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+        .responsive-image {
+            max-width: 300px;
+        }
+    }
+
 </style>
 
 
@@ -290,31 +414,27 @@
       </div>
       
       <!-- Portfolio Stats -->
-      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 mb-8 border border-blue-100 shadow-md">
-        <div class="flex items-center justify-center gap-8 text-center">
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-4 md:p-6 mb-8 border border-blue-100 shadow-md">
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-4 text-center">
           <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">28+</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Publications</p>
+            <span class="text-xl md:text-3xl font-bold text-blue-600">28+</span>
+            <p class="text-xs md:text-base text-gray-700 mt-1 font-medium">Publications</p>
           </div>
-          <div class="w-px h-10 bg-blue-200"></div>
           <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">8</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Solutions</p>
+            <span class="text-xl md:text-3xl font-bold text-blue-600">8</span>
+            <p class="text-xs md:text-base text-gray-700 mt-1 font-medium">Solutions</p>
           </div>
-          <div class="w-px h-10 bg-blue-200"></div>
           <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">6</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Workshops</p>
+            <span class="text-xl md:text-3xl font-bold text-blue-600">6</span>
+            <p class="text-xs md:text-base text-gray-700 mt-1 font-medium">Workshops</p>
           </div>
-          <div class="w-px h-10 bg-blue-200"></div>
           <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">5+</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Launches</p>
+            <span class="text-xl md:text-3xl font-bold text-blue-600">5+</span>
+            <p class="text-xs md:text-base text-gray-700 mt-1 font-medium">Launches</p>
           </div>
-          <div class="w-px h-10 bg-blue-200"></div>
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">4</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Training</p>
+          <div class="transform hover:scale-105 transition-transform duration-200 col-span-2 sm:col-span-1">
+            <span class="text-xl md:text-3xl font-bold text-blue-600">4</span>
+            <p class="text-xs md:text-base text-gray-700 mt-1 font-medium">Training</p>
           </div>
         </div>
       </div>
@@ -349,31 +469,31 @@
 <div class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden" data-aos="fade-up" data-aos-delay="400">
   
   <div class="overflow-x-auto">
-    <table class="w-full">
+    <table class="w-full responsive-table">
       <thead class="bg-gradient-to-r from-gray-50 to-blue-50 border-b-2 border-blue-200">
         <tr>
-          <th class="px-8 py-5 text-left font-bold text-black text-base md:text-lg tracking-wide">Work Sample</th>
-          <th class="px-6 py-5 text-left font-bold text-black text-base md:text-lg tracking-wide">Type</th>
-          <th class="px-6 py-5 text-left font-bold text-black text-base md:text-lg tracking-wide">Date</th>
+          <th class="px-3 md:px-8 py-3 md:py-5 text-left font-bold text-black text-sm md:text-lg tracking-wide">Work Sample</th>
+          <th class="px-2 md:px-6 py-3 md:py-5 text-left font-bold text-black text-sm md:text-lg tracking-wide">Type</th>
+          <th class="px-2 md:px-6 py-3 md:py-5 text-left font-bold text-black text-sm md:text-lg tracking-wide">Date</th>
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
         <!-- 2025 Items -->
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="/automate-wa-review-amazon-q/" class="text-black hover:text-gray-600 font-medium text-base md:text-lg leading-relaxed transition-colors hover:underline">
+          <td class="px-3 md:px-8 py-4 md:py-8">
+            <a href="/automate-wa-review-amazon-q/" class="text-black hover:text-gray-600 font-medium text-sm md:text-lg leading-relaxed transition-colors hover:underline">
               Automate the Well-Architected Review w. Amazon Q
             </a>
-            <p class="text-gray-600 text-sm md:text-base mt-2 leading-relaxed">
+            <p class="text-gray-600 text-xs md:text-base mt-1 md:mt-2 leading-relaxed">
               Originally published on AWS Builder Center. This post shows how to use Amazon Q to perform automated Well-Architected Framework reviews on Infrastructure as Code templates, reducing review time from hours to minutes.
             </p>
           </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+          <td class="px-2 md:px-6 py-4 md:py-8">
+            <span class="inline-flex items-center px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600 hidden md:inline"></i>Blog
             </span>
           </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Jun 2025</td>
+          <td class="px-2 md:px-6 py-4 md:py-8 text-gray-600 font-medium text-xs md:text-base">Jun 2025</td>
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
