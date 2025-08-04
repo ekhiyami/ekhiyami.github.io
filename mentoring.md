@@ -22,7 +22,8 @@ layout: page
 </div>
 
 <!-- Mentoring Profile Section -->
-<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12 border border-gray-200">
+<div class="max-w-4xl mx-auto px-4 mb-12">
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200">
   <div class="text-center mb-8">
     <h2 class="text-2xl md:text-3xl font-bold text-black">My mentoring profile</h2>
   </div>
@@ -75,9 +76,11 @@ layout: page
     <div class="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
   </div>
 </div>
+</div>
 
 <!-- How I Can Help Section -->
-<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16 border border-gray-200">
+<div class="max-w-4xl mx-auto px-4 mb-16">
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200">
   <div class="text-center mb-8">
     <h2 class="text-2xl md:text-3xl font-bold text-black">I can help with</h2>
   </div>
@@ -144,9 +147,11 @@ layout: page
     </div>
   </div>
 </div>
+</div>
 
 <!-- Testimonials Section -->
-<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16 border border-gray-200">
+<div class="max-w-4xl mx-auto px-4 mb-16">
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200">
   <div class="text-center mb-8">
     <h2 class="text-2xl md:text-3xl font-bold text-black">What others are saying</h2>
   </div>
@@ -425,9 +430,11 @@ layout: page
     </button>
   </div>
 </div>
+</div>
 
 <!-- Pricing Section -->
-<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16 border border-gray-200">
+<div class="max-w-4xl mx-auto px-4 mb-16">
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200">
   <div class="text-center mb-8">
     <h2 class="text-2xl md:text-3xl font-bold text-black">Monthly mentoring</h2>
   </div>
@@ -480,9 +487,11 @@ layout: page
     </div>
   </div>
 </div>
+</div>
 
 <!-- FAQ Section -->
-<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-16 border border-gray-200">
+<div class="max-w-4xl mx-auto px-4 mb-16">
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-200">
   <div class="text-center mb-8">
     <h2 class="text-2xl md:text-3xl font-bold text-black">FAQ</h2>
   </div>
@@ -560,6 +569,7 @@ layout: page
       </div>
     </div>
   </div>
+</div>
 </div>
 
 </div>
