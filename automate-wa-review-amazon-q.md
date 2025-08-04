@@ -39,6 +39,22 @@ layout: page
 <div class="max-w-4xl mx-auto px-4">
   <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
     
+    <!-- Summary Notice -->
+    <div class="bg-yellow-50 rounded-lg p-6 mb-8 border border-yellow-200">
+      <div class="flex items-center mb-4">
+        <div class="p-2 bg-yellow-100 rounded-full mr-4">
+          <i data-lucide="info" class="w-5 h-5 text-yellow-600"></i>
+        </div>
+        <h3 class="text-lg font-semibold text-black">Summary</h3>
+      </div>
+      <p class="text-base leading-relaxed text-gray-700 mb-4">
+        This is just a summary of the original blog post. For the complete details, step-by-step instructions, and full implementation guide, please read the full article.
+      </p>
+      <a href="https://builder.aws.com/content/2wj8D4HmqEjt6wbIBOMVnWx8EOB/automate-the-well-architected-review-w-amazon-q" target="_blank" class="inline-flex items-center px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors font-medium">
+        <i data-lucide="external-link" class="w-4 h-4 mr-2"></i>Read Full Article on AWS Builder Center
+      </a>
+    </div>
+    
     <!-- Introduction -->
     <div class="prose prose-lg max-w-none text-gray-600 space-y-6">
       <p class="text-lg leading-relaxed">
