@@ -1,0 +1,59 @@
+I"�<p><img src="/assets/dallas-voc.jpeg" alt="AWS Dallas Event" /></p>
+
+<p>Thanks to the 30+ customers who came to listen to my session last week at the AWS Dallas office for the “AWS Migration and Modernization Experience Day.”</p>
+
+<p>I enjoyed opening up the day with a session about <strong>“Building optimized workloads and making trade-off decisions”</strong>.</p>
+
+<p><a href="https://aws-experience.com/amer/smb/e/84047/migration-and-modernization-experience-day">Event Page</a>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7355623698227187712/">LinkedIn</a></p>
+
+<h2 id="my-core-message">My Core Message</h2>
+
+<p>Optimizing for cloud is never perfect, so you have to make trade-off decisions. The quality and data you use to make these decisions is what makes the difference in your cloud optimization. This was the theme of my session.</p>
+
+<p>We also touched on some frameworks, automation, and generative AI tools that can help streamline your architecture for AWS best practices and discussed some great questions from the audience.</p>
+
+<h2 id="about-the-event">About the Event</h2>
+
+<p>The AWS Migration and Modernization Experience Day was an intensive learning session designed to elevate organizations’ cloud journey on Amazon Web Services. The roadshow brought together AWS experts and industry practitioners to share operational, optimization, and architectural best practices.</p>
+
+<p>The event covered comprehensive insights spanning:</p>
+<ul>
+  <li><strong>AWS Well-Architected Framework</strong> best practices for making architectural trade-offs</li>
+  <li><strong>Compute and databases</strong> migration and modernization strategies</li>
+  <li>How <strong>generative AI (GenAI)</strong> can support the cloud journey</li>
+  <li>How to take advantage of <strong>AWS Support teams</strong> and offerings</li>
+</ul>
+
+<h2 id="my-session-building-well-architected-workloads">My Session: Building Well-Architected Workloads</h2>
+
+<p>I kicked off the technical sessions with a strategic framework for balancing critical architectural decisions across the five Well-Architected pillars:</p>
+<ul>
+  <li>Security</li>
+  <li>Operational Excellence</li>
+  <li>Reliability</li>
+  <li>Performance Efficiency</li>
+  <li>Cost Optimization</li>
+</ul>
+
+<p>The session focused on the reality that cloud optimization isn’t about finding the “perfect” solution—it’s about making informed trade-offs based on quality data and clear business objectives.</p>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li><strong>Trade-offs are inevitable</strong> in cloud architecture</li>
+  <li><strong>Data quality drives decision quality</strong> in optimization efforts</li>
+  <li><strong>Frameworks and automation</strong> can streamline the decision-making process</li>
+  <li><strong>Generative AI tools</strong> are becoming valuable allies in architecture optimization</li>
+</ul>
+
+<h2 id="event-impact">Event Impact</h2>
+
+<p>The audience engagement was fantastic, with thoughtful questions that showed the real-world challenges teams face when optimizing their cloud workloads. These interactions always remind me why I love working directly with customers—their questions often lead to the best insights.</p>
+
+<p>This type of hands-on, interactive session is exactly what I enjoy most about my role as a Solutions Architect. It’s one thing to build tools and frameworks, but seeing them applied to solve real customer challenges is where the magic happens.</p>
+
+<hr />
+
+<p><em>This session represents the type of customer-facing work I do regularly as part of my role in AWS Cloud Optimization. For more examples of my work, check out my other <a href="/">work samples</a>.</em></p>
+:ET

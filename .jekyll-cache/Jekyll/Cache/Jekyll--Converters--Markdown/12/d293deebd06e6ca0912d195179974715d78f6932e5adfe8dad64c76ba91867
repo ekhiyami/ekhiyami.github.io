@@ -1,0 +1,273 @@
+I"�6<div class="about-section bg-white min-h-screen pt-1 pb-4">
+
+<!-- Professional Hero Section -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-12 items-center mb-16">
+      <div class="lg:w-2/3 space-y-6">
+        <div class="mb-8">
+          <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
+            About <span class="text-blue-600">Ebrahim</span>
+          </h1>
+          <div class="w-16 h-1 bg-blue-600 rounded-full mb-6"></div>
+        </div>
+        
+        <h2 class="text-2xl md:text-3xl font-semibold text-black leading-tight mb-6">
+          Cloud Solutions Architect &amp; Technology Leader
+        </h2>
+        
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+          I'm a Solutions Architect at Amazon Web Services, where I help organizations transform their business through cloud adoption, optimization, and innovation. With over 15 years of experience in technology leadership, I specialize in cloud migration, Well-Architected reviews, and generative AI implementations.
+        </p>
+        
+        <p class="text-base text-gray-600 leading-relaxed">
+          My passion lies in bridging the gap between complex technical solutions and business outcomes, helping customers navigate their cloud journey with confidence and clarity.
+        </p>
+      </div>
+      
+      <div class="lg:w-1/3 flex justify-center">
+        <div class="relative">
+          <img src="/assets/eb-clean.jpg" alt="Ebrahim Khiyami" class="w-64 h-64 md:w-80 md:h-80 rounded-2xl object-cover shadow-xl" />
+          <div class="absolute -bottom-4 -right-4 bg-blue-600 text-white p-3 rounded-xl shadow-lg">
+            <i data-lucide="cloud" class="w-6 h-6"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Professional Journey Section -->
+<div class="bg-gray-50 rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-gray-200">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-blue-100 rounded-full mr-4">
+      <i data-lucide="trending-up" class="w-6 h-6 text-blue-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">Professional Journey</h2>
+  </div>
+  
+  <div class="space-y-6 text-gray-600">
+    <p class="text-lg leading-relaxed">
+      My career in technology spans over 15 years, during which I've evolved from a hands-on engineer to a strategic technology leader. I began my journey in network and system administration, where I developed a deep understanding of infrastructure and operations.
+    </p>
+    
+    <p class="text-lg leading-relaxed">
+      The transition to cloud architecture came naturally as I witnessed the industry's shift toward scalable, distributed systems. At Microsoft, I honed my skills in enterprise software, working with complex ERP implementations across various industries.
+    </p>
+    
+    <p class="text-lg leading-relaxed">
+      Joining AWS marked a pivotal moment in my career. Here, I've had the opportunity to work with cutting-edge cloud technologies, help build the Migration Acceleration Program (MAP), and contribute to the Well-Architected Framework that guides millions of customers worldwide.
+    </p>
+    
+    <p class="text-lg leading-relaxed">
+      Today, I focus on three key areas: <strong class="text-black">Cloud Optimization</strong>, <strong class="text-black">Migration &amp; Modernization</strong>, and <strong class="text-black">Generative AI</strong>. Each project presents unique challenges that drive my continuous learning and growth.
+    </p>
+  </div>
+</div>
+
+<!-- Current Role & Impact Section -->
+<div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-gray-200">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-green-100 rounded-full mr-4">
+      <i data-lucide="target" class="w-6 h-6 text-green-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">Current Role &amp; Impact</h2>
+  </div>
+  
+  <div class="space-y-6 text-gray-600">
+    <p class="text-lg leading-relaxed">
+      As a Solutions Architect at AWS, I serve as a trusted advisor to organizations across industries, helping them leverage cloud technology to achieve their business objectives. My role combines technical expertise with strategic thinking to deliver measurable outcomes.
+    </p>
+    
+    <div class="grid md:grid-cols-3 gap-6 my-8">
+      <div class="bg-gray-50 rounded-lg p-6">
+        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+          <i data-lucide="cloud-lightning" class="w-6 h-6 text-blue-600"></i>
+        </div>
+        <h3 class="font-semibold text-black mb-2">Cloud Optimization</h3>
+        <p class="text-sm text-gray-600">Helping customers optimize costs, performance, and security using AWS best practices and Well-Architected principles.</p>
+      </div>
+      
+      <div class="bg-gray-50 rounded-lg p-6">
+        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+          <i data-lucide="arrow-right-circle" class="w-6 h-6 text-green-600"></i>
+        </div>
+        <h3 class="font-semibold text-black mb-2">Migration Leadership</h3>
+        <p class="text-sm text-gray-600">Leading complex migration projects and contributing to AWS MAP (Migration Acceleration Program) development.</p>
+      </div>
+      
+      <div class="bg-gray-50 rounded-lg p-6">
+        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+          <i data-lucide="brain" class="w-6 h-6 text-purple-600"></i>
+        </div>
+        <h3 class="font-semibold text-black mb-2">AI Innovation</h3>
+        <p class="text-sm text-gray-600">Implementing generative AI solutions to automate processes and enhance customer experiences.</p>
+      </div>
+    </div>
+    
+    <p class="text-lg leading-relaxed">
+      Beyond individual customer engagements, I contribute to the broader AWS community through content creation, workshops, and thought leadership. My work has been featured in official AWS blogs, training courses, and industry publications.
+    </p>
+  </div>
+</div>
+
+<!-- Personal Touch Section -->
+<div class="bg-blue-50 rounded-2xl shadow-lg p-8 md:p-12 mb-12 border border-blue-100">
+  <div class="flex items-center mb-8">
+    <div class="p-3 bg-blue-100 rounded-full mr-4">
+      <i data-lucide="heart" class="w-6 h-6 text-blue-600"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-black">Beyond the Professional</h2>
+  </div>
+  
+  <div class="space-y-6 text-gray-600">
+    <p class="text-lg leading-relaxed">
+      When I'm not architecting cloud solutions, I'm a dedicated father to three boys who keep me grounded and constantly learning. They remind me that the best solutions are often the simplest ones—a principle I carry into my professional work.
+    </p>
+    
+    <p class="text-lg leading-relaxed">
+      I believe in giving back to the technology community through mentoring. Whether it's helping a junior engineer navigate their career path or guiding experienced professionals through cloud transformations, I find great fulfillment in sharing knowledge and experiences.
+    </p>
+    
+    <p class="text-lg leading-relaxed">
+      My approach to work is driven by curiosity and continuous learning. In an industry that evolves rapidly, I make it a point to learn something new every day—whether it's a new AWS service, an emerging technology trend, or insights from customer challenges.
+    </p>
+  </div>
+  
+  <div class="flex justify-center mt-10">
+    <div class="text-center">
+      <img src="/assets/me.png" alt="Ebrahim with family" class="w-full max-w-3xl rounded-2xl shadow-lg" />
+      <p class="text-sm text-gray-500 mt-3 italic">Taking a break during a family trip to the White Mountains, New Hampshire (2023)</p>
+    </div>
+  </div>
+</div>
+
+<!-- Experience & Education Grid -->
+<div class="grid md:grid-cols-2 gap-8 mb-12">
+  <!-- Work History -->
+  <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
+    <div class="flex items-center mb-6">
+      <div class="p-3 bg-gray-100 rounded-full mr-4">
+        <i data-lucide="briefcase" class="w-6 h-6 text-gray-600"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-black">Professional Experience</h2>
+    </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-black pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="font-semibold text-black">Specialist Solutions Architect</h3>
+        </div>
+        <a href="https://aws.amazon.com/" target="_blank" class="text-black font-medium hover:underline">Amazon Web Services (AWS)</a>
+        <p class="text-sm text-gray-500">2019–Present • Dallas, TX</p>
+        <p class="text-sm text-gray-600 mt-1">Cloud Optimization, Migration, and Generative AI</p>
+      </div>
+      
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/allegion.com" alt="Allegion Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="font-semibold text-black">ERP Architect &amp; System Admin Lead</h3>
+        </div>
+        <a href="https://www.allegion.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Allegion</a>
+        <p class="text-sm text-gray-500">2017–2019 • Indianapolis, IN</p>
+      </div>
+      
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="font-semibold text-black">ERP Escalation Engineer</h3>
+        </div>
+        <a href="https://www.microsoft.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Microsoft</a>
+        <p class="text-sm text-gray-500">2016–2017 • New York, NY</p>
+      </div>
+      
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/kumon.com" alt="Kumon Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="font-semibold text-black">Technical Architect Lead</h3>
+        </div>
+        <a href="https://www.kumon.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Kumon North America</a>
+        <p class="text-sm text-gray-500">2013–2015 • New York, NY</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
+    <div class="flex items-center mb-6">
+      <div class="p-3 bg-gray-100 rounded-full mr-4">
+        <i data-lucide="graduation-cap" class="w-6 h-6 text-gray-600"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-black">Education &amp; Certifications</h2>
+    </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-black pl-4 py-2">
+        <h3 class="font-semibold text-black">M.Sc. in IT Management, ERP</h3>
+        <a href="https://www.fit.edu/" target="_blank" class="text-black font-medium hover:underline">Florida Institute of Technology</a>
+        <p class="text-sm text-gray-500">2018</p>
+      </div>
+      
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">MBA</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-sm text-gray-500">2010</p>
+      </div>
+      
+      <div class="border-l-4 border-gray-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">B.Sc. in ICT Engineering</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-sm text-gray-500">2004</p>
+      </div>
+      
+      <div class="border-l-4 border-blue-300 pl-4 py-2">
+        <h3 class="font-semibold text-black">Professional Certifications</h3>
+        <p class="text-gray-600 text-sm">AWS Solutions Architect Professional</p>
+        <p class="text-gray-600 text-sm">Multiple AWS Specialty Certifications</p>
+        <p class="text-gray-600 text-sm">Microsoft &amp; Industry Certifications</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action -->
+<div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl shadow-lg p-8 md:p-12 text-center text-white">
+  <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+  <p class="text-xl mb-8 opacity-90">
+    Whether you're looking for cloud architecture guidance, mentoring, or collaboration opportunities, I'd love to hear from you.
+  </p>
+  
+  <div class="flex flex-wrap justify-center gap-4">
+    <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+      <i data-lucide="linkedin" class="w-4 h-4 mr-2"></i>
+      Connect on LinkedIn
+    </a>
+    <a href="/mentoring/" class="inline-flex items-center px-6 py-3 bg-blue-800 text-white rounded-lg hover:bg-blue-900 transition-colors font-medium">
+      <i data-lucide="calendar" class="w-4 h-4 mr-2"></i>
+      Book a Mentoring Session
+    </a>
+    <a href="mailto:ekhiyami@gmail.com" class="inline-flex items-center px-6 py-3 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors font-medium">
+      <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+      Send an Email
+    </a>
+  </div>
+</div>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+    lucide.createIcons();
+    AOS.init({
+        once: true,
+        duration: 800,
+        easing: 'ease-out',
+        offset: 50,
+    });
+</script>
+
+:ET

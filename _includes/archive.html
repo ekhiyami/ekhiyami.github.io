@@ -1,21 +1,68 @@
-<div class="archive-section">
-  <h2 class="text-2xl font-bold text-primary-text mb-8">{{ include.title | default: "All Posts" }}</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    {% for post in site.posts %}
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 50 }}">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
+<!-- Hero Section -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-12 items-start">
+      <!-- Left Side - Description -->
+      <div class="lg:w-2/5 space-y-6">
+        <div class="mb-8">
+          <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
+            Work <span class="text-blue-600">Samples</span>
+          </h1>
+          <div class="w-16 h-1 bg-blue-600 rounded-full mb-6"></div>
         </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="{{ post.url | relative_url }}" class="text-primary-text hover:text-accent no-underline">{{ post.title }}</a>
-        </h3>
-        {% if post.excerpt %}
-          <p class="text-secondary text-sm mt-2 line-clamp-2">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
-        {% endif %}
+        
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+          This is a sample collection of my work at AWS and beyond. Each piece represents real projects, 
+          solutions, and contributions that showcase my expertise in cloud architecture, migration, 
+          optimization, and generative AI.
+        </p>
+        
+        <p class="text-base text-gray-600 leading-relaxed mb-8">
+          From technical deep-dives to customer-facing workshops, these samples demonstrate my approach 
+          to solving complex technical challenges and communicating solutions effectively.
+        </p>
+        
+        <div class="flex flex-wrap gap-3">
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Cloud Architecture</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Migration</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Optimization</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Generative AI</span>
+        </div>
       </div>
-    {% endfor %}
+      
+      <!-- Right Side - Work Samples Grid -->
+      <div class="lg:w-3/5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {% assign post_icons = 'cloud,cpu,shield-check,brain,presentation,book-open,video,users,code,settings,globe,zap' | split: ',' %}
+          {% for post in site.posts %}
+            {% assign icon_index = forloop.index0 | modulo: 12 %}
+            {% assign current_icon = post_icons[icon_index] %}
+            
+            <a href="{{ post.url | relative_url }}" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 50 }}">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="{{ current_icon }}" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    {{ post.title }}
+                  </h3>
+                  {% if post.excerpt %}
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      {{ post.excerpt | strip_html | truncatewords: 12 }}
+                    </p>
+                  {% endif %}
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%B %Y" }}
+                  </time>
+                </div>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>

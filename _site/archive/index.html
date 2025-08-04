@@ -6,13 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Blog Author">
 <meta name="generator" content="Jekyll v4.2.0">
-<link rel="canonical" href="/archive/">
+<link rel="canonical" href="http://0.0.0.0:4000/archive/">
 
 <!-- Social sharing meta tags -->
 <meta property="og:title" content="Archive | Ebrahim Khiyami">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://ekhiyami.github.io/assets/eb-clean.jpg">
-<meta property="og:url" content="/archive/">
+<meta property="og:url" content="http://0.0.0.0:4000/archive/">
 <meta name="twitter:card" content="summary_large_image">
 
 
@@ -68,13 +68,105 @@
         padding: 0;
     }
 
+    /* Global Typography - Consistent with About Page */
+    h1, h2, h3, h4, h5, h6 {
+        color: #000000;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.875rem;
+        line-height: 1.3;
+        margin-bottom: 0.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #000000;
+        font-size: 1.125rem;
+        line-height: 1.75;
+        margin-bottom: 1rem;
+    }
+
+    /* Ensure consistent styling across all pages */
     .modern-page h1, .modern-page h2, .modern-page h3, .modern-page h4, .modern-page h5, .modern-page h6 {
-        color: var(--primary-text);
+        color: #000000;
         font-weight: 700;
     }
 
     .modern-page p {
-        color: var(--secondary-text);
+        color: #000000;
+        font-size: 1.125rem;
+        line-height: 1.75;
+    }
+
+    /* Page Section Styling - Consistent with About Page */
+    .page-section {
+        background: white;
+        min-height: 100vh;
+        padding-top: 0.25rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-header {
+        background: white;
+        padding: 2rem 1rem;
+    }
+
+    .section-header .container {
+        max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+
+    .section-title h1 {
+        font-size: 1.875rem;
+        font-weight: 300;
+        color: #000000;
+        letter-spacing: -0.025em;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+        .section-title h1 {
+            font-size: 2.25rem;
+        }
+    }
+
+    .section-title .highlight {
+        padding: 0.25rem 0.75rem;
+        background-color: #000000;
+        color: white;
+        border-radius: 0.375rem;
+        position: relative;
+    }
+
+    .section-title .highlight::after {
+        content: '';
+        position: absolute;
+        bottom: -0.5rem;
+        left: 0;
+        right: 0;
+        height: 0.125rem;
+        background-color: #2563EB;
+        border-radius: 9999px;
     }
 
     .cta-button {
@@ -149,8 +241,6 @@
         <div class="hidden md:flex items-center space-x-1">
             <a href="/" class="nav-link ">Home</a>
             <a href="/about/" class="nav-link ">About</a>
-            <a href="/publications/" class="nav-link ">Publications</a>
-            <a href="/projects/" class="nav-link ">Projects</a>
             <a href="/mentoring/" class="nav-link ">Mentoring</a>
         </div>
         
@@ -165,8 +255,6 @@
         <div class="flex flex-col space-y-2 pt-4">
             <a href="/" class="nav-link ">Home</a>
             <a href="/about/" class="nav-link ">About</a>
-            <a href="/publications/" class="nav-link ">Publications</a>
-            <a href="/projects/" class="nav-link ">Projects</a>
             <a href="/mentoring/" class="nav-link ">Mentoring</a>
         </div>
     </div>
@@ -174,219 +262,452 @@
 
 <div class="modern-page">
     <main class="pt-20">
-        <div class="archive-section">
-  <h2 class="text-2xl font-bold text-primary-text mb-8">All Posts</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="50">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2025-07-12T00:00:00-05:00">July 12, 2025</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
+        <!-- Hero Section -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-12 items-start">
+      <!-- Left Side - Description -->
+      <div class="lg:w-2/5 space-y-6">
+        <div class="mb-8">
+          <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
+            Work <span class="text-blue-600">Samples</span>
+          </h1>
+          <div class="w-16 h-1 bg-blue-600 rounded-full mb-6"></div>
         </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/built-with-amazon-q/" class="text-primary-text hover:text-accent no-underline">I built this website entirely using Amazon Q Developer</a>
-        </h3>
         
-          <p class="text-secondary text-sm mt-2 line-clamp-2">Disclaimer: This blog post is generated by Amazon Q Built 100% with Amazon Q Developer...</p>
+        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+          This is a sample collection of my work at AWS and beyond. Each piece represents real projects, 
+          solutions, and contributions that showcase my expertise in cloud architecture, migration, 
+          optimization, and generative AI.
+        </p>
         
+        <p class="text-base text-gray-600 leading-relaxed mb-8">
+          From technical deep-dives to customer-facing workshops, these samples demonstrate my approach 
+          to solving complex technical challenges and communicating solutions effectively.
+        </p>
+        
+        <div class="flex flex-wrap gap-3">
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Cloud Architecture</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Migration</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Optimization</span>
+          <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">Generative AI</span>
+        </div>
       </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2025-05-06T00:00:00-05:00">May 06, 2025</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/chat-with-aws/" class="text-primary-text hover:text-accent no-underline">Chat with your AWS bill using AWS MCP, Amazon Q CLI</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">This blog post was first published on AWS Community
-</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="150">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2025-02-15T00:00:00-06:00">February 15, 2025</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/wa-enterprise/" class="text-primary-text hover:text-accent no-underline">New Digital Course: AWS Well-Architected for Enterprise</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: AWS Training &amp; Certifications Digital Course Available for Customers, Partners, and Field, Blog Post]...</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-10-23T00:00:00-05:00">October 23, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/wa-gen-ai/" class="text-primary-text hover:text-accent no-underline">Gen-AI Assisted AWS Well-Architected Review</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: re:Invent2024 session, customer case study, AWS Sample Solution and more].
-</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="250">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-10-15T00:00:00-05:00">October 15, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/idc-dallas/" class="text-primary-text hover:text-accent no-underline">FutureIT Dallas Summit</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">I recently had the opportunity to represent AWS at the FutureIT2024 Dallas conference held at...</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-06-10T00:00:00-05:00">June 10, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/video-chat/" class="text-primary-text hover:text-accent no-underline">My YouTube Summarizer that Went Viral</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: YouTube Summarizer, blog post, more]. As part of learning Gen AI, I built an...</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="350">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-05-01T00:00:00-05:00">May 01, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/dr/" class="text-primary-text hover:text-accent no-underline">Disaster Recovery for Azure/GCP on AWS</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: AWS Service, 6 blog posts, AWS Sample Solution, AWS Documentation]. I built a solution...</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="400">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-03-15T00:00:00-05:00">March 15, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/blogs/" class="text-primary-text hover:text-accent no-underline">Top 20 Blog Posts I Authored for AWS</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">This is an example of the blog posts I published on the official AWS Blog...</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="450">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-03-01T00:00:00-06:00">March 01, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/migration-lens/" class="text-primary-text hover:text-accent no-underline">The AWS Well-Architected Migration Lens </a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].
+      
+      <!-- Right Side - Work Samples Grid -->
+      <div class="lg:w-3/5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          
+            
+            
+            
+            <a href="/dallas-voc/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="50">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="cloud" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    AWS Migration and Modernization Experience Day - Dallas
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      Thanks to the 30+ customers who came to listen to my session...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2025-07-30T00:00:00-05:00">
+                    July 2025
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/wa-gen-workshop/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="cpu" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    New hands-on workshop: Accelerate Well-Architected Review using Generative AI
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: hands-on workshop + Internal training].
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2025-07-22T00:00:00-05:00">
+                    July 2025
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/built-with-amazon-q/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="150">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="shield-check" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    I vibe-coded this webstite completely using Amazon Kiro/Q
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2025-07-22T00:00:00-05:00">
+                    July 2025
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/chat-with-aws/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="brain" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    Chat with your AWS bill using AWS MCP, Amazon Q CLI
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      This blog post was first published on AWS Community
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2025-05-06T00:00:00-05:00">
+                    May 2025
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/wa-enterprise/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="250">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="presentation" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    New Digital Course: AWS Well-Architected for Enterprise
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: AWS Training &amp; Certifications Digital Course Available for Customers, Partners, and...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2025-02-15T00:00:00-06:00">
+                    February 2025
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/wa-gen-ai/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="book-open" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    Gen-AI Assisted AWS Well-Architected Review
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: re:Invent2024 session, customer case study, AWS Sample Solution and more].
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-10-23T00:00:00-05:00">
+                    October 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/idc-dallas/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="350">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="video" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    FutureIT Dallas Summit
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      I recently had the opportunity to represent AWS at the FutureIT2024 Dallas...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-10-15T00:00:00-05:00">
+                    October 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/video-chat/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="400">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="users" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    My YouTube Summarizer that Went Viral
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: YouTube Summarizer, blog post, more]. As part of learning Gen AI,...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-06-10T00:00:00-05:00">
+                    June 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/dr/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="450">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="code" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    Disaster Recovery for Azure/GCP on AWS
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: AWS Service, 6 blog posts, AWS Sample Solution, AWS Documentation]. I...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-05-01T00:00:00-05:00">
+                    May 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/blogs/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="500">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="settings" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    Top 20 Blog Posts I Authored for AWS
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      This is an example of the blog posts I published on the...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-03-15T00:00:00-05:00">
+                    March 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/migration-lens/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="550">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="globe" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    The AWS Well-Architected Migration Lens 
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].
 
 
-</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="500">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2024-02-01T00:00:00-06:00">February 01, 2024</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-03-01T00:00:00-06:00">
+                    March 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/map/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="600">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="zap" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    The AWS MAP Automation 
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverables: Automation, AWS Service, Documentation, Internal Enablement] I contributed to the original...
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2024-02-01T00:00:00-06:00">
+                    February 2024
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/wa-course/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="650">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="cloud" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    The Well-Architected Foundation Digital Course
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: Digital Training, 4 Blog Posts].
+
+
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2023-07-01T00:00:00-05:00">
+                    July 2023
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/migration-workshop/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="700">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="cpu" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    Migration Best Practices- re:Invent Workshop
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: re:invent workshop].
+
+
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2023-06-01T00:00:00-05:00">
+                    June 2023
+                  </time>
+                </div>
+              </div>
+            </a>
+          
+            
+            
+            
+            <a href="/wa-blogs/" class="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="750">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                    <i data-lucide="shield-check" class="w-6 h-6 text-blue-600"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h3 class="text-base font-semibold text-black group-hover:text-blue-600 transition-colors leading-tight mb-2">
+                    How to Perform WA Review Blog Series
+                  </h3>
+                  
+                    <p class="text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                      [Deliverable: 3-blog posts].
+
+
+
+                    </p>
+                  
+                  <time class="text-xs text-gray-400 mt-2 block" datetime="2023-05-01T00:00:00-05:00">
+                    May 2023
+                  </time>
+                </div>
+              </div>
+            </a>
+          
         </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/map/" class="text-primary-text hover:text-accent no-underline">The AWS MAP Automation </a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverables: Automation, AWS Service, Documentation, Internal Enablement] I contributed to the original technical specifications of...</p>
-        
       </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="550">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2023-07-01T00:00:00-05:00">July 01, 2023</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/wa-course/" class="text-primary-text hover:text-accent no-underline">The Well-Architected Foundation Digital Course</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: Digital Training, 4 Blog Posts].
-
-
-</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="600">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2023-06-01T00:00:00-05:00">June 01, 2023</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/migration-workshop/" class="text-primary-text hover:text-accent no-underline">Migration Best Practices- re:Invent Workshop</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: re:invent workshop].
-
-
-</p>
-        
-      </div>
-    
-      <div class="bg-primary p-6 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="650">
-        <div class="flex items-center justify-between mb-3">
-          <time class="text-sm text-secondary font-medium" datetime="2023-05-01T00:00:00-05:00">May 01, 2023</time>
-          <div class="p-1 bg-accent/20 rounded-full">
-            <i data-lucide="file-text" class="w-4 h-4 text-accent"></i>
-          </div>
-        </div>
-        <h3 class="text-lg font-semibold text-primary-text hover:text-accent transition-colors">
-          <a href="/wa-blogs/" class="text-primary-text hover:text-accent no-underline">How to Perform WA Review Blog Series</a>
-        </h3>
-        
-          <p class="text-secondary text-sm mt-2 line-clamp-2">[Deliverable: 3-blog posts].
-
-
-</p>
-        
-      </div>
-    
+    </div>
   </div>
 </div>
 

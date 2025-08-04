@@ -4,11 +4,32 @@ permalink: "/services/"
 layout: page
 ---
 
-<div class="services-section">
-<h2>My Services</h2>
-<p>Use my 20+ years of experience in big tech industry through one of these services.</p>
+<div class="page-section bg-white min-h-screen pt-1 pb-4">
 
-<div class="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
+<!-- Services Header Section -->
+<div class="bg-white py-8 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="mb-16">
+      <div class="relative">
+        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
+          My <span class="px-3 py-1 bg-black text-white rounded-md relative">Services
+            <div class="absolute -bottom-2 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></div>
+          </span>
+        </h1>
+      </div>
+    </div>
+    
+    <div class="mb-8">
+      <p class="text-lg text-gray-600 leading-relaxed">
+        Use my 20+ years of experience in big tech industry through one of these services.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Services Content -->
+<div class="max-w-4xl mx-auto px-4">
+  <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
                     
                     <!-- Mock Interview -->
                     <div class="bg-primary p-8 rounded-xl shadow-subtle hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
@@ -85,7 +106,9 @@ layout: page
                         </a>
                     </div>
 
+  </div>
 </div>
+
 </div>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

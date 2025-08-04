@@ -1,0 +1,22 @@
+I"²<p><img src="/assets/kiro.webp" alt="AWS Kiro" /></p>
+
+<p>I decided to test <a href="https://kiro.dev/">AWS Kiro</a> and Amazon Q Developer to re-build my website, this website. This is to show the capabilities of both tools. I was surprised (and mind blown) at the same time with the ease and simplicity of this process.</p>
+
+<p>Iâ€™m not a web developer, but I was still able to live code the entire process that started with taking a basic Jekyll template and keep adding pages, visual components, and other functions to it until I was satisfied with its design. I then connected Kiro with my GitHub account and asked it to publish it to GitHub Pages.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<ul>
+  <li>Jekyll 4.2.0</li>
+  <li>GitHub Pages</li>
+  <li>Sass</li>
+  <li>Amazon Q CLI</li>
+  <li>WebP image optimization</li>
+  <li>Git for version control</li>
+</ul>
+
+<h2 id="result">Result</h2>
+<p>The whole process of migrating from my old github basic  Jekyll template to this one, with better graphic, optimization, and added more functions (for example, my mentoring service), took a few hours. When I finished building everything in my local environment, I asked Q to deploy to production. I did the whole thing. It had some deployment issues initially due to Ruby compatibilities issues with Github Pages, but eventually, it figured out it.</p>
+
+<p>The result is what you see here. A nice website running in production. Let me know what you think.</p>
+
+:ET
