@@ -1242,14 +1242,27 @@
         offset: 50,
     });
     
-    // Mobile menu toggle
+    // Mobile menu toggle - robust version
     document.addEventListener('DOMContentLoaded', function() {
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         
         if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', function() {
+            // Remove any existing listeners
+            mobileMenuBtn.replaceWith(mobileMenuBtn.cloneNode(true));
+            const newBtn = document.getElementById('mobile-menu-btn');
+            
+            newBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
                 mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!newBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
             });
         }
     });

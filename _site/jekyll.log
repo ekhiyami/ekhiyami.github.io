@@ -1492,3 +1492,20 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
+                    ...done in 0.29831 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-06 08:28:27
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
