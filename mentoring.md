@@ -130,7 +130,7 @@ layout: page
 </section>
 
 <!-- Testimonials Section -->
-<section class="testimonials-section py-16 px-4 bg-gray-50">
+<section id="testimonials" class="testimonials-section py-16 px-4 bg-gray-50">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What People Are Saying</h2>
