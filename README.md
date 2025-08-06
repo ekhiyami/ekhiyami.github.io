@@ -22,26 +22,18 @@ layout: page
     
         <div class="bg-blue-50 rounded-xl p-6 border border-blue-100 mt-8 shadow-lg">
           <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
-            <h3 class="text-xl md:text-2xl font-bold text-black">Key Achievements</h3>
+            <h3 class="text-lg md:text-xl font-bold text-black">Key Achievements</h3>
             <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
           </button>
           
           <div id="achievements-content" class="hidden mt-6 space-y-3">
-            <div class="py-2">
-              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• Gen-AI Well-Architected Review Solution:</strong> <span class="text-gray-600">AI-powered solution automating Well-Architected reviews across all 6 pillars, improving efficiency by 80%.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• Gen-AI Well-Architected Review Solution:</strong> <span class="text-gray-600">AI-powered solution automating Well-Architected reviews across all 6 pillars, improving efficiency by 80%.</span></p>
             
-            <div class="py-2">
-              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• Migration Lens Well-Architected Framework:</strong> <span class="text-gray-600">Co-authored official AWS framework enabling 100s of customers to identify migration risks and implement best practices.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• Migration Lens Well-Architected Framework:</strong> <span class="text-gray-600">Co-authored official AWS framework enabling 100s of customers to identify migration risks and implement best practices.</span></p>
             
-            <div class="py-2">
-              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• AWS Disaster Recovery Services Enhancements:</strong> <span class="text-gray-600">Developed cross-cloud DR solutions protecting GCP and Azure workloads using AWS as recovery site.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• AWS Disaster Recovery Services Enhancements:</strong> <span class="text-gray-600">Developed cross-cloud DR solutions protecting GCP and Azure workloads using AWS as recovery site.</span></p>
             
-            <div class="py-2">
-              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• AWS Migration Acceleration Program Automator:</strong> <span class="text-gray-600">Built automation tools streamlining cloud migrations for 1000s of customers, reducing time and complexity.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• AWS Migration Acceleration Program Automator:</strong> <span class="text-gray-600">Built automation tools streamlining cloud migrations for 1000s of customers, reducing time and complexity.</span></p>
           </div>
         </div>
         
