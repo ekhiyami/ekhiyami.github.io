@@ -9,8 +9,8 @@ layout: page
 
 
 <!-- Bio Section -->
-<section class="bio-section py-16 px-4 bg-white">
-  <div class="max-w-7xl mx-auto">
+<section class="bio-section py-8 md:py-16 px-4 bg-white">
+  <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
     </div>
@@ -56,8 +56,8 @@ layout: page
 </section>
 
 <!-- Current Role Section -->
-<section id="what-i-do-today" class="role-section py-16 px-4 bg-gray-50">
-  <div class="max-w-7xl mx-auto">
+<section id="what-i-do-today" class="role-section py-8 md:py-16 px-4 bg-gray-50">
+  <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
     </div>
@@ -81,7 +81,7 @@ layout: page
   
       <div class="flex justify-center mt-10">
         <div class="text-center">
-          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-4xl rounded-2xl shadow-lg">
+          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-full md:max-w-4xl rounded-2xl shadow-lg">
           <p class="text-base text-gray-500 mt-4 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
         </div>
       </div>
@@ -91,7 +91,7 @@ layout: page
         <h3 class="text-xl md:text-2xl font-bold text-black mb-6">A Week in My Life</h3>
         <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8">A typical week includes a combination of these activities:</p>
     
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           <div class="space-y-6">
             <div class="flex items-start">
               <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
@@ -165,14 +165,14 @@ layout: page
 </section>
 
 <!-- Experience Section -->
-<section class="experience-section py-16 px-4 bg-white">
-  <div class="max-w-7xl mx-auto">
+<section class="experience-section py-8 md:py-16 px-4 bg-white">
+  <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
     </div>
-    <div class="grid md:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
       <!-- Work History -->
-      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200">
         <div class="flex items-center mb-8">
           <div class="p-3 bg-blue-100 rounded-full mr-4">
             <i data-lucide="briefcase" class="w-6 h-6 text-blue-600"></i>
@@ -247,7 +247,7 @@ layout: page
       </div>
 
       <!-- Education -->
-      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+      <div class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200">
         <div class="flex items-center mb-8">
           <div class="p-3 bg-green-100 rounded-full mr-4">
             <i data-lucide="graduation-cap" class="w-6 h-6 text-green-600"></i>
@@ -280,7 +280,7 @@ layout: page
     </div>
     
     <!-- Recognition Section -->
-    <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 mt-12">
+    <div class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200 mt-6 md:mt-12">
       <div class="flex items-center mb-8">
         <div class="p-3 bg-yellow-100 rounded-full mr-4">
           <i data-lucide="award" class="w-6 h-6 text-yellow-600"></i>
@@ -319,8 +319,8 @@ layout: page
 </section>
 
 <!-- Journey Section -->
-<section id="the-journey" class="journey-section py-16 px-4 bg-gray-50">
-  <div class="max-w-7xl mx-auto">
+<section id="the-journey" class="journey-section py-8 md:py-16 px-4 bg-gray-50">
+  <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
     </div>
@@ -338,7 +338,7 @@ layout: page
       
       <div class="flex justify-center mt-12">
         <div class="text-center">
-          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-4xl rounded-2xl shadow-xl border border-gray-200">
+          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-full md:max-w-4xl rounded-2xl shadow-xl border border-gray-200">
           <p class="text-base text-gray-500 mt-4 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
         </div>
       </div>
