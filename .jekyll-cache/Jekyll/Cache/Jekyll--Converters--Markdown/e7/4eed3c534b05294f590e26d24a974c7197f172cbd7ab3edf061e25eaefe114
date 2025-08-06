@@ -1,0 +1,46 @@
+I"�<p>This blog post was first published on <a href="https://builder.aws.com/content/2wj8D4HmqEjt6wbIBOMVnWx8EOB/automate-the-well-architected-review-w-amazon-q">AWS Builder Center</a></p>
+
+<p><strong>Summary</strong>: This is a summary of the original blog post. For complete details, step-by-step instructions, and full implementation guide, please read the <a href="https://builder.aws.com/content/2wj8D4HmqEjt6wbIBOMVnWx8EOB/automate-the-well-architected-review-w-amazon-q">full article on AWS Builder Center</a>.</p>
+
+<p>Building on my previous work showing how Amazon Q can review draw.io architecture diagrams, this post demonstrates something even more powerful: using Amazon Q to perform a complete Well-Architected Framework Review (WAFR) on Infrastructure as Code templates like CloudFormation or Terraform.</p>
+
+<p>What makes this approach revolutionary is that Amazon Q doesn’t just analyze your architecture—it answers the review questions, identifies risks, and generates a full implementation plan. This transforms a typically 3-4 hour manual process into a 15-minute automated workflow.</p>
+
+<h2 id="what-amazon-q-accomplishes">What Amazon Q Accomplishes</h2>
+
+<ul>
+  <li>Iterates through 300+ AWS best practices across all six Well-Architected pillars</li>
+  <li>Answers 70+ review questions based on your IaC templates</li>
+  <li>Identifies High and Medium Risk Issues (HRIs and MRIs)</li>
+  <li>Generates implementation plans for recommended actions</li>
+</ul>
+
+<h2 id="the-three-step-process">The Three-Step Process</h2>
+
+<h3 id="step-1-create-a-well-architected-workload">Step 1: Create a Well-Architected Workload</h3>
+<p>Set up a workload in the AWS Well-Architected Tool and note its ARN. This becomes the container for your automated review results.</p>
+
+<h3 id="step-2-deploy-your-application">Step 2: Deploy Your Application</h3>
+<p>Deploy your application using CloudFormation or Terraform. Amazon Q will analyze this Infrastructure as Code to understand your architecture patterns and configurations.</p>
+
+<h3 id="step-3-run-the-automated-review">Step 3: Run the Automated Review</h3>
+<p>Use a carefully crafted prompt to instruct Amazon Q to fetch your template, analyze it against Well-Architected best practices, and populate the review with findings—all automatically.</p>
+
+<h2 id="important-considerations">Important Considerations</h2>
+
+<p>While this automation is powerful, it’s designed to complement, not replace, human expertise. Amazon Q focuses on technical best practices that can be validated through code analysis.</p>
+
+<p>Areas like Operational Excellence—which involve organizational processes, team structures, and cultural practices—still require human insight. The automation gives you a significant head start, but the complete picture needs both technical analysis and human judgment.</p>
+
+<h2 id="real-impact">Real Impact</h2>
+
+<p>In my testing, this approach reduced a typical Well-Architected review from 3-4 hours to just 15 minutes. Amazon Q successfully identified security configurations, reliability patterns, and performance optimizations directly from the CloudFormation template.</p>
+
+<p>The tool is conservative by design—it only marks best practices as “in place” when it finds clear evidence in your code. This ensures accuracy while providing a solid foundation for deeper architectural discussions.</p>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>This approach opens doors to domain-specific reviews using additional lenses from the AWS Lens Catalog—like Containers, Serverless, or industry-specific frameworks. The automation scales to handle complex, multi-service architectures while maintaining consistency across reviews.</p>
+
+<p>This represents a fundamental shift in how we approach architecture reviews—from manual, time-intensive processes to automated, consistent, and scalable assessments that free up architects to focus on strategic decisions rather than checklist validation.</p>
+:ET

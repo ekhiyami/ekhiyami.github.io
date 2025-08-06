@@ -10,45 +10,13 @@ Configuration file: /Users/ekhiyami/ekhiyami.github.io/_config.yml
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    done in 1.197 seconds.
+                    done in 0.97 seconds.
  Auto-regeneration: enabled for '/Users/ekhiyami/ekhiyami.github.io'
 LiveReload address: http://0.0.0.0:35729
     Server address: http://0.0.0.0:4000
   Server running... press ctrl-c to stop.
         LiveReload: Browser connected
-      Regenerating: 2 file(s) changed at 2025-08-01 21:37:40
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.447842 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 21:42:03
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.253318 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 21:42:51
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[31m  Liquid Exception: Could not locate the included file 'home.html' in any of ["/Users/ekhiyami/ekhiyami.github.io/_includes"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source. in index.html[0m
-[33m             Error: Could not locate the included file 'home.html' in any of ["/Users/ekhiyami/ekhiyami.github.io/_includes"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source.[0m
-[33m             Error: Run jekyll build --trace for more information.[0m
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 21:46:17
+      Regenerating: 2 file(s) changed at 2025-08-05 12:48:18
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -58,21 +26,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.252652 seconds.
+                    ...done in 0.443101 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 21:52:40
-                    jekyll.log
-                    index-backup.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.319373 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 21:53:07
+      Regenerating: 2 file(s) changed at 2025-08-05 12:54:15
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -82,9 +38,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.360455 seconds.
+                    ...done in 0.32012 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 21:57:31
+      Regenerating: 2 file(s) changed at 2025-08-05 12:54:21
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -94,9 +50,31 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.272108 seconds.
+                    ...done in 0.288222 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:00:18
+      Regenerating: 1 file(s) changed at 2025-08-05 12:54:27
+                    index.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.525834 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 12:54:27
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.373736 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 12:54:34
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -106,9 +84,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.296967 seconds.
+                    ...done in 0.360099 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:00:21
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:02
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -118,9 +96,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.280531 seconds.
+                    ...done in 0.418429 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:03:56
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:12
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -130,9 +108,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.313968 seconds.
+                    ...done in 0.378693 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:05:09
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:24
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -142,9 +120,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.320775 seconds.
+                    ...done in 0.29772 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:07:15
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:35
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -154,9 +132,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.328168 seconds.
+                    ...done in 0.330707 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:09:57
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:45
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -166,9 +144,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.296254 seconds.
+                    ...done in 0.39163 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:12:04
+      Regenerating: 2 file(s) changed at 2025-08-05 12:55:55
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -178,1002 +156,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.335267 seconds.
+                    ...done in 0.395122 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-01 22:13:40
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.295278 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:15:19
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.305897 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:15:33
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.291215 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:15:46
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.293454 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:17:45
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.336189 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:17:59
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.28346 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:19:31
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.311397 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:20:17
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.290955 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:21:28
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.36342 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:22:26
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.336979 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:22:44
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.861083 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:24:25
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.290959 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:24:38
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.295197 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:24:55
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.393535 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:25:13
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.39586 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:26:34
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.384052 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:26:46
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.317896 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:27:06
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.347956 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:32:47
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.390454 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:35:21
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.280654 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:35:44
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.398842 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:38:26
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.458446 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:44:12
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.42057 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:45:37
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.40809 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:46:54
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.437714 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:48:47
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.42181 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:50:59
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.415928 seconds.
-                    
-      Regenerating: 1 file(s) changed at 2025-08-01 22:52:08
-                    _layouts/default.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.375951 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:54:15
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.411244 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 22:57:57
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.430749 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:03:14
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.411811 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:07:37
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.36102 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:10:02
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.301855 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:10:55
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.466016 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:11:49
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.310557 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:12:56
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.309333 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:15:14
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.33384 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:16:19
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.32286 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:17:11
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.377342 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:19:13
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.341488 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:20:41
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.302518 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:23:15
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.321457 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:23:26
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.288466 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:23:33
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.27211 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:23:39
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.282983 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:23:48
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.271145 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:24:16
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.294574 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:24:26
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.390682 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:24:32
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.35541 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:26:55
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.31774 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:28:03
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.294755 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:28:52
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.291158 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:29:55
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.285752 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:31:06
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.306798 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:31:53
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.277744 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:33:50
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.314 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:35:17
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.30272 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:37:10
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.286424 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:39:22
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.291245 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:43:16
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.32909 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:48:36
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.303352 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:48:59
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.306155 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:49:15
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.394427 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:49:26
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.323831 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:50:40
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.35289 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:50:52
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.383724 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:51:12
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.416654 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:51:23
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.276907 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:51:53
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.332856 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:53:10
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.400034 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:54:37
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.311553 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:54:44
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.260997 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:55:41
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.333944 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:57:19
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.285855 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:57:27
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.308531 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-01 23:58:54
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.292479 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:00:28
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.354794 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:01:41
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.302515 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:02:49
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.331202 seconds.
-                    
-      Regenerating: 1 file(s) changed at 2025-08-02 00:08:14
-                    _layouts/default.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.331096 seconds.
-                    
-      Regenerating: 1 file(s) changed at 2025-08-02 00:08:57
-                    _layouts/default.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.366068 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:09:06
-                    services.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.277777 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:09:14
-                    services.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.363937 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:09:21
+      Regenerating: 2 file(s) changed at 2025-08-05 13:01:15
                     projects.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1183,32 +168,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.399716 seconds.
+                    ...done in 0.881897 seconds.
                     
-      Regenerating: 1 file(s) changed at 2025-08-02 00:09:31
-                    _layouts/post.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.476901 seconds.
-                    
-      Regenerating: 1 file(s) changed at 2025-08-02 00:09:38
-                    _layouts/page.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.446037 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:09:59
-                    mentoring.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:05:42
+                    projects.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1217,69 +180,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.308138 seconds.
+                    ...done in 0.382354 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:10:05
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.285096 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:10:08
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.368804 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:12:34
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.291811 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:13:41
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.323037 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:14:34
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.299096 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 00:17:18
+      Regenerating: 2 file(s) changed at 2025-08-05 13:11:00
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1289,9 +192,57 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.487543 seconds.
+                    ...done in 0.34778 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:17:22
+      Regenerating: 2 file(s) changed at 2025-08-05 13:18:03
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.428417 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:18:18
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.308353 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:18:35
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.441723 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:21:35
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.362221 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:24:24
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1301,9 +252,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.26785 seconds.
+                    ...done in 0.36697 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:23:20
+      Regenerating: 2 file(s) changed at 2025-08-05 13:26:49
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1313,9 +264,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.364794 seconds.
+                    ...done in 0.322888 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:23:23
+      Regenerating: 2 file(s) changed at 2025-08-05 13:26:57
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1325,9 +276,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.23892 seconds.
+                    ...done in 0.277182 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:24:14
+      Regenerating: 2 file(s) changed at 2025-08-05 13:27:09
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1337,9 +288,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.373382 seconds.
+                    ...done in 0.323958 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:25:20
+      Regenerating: 2 file(s) changed at 2025-08-05 13:27:20
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1349,9 +300,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.315969 seconds.
+                    ...done in 0.346791 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:26:08
+      Regenerating: 2 file(s) changed at 2025-08-05 13:27:38
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1361,9 +312,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.445457 seconds.
+                    ...done in 0.274189 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 00:26:26
+      Regenerating: 2 file(s) changed at 2025-08-05 13:27:46
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1373,9 +324,21 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.355405 seconds.
+                    ...done in 0.275542 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:13:55
+      Regenerating: 2 file(s) changed at 2025-08-05 13:29:32
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.319308 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:29:53
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1385,9 +348,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.341935 seconds.
+                    ...done in 0.644387 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:14:03
+      Regenerating: 2 file(s) changed at 2025-08-05 13:29:59
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1397,9 +360,79 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.277143 seconds.
+                    ...done in 0.305896 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:14:14
+      Regenerating: 2 file(s) changed at 2025-08-05 13:30:08
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.379013 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:30:14
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.55981 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:30:22
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.434243 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:30:27
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.321937 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 13:32:44
+                    index.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.48713 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 13:32:45
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.445042 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:32:53
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1409,10 +442,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.305789 seconds.
+                    ...done in 0.358123 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:14:23
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:33:02
+                    projects.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1421,10 +454,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.306328 seconds.
+                    ...done in 0.30791 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:16:48
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:33:12
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1433,10 +466,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.323019 seconds.
+                    ...done in 0.363897 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:17:19
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:36:17
+                    projects.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1445,10 +478,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.296539 seconds.
+                    ...done in 0.464951 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:18:06
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:37:11
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1457,10 +490,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.330669 seconds.
+                    ...done in 0.397829 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:18:34
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:37:20
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1469,10 +502,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.382032 seconds.
+                    ...done in 0.31681 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:19:27
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:38:14
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1481,10 +514,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.33949 seconds.
+                    ...done in 0.347658 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:20:01
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:38:24
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1493,10 +526,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.275509 seconds.
+                    ...done in 0.315094 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:20:28
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:39:50
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1505,10 +538,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.295501 seconds.
+                    ...done in 0.559914 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:26:46
-                    README.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:41:33
+                    mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1517,21 +550,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.280756 seconds.
+                    ...done in 0.407034 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:26:50
-                    README.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.29596 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:28:45
+      Regenerating: 2 file(s) changed at 2025-08-05 13:41:48
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1541,9 +562,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.290574 seconds.
+                    ...done in 0.418041 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:28:53
+      Regenerating: 2 file(s) changed at 2025-08-05 13:42:42
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1553,9 +574,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.423144 seconds.
+                    ...done in 0.428558 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:29:00
+      Regenerating: 2 file(s) changed at 2025-08-05 13:42:57
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1565,335 +586,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.2884 seconds.
+                    ...done in 0.390208 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-02 10:29:21
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.279449 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:29:56
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.284872 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:30:13
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.273564 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:30:21
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.283512 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:30:49
-                    index.html
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.297576 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:34:37
-                    jekyll.log
-                    index_reordered.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.378055 seconds.
-                    
-      Regenerating: 4 file(s) changed at 2025-08-02 10:39:20
-                    index.html
-                    jekyll.log
-                    index_old.html
-                    index_reordered.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.29545 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:40:06
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.301282 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:40:19
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.374903 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:40:40
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.297682 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:40:53
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.333972 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:41:02
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.372009 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:41:09
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.334624 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:42:46
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.362971 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:42:54
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.357543 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:43:00
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.366525 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:45:15
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.346647 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:46:14
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.350889 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:47:01
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.44124 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:48:13
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.345938 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:50:25
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.342247 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:50:29
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.553795 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-02 10:53:32
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.31909 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:30:39
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.442577 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:31:17
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.350797 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:31:38
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.33354 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:32:11
-                    mentoring.md
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.436862 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:33:08
+      Regenerating: 2 file(s) changed at 2025-08-05 13:45:35
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1903,9 +598,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.37627 seconds.
+                    ...done in 0.45063 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:34:33
+      Regenerating: 2 file(s) changed at 2025-08-05 13:46:15
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -1915,10 +610,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.400702 seconds.
+                    ...done in 0.344757 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:36:46
-                    index.html
+      Regenerating: 2 file(s) changed at 2025-08-05 13:47:07
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1927,10 +622,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.352015 seconds.
+                    ...done in 0.344546 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:36:56
-                    index.html
+      Regenerating: 2 file(s) changed at 2025-08-05 13:47:30
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1939,10 +634,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.35877 seconds.
+                    ...done in 0.384255 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:39:41
-                    index.html
+      Regenerating: 2 file(s) changed at 2025-08-05 13:47:36
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1951,23 +646,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.339144 seconds.
+                    ...done in 0.328452 seconds.
                     
-[2025-08-04 10:39:52] ERROR '/automate-wa-review-amazon-q/' not found.
-      Regenerating: 2 file(s) changed at 2025-08-04 10:40:23
-                    jekyll.log
-                    automate-wa-review-amazon-q.md
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.432831 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 10:42:28
-                    automate-wa-review-amazon-q.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:47:42
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1976,10 +658,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.353733 seconds.
+                    ...done in 0.355997 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:44:27
-                    index.html
+      Regenerating: 2 file(s) changed at 2025-08-05 13:47:45
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -1988,10 +670,10 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.385054 seconds.
+                    ...done in 0.327121 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 10:53:18
-                    automate-wa-review-amazon-q.md
+      Regenerating: 2 file(s) changed at 2025-08-05 13:48:06
+                    README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -2000,9 +682,201 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.379328 seconds.
+                    ...done in 0.407302 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 11:09:46
+      Regenerating: 2 file(s) changed at 2025-08-05 13:48:17
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.323285 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:52:54
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.396408 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:06
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.460655 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:10
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.569365 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:15
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.342927 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:22
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.240926 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:25
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.281112 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:53:29
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.333007 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:54:59
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.351911 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:56:21
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.355248 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 13:57:53
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.405107 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:00:13
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.418896 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:01:00
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.433735 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:01:07
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.409683 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:02:35
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.366323 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:03:51
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.489418 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:05:38
                     mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -2012,9 +886,158 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.674735 seconds.
+                    ...done in 0.430632 seconds.
                     
-      Regenerating: 1 file(s) changed at 2025-08-04 11:28:45
+      Regenerating: 2 file(s) changed at 2025-08-05 14:05:50
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.342422 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 14:08:39
+                    mentoring.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.72972 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 14:08:40
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.988237 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:12:58
+                    jekyll.log
+                    mentoring_fixed.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/mentoring/index.html[0m[0m
+[33m                     - mentoring.md[0m
+[33m                     - mentoring_fixed.md[0m
+[33m                    [0m
+                    ...done in 0.414753 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2025-08-05 14:13:08
+                    mentoring.md
+                    jekyll.log
+                    mentoring_fixed.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.420088 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:15:46
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.337921 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:27:17
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.624363 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:31:18
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.449007 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:32:08
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.552159 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:32:13
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.380232 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:32:19
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.340057 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:32:25
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.36609 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 14:36:10
                     _layouts/default.html
        Jekyll Feed: Generating feed for posts
 [33m          Conflict: The following destination is shared by multiple files.[0m
@@ -2023,9 +1046,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.550097 seconds.
+                    ...done in 0.722441 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 11:29:02
+      Regenerating: 2 file(s) changed at 2025-08-05 14:36:21
                     index.html
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -2035,31 +1058,9 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.352555 seconds.
+                    ...done in 0.502384 seconds.
                     
-      Regenerating: 1 file(s) changed at 2025-08-04 11:29:21
-                    index.html
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.480355 seconds.
-                    
-      Regenerating: 1 file(s) changed at 2025-08-04 11:29:22
-                    jekyll.log
-       Jekyll Feed: Generating feed for posts
-[33m          Conflict: The following destination is shared by multiple files.[0m
-[33m                    The written file may end up with unexpected contents.[0m
-[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
-[33m                     - built-with-amazon-q/index.html[0m
-[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
-[33m                    [0m
-                    ...done in 0.562236 seconds.
-                    
-      Regenerating: 2 file(s) changed at 2025-08-04 11:29:45
+      Regenerating: 2 file(s) changed at 2025-08-05 14:36:29
                     README.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -2069,9 +1070,21 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.462033 seconds.
+                    ...done in 0.37944 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 11:30:29
+      Regenerating: 2 file(s) changed at 2025-08-05 14:36:37
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.313505 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 14:36:45
                     mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -2081,9 +1094,69 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.530177 seconds.
+                    ...done in 0.36579 seconds.
                     
-      Regenerating: 2 file(s) changed at 2025-08-04 11:31:13
+      Regenerating: 2 file(s) changed at 2025-08-05 19:58:56
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.275772 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 19:59:32
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.353511 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:00:38
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.316073 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:01:10
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.465204 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:01:26
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.442407 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:01:40
                     mentoring.md
                     jekyll.log
        Jekyll Feed: Generating feed for posts
@@ -2093,5 +1166,158 @@ LiveReload address: http://0.0.0.0:35729
 [33m                     - built-with-amazon-q/index.html[0m
 [33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
 [33m                    [0m
-                    ...done in 0.303364 seconds.
+                    ...done in 0.312206 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:04:06
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.337036 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:04:24
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.346951 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:05:20
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.288421 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:05:52
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.356868 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:07:39
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.402275 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:08:16
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.327523 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:10:14
+                    README.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.394777 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 20:13:53
+                    _posts/2025-6-15-automate-wa-review-q.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.426302 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:14:00
+                    projects.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.330931 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 20:16:19
+                    _posts/2025-6-15-automate-wa-review-q.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.428846 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 20:16:59
+                    _posts/2025-6-15-automate-wa-review-q.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.342907 seconds.
                     

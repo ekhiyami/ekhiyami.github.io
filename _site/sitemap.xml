@@ -49,6 +49,10 @@
 <lastmod>2025-05-06T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://0.0.0.0:4000/automate-wa-review-amazon-q/</loc>
+<lastmod>2025-06-15T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://0.0.0.0:4000/built-with-amazon-q/</loc>
 <lastmod>2025-07-22T00:00:00-05:00</lastmod>
 </url>
@@ -68,6 +72,9 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/index-backup/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/index-enhanced/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/built-with-amazon-q/</loc>
@@ -92,6 +99,6 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/test-image.html</loc>
-<lastmod>2025-08-01T09:50:49-05:00</lastmod>
+<lastmod>2025-08-05T09:57:46-05:00</lastmod>
 </url>
 </urlset>

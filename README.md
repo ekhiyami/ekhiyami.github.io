@@ -4,240 +4,181 @@ permalink: "/about/"
 layout: page
 ---
 
-<div class="about-section bg-white min-h-screen pt-1 pb-4">
+<div class="landing-page bg-white min-h-screen">
 
-<!-- About Me Section -->
-<div class="bg-white py-8 px-4">
-  <div class="max-w-4xl mx-auto">
-    <!-- Creative Header -->
-    <div class="mb-16">
-      <div class="relative">
-        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
-          About <span class="px-3 py-1 bg-black text-white rounded-md relative">Me
-            <div class="absolute -bottom-2 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></div>
-          </span>
-        </h1>
-      </div>
-    </div>
-    
-    <!-- Hero Content -->
-    <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-center mb-12 md:mb-16">
-      <div class="md:w-2/3 space-y-4 md:space-y-6">
-        <h2 class="text-3xl md:text-5xl font-bold text-black leading-tight">
-          Hi, I'm <span class="text-blue-600">EB</span>
-        </h2>
-        <p class="text-base md:text-xl text-gray-600 leading-relaxed">
-          <strong class="text-black">Cloud Technologist</strong>, <strong class="text-black">Architect</strong>, <strong class="text-black">Mentor</strong>, <strong class="text-black">Inventor</strong> and <strong class="text-black">Builder</strong>.
-        </p>
-        <p class="text-sm md:text-lg text-gray-600 leading-relaxed italic font-medium">
-          Transforming businesses through cloud innovation.
-        </p>
-        <p class="text-sm md:text-lg text-gray-600 leading-relaxed">
-          Currently a <strong class="text-black">Solutions Architect</strong> on the Cloud Migration & Optimization team at <strong class="text-black">AWS</strong>. I specialize in three key domains: <strong class="text-black">Cloud Migration & Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <a href="/" class="inline-flex items-center justify-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium text-sm md:text-base">
-            <i data-lucide="briefcase" class="w-4 h-4 mr-2"></i>Work Samples
-          </a>
-          <a href="#work-history" class="inline-flex items-center justify-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium text-sm md:text-base">
-            <i data-lucide="file-text" class="w-4 h-4 mr-2"></i>Resume
-          </a>
-          <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm md:text-base">
-            <i data-lucide="linkedin" class="w-4 h-4 mr-2"></i>LinkedIn
-          </a>
-        </div>
-      </div>
-      <div class="md:w-1/3 flex justify-center order-first md:order-last">
-        <img src="/assets/eb-clean.jpg" alt="EB Khiyami Profile" class="w-32 h-32 md:w-80 md:h-80 rounded-full object-cover shadow-xl border-4 border-white" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Elegant Section Separator -->
-<div class="max-w-4xl mx-auto px-4 mb-12">
-  <div class="flex items-center justify-center">
-    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
-    <div class="px-6">
-      <div class="flex space-x-2">
-        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
-        <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
-        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
-      </div>
-    </div>
-    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
-  </div>
-</div>
 
 <!-- Bio Section -->
-<div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-12 border border-gray-200">
-  <div class="flex items-center mb-10">
-    <div class="p-3 bg-blue-50 rounded-full mr-4">
-      <i data-lucide="user" class="w-6 h-6 text-blue-600"></i>
+<section class="bio-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
     </div>
-    <h2 class="text-2xl md:text-3xl font-bold text-black">Professional summary</h2>
-  </div>
   
-  <div class="space-y-4 text-gray-600">
-    <p class="text-base md:text-lg leading-relaxed"><strong class="text-black">Ebrahim (EB) Khiyami</strong> is a cloud technologist and architect with <strong class="text-black">15+ years of experience</strong> transforming businesses through innovative cloud solutions. He specializes in helping startups and enterprises build scalable, secure, and cost-efficient cloud workloads while driving digital transformation initiatives.</p>
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">Ebrahim (EB) Khiyami</strong> is a cloud technologist and architect with <strong class="text-black">15+ years of experience</strong> transforming businesses through innovative cloud solutions. He specializes in helping startups and enterprises build scalable, secure, and cost-efficient cloud workloads while driving digital transformation initiatives.</p>
+        
+        <p class="text-lg md:text-xl leading-relaxed">As a <strong class="text-black">Cloud Optimization Solutions Architect at AWS</strong>, EB focuses on enterprise-scale cloud migrations, optimization strategies, and generative AI implementations. He works with customers to evaluate and improve their cloud architecture health, mitigate operational risks, and maximize performance while reducing costs.</p>
     
-    <p class="text-base md:text-lg leading-relaxed">As a <strong class="text-black">Cloud Optimization Solutions Architect at AWS</strong>, EB focuses on enterprise-scale cloud migrations, optimization strategies, and generative AI implementations. He works with customers to evaluate and improve their cloud architecture health, mitigate operational risks, and maximize performance while reducing costs.</p>
-    
-    <div class="bg-blue-50 rounded-lg p-5 border border-blue-100 mt-8 shadow-sm">
-      <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
-        <p class="text-base md:text-lg font-semibold text-black">Key Achievements</p>
-        <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
-      </button>
-      
-      <div id="achievements-content" class="hidden mt-4 space-y-3">
-        <div class="py-2">
-          <p class="text-sm md:text-base font-semibold text-black">• Gen-AI Well-Architected Review Solution: <span class="font-normal text-gray-600">Created an innovative AI-powered solution that automates and accelerates Well-Architected Framework reviews across all 6 pillars, improving efficiency and consistency of architecture assessments.</span></p>
+        <div class="bg-blue-50 rounded-xl p-6 border border-blue-100 mt-8 shadow-lg">
+          <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
+            <h3 class="text-xl md:text-2xl font-bold text-black">Key Achievements</h3>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
+          </button>
+          
+          <div id="achievements-content" class="hidden mt-6 space-y-3">
+            <div class="py-2">
+              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• Gen-AI Well-Architected Review Solution:</strong> <span class="text-gray-600">AI-powered solution automating Well-Architected reviews across all 6 pillars, improving efficiency by 80%.</span></p>
+            </div>
+            
+            <div class="py-2">
+              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• Migration Lens Well-Architected Framework:</strong> <span class="text-gray-600">Co-authored official AWS framework enabling 100s of customers to identify migration risks and implement best practices.</span></p>
+            </div>
+            
+            <div class="py-2">
+              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• AWS Disaster Recovery Services Enhancements:</strong> <span class="text-gray-600">Developed cross-cloud DR solutions protecting GCP and Azure workloads using AWS as recovery site.</span></p>
+            </div>
+            
+            <div class="py-2">
+              <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">• AWS Migration Acceleration Program Automator:</strong> <span class="text-gray-600">Built automation tools streamlining cloud migrations for 1000s of customers, reducing time and complexity.</span></p>
+            </div>
+          </div>
         </div>
         
-        <div class="py-2">
-          <p class="text-base font-semibold text-black">• Migration Lens Well-Architected Framework: <span class="font-normal text-gray-600">Co-authored the official AWS framework that enabled 100s of customers to identify migration risks, validate architecture decisions, and implement best practices during their cloud journey.</span></p>
-        </div>
+        <p class="text-lg md:text-xl leading-relaxed">His diverse background includes serving as an <strong class="text-black">ERP escalation engineer at Microsoft</strong> and leading enterprise resource planning implementations across finance, manufacturing, and education sectors, providing him with deep understanding of complex business systems and transformation challenges.</p>
         
-        <div class="py-2">
-          <p class="text-base font-semibold text-black">• AWS Disaster Recovery Services (AWS DRS) Enhancements: <span class="font-normal text-gray-600">Developed cross-cloud DR solutions enabling organizations to protect GCP and Azure workloads using AWS as recovery site, now used by numerous customers and partners globally.</span></p>
-        </div>
+        <p class="text-lg md:text-xl leading-relaxed">EB is a <strong class="text-black">published author</strong> and prolific contributor to technical whitepapers, industry blog posts, and internal AWS playbooks. He holds a <strong class="text-black">B.S. in Computer Engineering</strong> and <strong class="text-black">two Master's degrees</strong> in IT Management and Enterprise Resource Planning, combining technical expertise with business acumen.</p>
         
-        <div class="py-2">
-          <p class="text-base font-semibold text-black">• AWS Migration Acceleration Program Automator (MAP): <span class="font-normal text-gray-600">Built automation tools that streamlined cloud migration processes for 1000s of customers worldwide, significantly reducing migration time and complexity while improving success rates.</span></p>
-        </div>
+        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community, a father of three boys, and enjoys balancing his technical pursuits with family time and creative hobbies.</p>
       </div>
     </div>
-    
-    <p class="text-lg leading-relaxed">His diverse background includes serving as an <strong class="text-black">ERP escalation engineer at Microsoft</strong> and leading enterprise resource planning implementations across finance, manufacturing, and education sectors, providing him with deep understanding of complex business systems and transformation challenges.</p>
-    
-    <p class="text-lg leading-relaxed">EB is a <strong class="text-black">published author</strong> and prolific contributor to technical whitepapers, industry blog posts, and internal AWS playbooks. He holds a <strong class="text-black">B.S. in Computer Engineering</strong> and <strong class="text-black">two Master's degrees</strong> in IT Management and Enterprise Resource Planning, combining technical expertise with business acumen.</p>
-    
-    <p class="text-lg leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community, a father of three boys, and enjoys balancing his technical pursuits with family time and creative hobbies.</p>
   </div>
-</div>
+</section>
 
 <!-- Current Role Section -->
-<div id="what-i-do-today" class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-8 border border-gray-200">
-  <div class="flex items-center mb-8">
-    <div class="p-3 bg-gray-100 rounded-full mr-4">
-      <i data-lucide="cloud" class="w-6 h-6 text-gray-600"></i>
+<section id="what-i-do-today" class="role-section py-16 px-4 bg-gray-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
     </div>
-    <h2 class="text-3xl font-bold text-black">What I do today</h2>
-  </div>
   
-  <div class="space-y-6 text-gray-600">
-    <p class="text-base md:text-lg leading-relaxed">
-      As a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, I support the Cloud Optimization team, which owns AWS best practices, the Well-Architected framework, and optimization tools. Working as part of a global team, I ensure customers maximize their AWS investment across three key domains: <strong class="text-black">Cloud Migration & Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
-    </p>
-    <p class="text-base md:text-lg leading-relaxed">
-      Migration has been my specialty for years, helping organizations transition between data centers and to AWS. Since 2023, I've been deeply involved in AWS Generative AI initiatives, exploring how it enhances efficiency for customers and teams. Examples of this work include my <a href="/video-chat/" class="text-black hover:underline font-medium">YouTube Summarizer</a>, <a href="/wa-gen-ai/" class="text-black hover:underline font-medium">Gen AI Well-Architected Review</a>, and <a href="/chat-with-aws/" class="text-black hover:underline font-medium">Chat with your AWS Bill</a> solutions.
-    </p>
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed">
+          As a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, I support the Cloud Optimization team, which owns AWS best practices, the Well-Architected framework, and optimization tools. Working as part of a global team, I ensure customers maximize their AWS investment across three key domains: <strong class="text-black">Cloud Migration & Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          Migration has been my specialty for years, helping organizations transition between data centers and to AWS. Since 2023, I've been deeply involved in AWS Generative AI initiatives, exploring how it enhances efficiency for customers and teams. Examples of this work include my <a href="/video-chat/" class="text-black hover:underline font-medium">YouTube Summarizer</a>, <a href="/wa-gen-ai/" class="text-black hover:underline font-medium">Gen AI Well-Architected Review</a>, and <a href="/chat-with-aws/" class="text-black hover:underline font-medium">Chat with your AWS Bill</a> solutions.
+        </p>
     
-    <!-- Core Approach -->
-    <div class="mt-8">
-      <h3 class="text-xl font-semibold text-black mb-4">My approach</h3>
-      <p class="text-lg leading-relaxed mb-4">
-        I serve as a bridge between complex technical concepts and practical business solutions, helping customers understand and navigate technology to transform their operations. My communication spans multiple channels: technical writing, public speaking, hands-on coding, building proof-of-concepts, LinkedIn engagement, and occasional illustration.
-      </p>
-    </div>
-  </div>
-  
-  <div class="flex justify-center mt-10">
-    <div class="text-center">
-      <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-3xl rounded-2xl shadow-lg">
-      <p class="text-base text-gray-500 mt-3 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
-    </div>
-  </div>
-  
-  <!-- A Week in My Life Subsection -->
-  <div class="mt-10">
-    <h3 class="text-xl font-semibold text-black mb-6">A week in my life</h3>
-    <p class="text-lg leading-relaxed text-gray-600 mb-6">A typical week includes a combination of these activities:</p>
-    
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="space-y-4">
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-blue-600 rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-base md:text-lg font-medium text-black">Customer Meetings</p>
-            <p class="text-sm md:text-base text-gray-600">Optimization, Generative AI, Migration discussions</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Meeting Preparation</p>
-            <p class="text-base text-gray-600">Research and planning for customer engagements</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Internal Work</p>
-            <p class="text-base text-gray-600">Meetings, documentation, advocating for customers</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Continuous Learning</p>
-            <p class="text-base text-gray-600">I try not to pass a day without learning something new</p>
-          </div>
+        <!-- Core Approach -->
+        <div class="mt-8">
+          <h3 class="text-xl md:text-2xl font-bold text-black mb-6">My Approach</h3>
+          <p class="text-lg md:text-xl leading-relaxed mb-6">
+            I serve as a bridge between complex technical concepts and practical business solutions, helping customers understand and navigate technology to transform their operations. My communication spans multiple channels: technical writing, public speaking, hands-on coding, building proof-of-concepts, LinkedIn engagement, and occasional illustration.
+          </p>
         </div>
       </div>
-      
-      <div class="space-y-4">
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Content Creation</p>
-            <p class="text-base text-gray-600">Writing, reviewing, raising the bar</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Building</p>
-            <p class="text-base text-gray-600">Workshops, conference talks, blog posts</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Mentoring</p>
-            <p class="text-base text-gray-600">Amazon folks during work hours, outside Amazon folks on weekends</p>
-          </div>
-        </div>
-        <div class="flex items-start">
-          <div class="w-3 h-3 bg-black rounded-full mt-1.5 mr-4 flex-shrink-0"></div>
-          <div>
-            <p class="text-lg font-medium text-black">Office Commute</p>
-            <p class="text-base text-gray-600">I live in Dallas, TX. I commute 90 minutes/day</p>
-          </div>
+  
+      <div class="flex justify-center mt-10">
+        <div class="text-center">
+          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-4xl rounded-2xl shadow-lg">
+          <p class="text-base text-gray-500 mt-4 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
         </div>
       </div>
-    </div>
-    
-    <div class="bg-blue-50 rounded-lg p-6 mt-8 border border-blue-100">
-      <p class="text-base md:text-lg leading-relaxed text-gray-700 italic">
-        I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
-      </p>
-    </div>
-  </div>
   
+      <!-- A Week in My Life Subsection -->
+      <div class="mt-12">
+        <h3 class="text-xl md:text-2xl font-bold text-black mb-6">A Week in My Life</h3>
+        <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8">A typical week includes a combination of these activities:</p>
+    
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Customer Meetings</p>
+                <p class="text-base md:text-lg text-gray-600">Optimization, Generative AI, Migration discussions</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Meeting Preparation</p>
+                <p class="text-base md:text-lg text-gray-600">Research and planning for customer engagements</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Internal Work</p>
+                <p class="text-base md:text-lg text-gray-600">Meetings, documentation, advocating for customers</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Continuous Learning</p>
+                <p class="text-base md:text-lg text-gray-600">I try not to pass a day without learning something new</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Content Creation</p>
+                <p class="text-base md:text-lg text-gray-600">Writing, reviewing, raising the bar</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Building</p>
+                <p class="text-base md:text-lg text-gray-600">Workshops, conference talks, blog posts</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Mentoring</p>
+                <p class="text-base md:text-lg text-gray-600">Amazon folks during work hours, outside Amazon folks on weekends</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Office Commute</p>
+                <p class="text-base md:text-lg text-gray-600">I live in Dallas, TX. I commute 90 minutes/day</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-blue-50 rounded-xl p-8 mt-10 border border-blue-100 shadow-lg">
+          <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic">
+            I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
+          </p>
+        </div>
+      </div>
+  </div>
+</section>
 
-</div>
-
-<!-- Experience Grid -->
-<div class="grid md:grid-cols-2 gap-8 mb-12">
-  <!-- Work History -->
-  <div id="work-history" class="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
-    <div class="flex items-center mb-6">
-      <div class="p-3 bg-gray-100 rounded-full mr-4">
-        <i data-lucide="briefcase" class="w-6 h-6 text-gray-600"></i>
-      </div>
-      <h2 class="text-2xl font-bold text-black">Work history</h2>
+<!-- Experience Section -->
+<section class="experience-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
     </div>
+    <div class="grid md:grid-cols-2 gap-12">
+      <!-- Work History -->
+      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+        <div class="flex items-center mb-8">
+          <div class="p-3 bg-blue-100 rounded-full mr-4">
+            <i data-lucide="briefcase" class="w-6 h-6 text-blue-600"></i>
+          </div>
+          <h3 class="text-2xl md:text-3xl font-bold text-black">Work History</h3>
+        </div>
     
     <div class="space-y-4">
       <div class="border-l-4 border-blue-600 pl-4 py-3 hover:bg-blue-50 transition-colors duration-200 rounded-r-lg bg-gradient-to-r from-blue-50 to-transparent">
@@ -303,16 +244,16 @@ layout: page
         <p class="text-sm text-gray-400 mt-1">Built core IT infrastructure for Syria's primary stock exchange</p>
       </div>
     </div>
-  </div>
-
-  <!-- Education -->
-  <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-    <div class="flex items-center mb-6">
-      <div class="p-3 bg-gray-100 rounded-full mr-4">
-        <i data-lucide="graduation-cap" class="w-6 h-6 text-gray-600"></i>
       </div>
-      <h2 class="text-2xl font-bold text-black">Education</h2>
-    </div>
+
+      <!-- Education -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+        <div class="flex items-center mb-8">
+          <div class="p-3 bg-green-100 rounded-full mr-4">
+            <i data-lucide="graduation-cap" class="w-6 h-6 text-green-600"></i>
+          </div>
+          <h3 class="text-2xl md:text-3xl font-bold text-black">Education</h3>
+        </div>
     
     <div class="space-y-4">
       <div class="border-l-4 border-black pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
@@ -335,16 +276,17 @@ layout: page
         <p class="text-base text-gray-600 mt-2">Most AWS Professional and Advanced Specialty certifications</p>
       </div>
     </div>
-  </div>
-  
-  <!-- Recognition Section -->
-  <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 mt-8">
-    <div class="flex items-center mb-6">
-      <div class="p-3 bg-gray-100 rounded-full mr-4">
-        <i data-lucide="award" class="w-6 h-6 text-gray-600"></i>
       </div>
-      <h2 class="text-2xl font-bold text-black">Recognition and awards</h2>
     </div>
+    
+    <!-- Recognition Section -->
+    <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 mt-12">
+      <div class="flex items-center mb-8">
+        <div class="p-3 bg-yellow-100 rounded-full mr-4">
+          <i data-lucide="award" class="w-6 h-6 text-yellow-600"></i>
+        </div>
+        <h3 class="text-2xl md:text-3xl font-bold text-black">Recognition and Awards</h3>
+      </div>
     
     <div class="space-y-4">
       <div class="border-l-4 border-yellow-500 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
@@ -372,44 +314,62 @@ layout: page
         </p>
       </div>
     </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Journey Section -->
-<div id="the-journey" class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-8 border border-gray-200">
-  <div class="flex items-center mb-8">
-    <div class="p-3 bg-gray-100 rounded-full mr-4">
-      <i data-lucide="map" class="w-6 h-6 text-gray-600"></i>
+<section id="the-journey" class="journey-section py-16 px-4 bg-gray-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
     </div>
-    <h2 class="text-3xl font-bold text-black">Background</h2>
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed">
+          My technology journey began in 2000 when I enrolled in the School of Computer Engineering. During my studies, I gained practical experience through freelance work—fixing computers and printers, and later teaching IT courses. This combination of academic learning and hands-on problem-solving built both my technical skills and confidence in the field.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          After graduation, my first full-time position was as a <strong class="text-black">Network and System Administrator</strong>, which launched a diverse career spanning multiple roles and industries. Over the years, I've evolved through various positions: technician, developer, support engineer, architect, project manager, and entrepreneur, each role adding depth to my technical expertise and leadership capabilities.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          Beyond my professional life, I'm a dedicated father of three boys, an active mentor in the technology community, and enjoy creative pursuits as a hobbyist. This balance between technical excellence and personal fulfillment drives my approach to both work and life.
+        </p>
+      </div>
+      
+      <div class="flex justify-center mt-12">
+        <div class="text-center">
+          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-4xl rounded-2xl shadow-xl border border-gray-200">
+          <p class="text-base text-gray-500 mt-4 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
+        </div>
+      </div>
   </div>
-  
-  <div class="space-y-6 text-gray-600">
-    <p class="text-lg leading-relaxed">
-      My technology journey began in 2000 when I enrolled in the School of Computer Engineering. During my studies, I gained practical experience through freelance work—fixing computers and printers, and later teaching IT courses. This combination of academic learning and hands-on problem-solving built both my technical skills and confidence in the field.
+</section>
+
+<!-- Footer - Ways to Connect -->
+<section class="footer-section py-16 px-4 bg-gray-100 text-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
     </p>
-    <p class="text-lg leading-relaxed">
-      After graduation, my first full-time position was as a <strong class="text-black">Network and System Administrator</strong>, which launched a diverse career spanning multiple roles and industries. Over the years, I've evolved through various positions: technician, developer, support engineer, architect, project manager, and entrepreneur, each role adding depth to my technical expertise and leadership capabilities.
-    </p>
-    <p class="text-lg leading-relaxed">
-      Beyond my professional life, I'm a dedicated father of three boys, an active mentor in the technology community, and enjoy creative pursuits as a hobbyist. This balance between technical excellence and personal fulfillment drives my approach to both work and life.
-    </p>
-  </div>
-  
-  <div class="flex justify-center mt-10">
-    <div class="text-center">
-      <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-3xl rounded-2xl shadow-xl border border-gray-200">
-      <p class="text-base text-gray-500 mt-3 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <div class="flex items-center px-6 py-3 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+        <i data-lucide="mail" class="w-5 h-5 mr-3 text-gray-500"></i>
+        <span class="text-gray-700 font-mono text-lg">ekhiyami<span class="text-gray-400">@</span>gmail.com</span>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
+<!-- Quick Contact Floating Button -->
+<div class="fixed bottom-6 right-6 z-40">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+  </a>
 </div>
-
-<!-- Back to Top Button -->
-<button id="back-to-top" class="fixed bottom-6 right-6 bg-black text-white p-3 rounded-full shadow-lg hover:bg-gray-800 transition-all duration-300 opacity-0 invisible z-50">
-  <i data-lucide="arrow-up" class="w-5 h-5"></i>
-</button>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
@@ -421,6 +381,16 @@ layout: page
         easing: 'ease-out',
         offset: 50,
     });
+    
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
     
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -436,25 +406,7 @@ layout: page
         });
     });
     
-    // Back to top button functionality
-    const backToTopButton = document.getElementById('back-to-top');
-    
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTopButton.classList.remove('opacity-0', 'invisible');
-            backToTopButton.classList.add('opacity-100', 'visible');
-        } else {
-            backToTopButton.classList.add('opacity-0', 'invisible');
-            backToTopButton.classList.remove('opacity-100', 'visible');
-        }
-    });
-    
-    backToTopButton.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
+
     
     // Key Achievements toggle functionality
     const achievementsToggle = document.getElementById('achievements-toggle');

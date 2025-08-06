@@ -1,0 +1,151 @@
+/* Mobile-First Enhancements */
+
+/* Touch-friendly interactions */
+@media (max-width: 768px) {
+  /* Larger touch targets */
+  .btn-primary,
+  .btn-secondary,
+  .nav-link-enhanced {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+  
+  /* Better spacing for mobile */
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .stat-card {
+    padding: 1rem;
+  }
+  
+  .stat-number {
+    font-size: 1.75rem;
+  }
+  
+  /* Mobile navigation improvements */
+  .nav-enhanced {
+    padding: 1rem;
+  }
+  
+  /* Better mobile table */
+  .responsive-table {
+    font-size: 0.875rem;
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  /* Mobile-optimized cards */
+  .card-enhanced {
+    margin: 0 1rem 1rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  /* Better mobile typography */
+  .text-display {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+  
+  .text-heading-1 {
+    font-size: 2rem;
+  }
+  
+  .text-body-lg {
+    font-size: 1rem;
+  }
+  
+  /* Mobile search modal */
+  #search-modal .bg-white {
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+  
+  /* Improved mobile stats grid */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  /* Better mobile profile image */
+  .hero-section .relative img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Mobile-friendly badges */
+  .badge-aws,
+  .badge-tech {
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/* Tablet improvements */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-section {
+    padding: 3rem 2rem;
+  }
+  
+  .text-display {
+    font-size: 3rem;
+  }
+  
+  .stat-card {
+    padding: 1.5rem;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero-section img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .stat-card:hover,
+  .card-enhanced:hover,
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    transform: none;
+  }
+  
+  [data-aos] {
+    animation: none !important;
+  }
+}
+
+/* Dark mode improvements */
+@media (prefers-color-scheme: dark) {
+  .hero-section {
+    background: linear-gradient(135deg, #1F2937 0%, #111827 100%);
+  }
+  
+  .card-enhanced {
+    background: #1F2937;
+    border-color: #374151;
+  }
+  
+  .stat-card {
+    background: #1F2937;
+    border-color: #374151;
+  }
+  
+  .text-gray-900 {
+    color: #F9FAFB;
+  }
+  
+  .text-gray-700 {
+    color: #D1D5DB;
+  }
+  
+  .text-gray-600 {
+    color: #9CA3AF;
+  }
+}

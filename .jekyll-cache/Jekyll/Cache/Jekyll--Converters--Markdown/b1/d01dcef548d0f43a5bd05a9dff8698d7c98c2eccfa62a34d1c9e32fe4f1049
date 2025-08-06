@@ -1,0 +1,446 @@
+I"im<!-- Navigation Menu -->
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 shadow-sm">
+  <div class="max-w-6xl mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <a href="/" class="font-bold text-xl text-gray-800 hover:text-blue-600 transition-colors">EB Khiyami</a>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
+        <a href="/about/" class="text-blue-600 font-medium">About</a>
+        <a href="/projects/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Work</a>
+        <a href="/mentoring/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Mentoring</a>
+      </div>
+      <button id="mobile-menu-btn" class="md:hidden p-2">
+        <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-200">
+      <div class="flex flex-col space-y-3 pt-4">
+        <a href="/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
+        <a href="/about/" class="text-blue-600 font-medium">About</a>
+        <a href="/projects/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Work</a>
+        <a href="/mentoring/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Mentoring</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="landing-page bg-white min-h-screen pt-20">
+
+
+
+<!-- Bio Section -->
+<section class="bio-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
+    </div>
+  
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">Ebrahim (EB) Khiyami</strong> is a cloud technologist and architect with <strong class="text-black">15+ years of experience</strong> transforming businesses through innovative cloud solutions. He specializes in helping startups and enterprises build scalable, secure, and cost-efficient cloud workloads while driving digital transformation initiatives.</p>
+        
+        <p class="text-lg md:text-xl leading-relaxed">As a <strong class="text-black">Cloud Optimization Solutions Architect at AWS</strong>, EB focuses on enterprise-scale cloud migrations, optimization strategies, and generative AI implementations. He works with customers to evaluate and improve their cloud architecture health, mitigate operational risks, and maximize performance while reducing costs.</p>
+    
+        <div class="bg-blue-50 rounded-xl p-6 border border-blue-100 mt-8 shadow-lg">
+          <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
+            <h3 class="text-xl md:text-2xl font-bold text-black">Key Achievements</h3>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
+          </button>
+          
+          <div id="achievements-content" class="hidden mt-6 space-y-4">
+            <div class="py-3">
+              <p class="text-base md:text-lg font-semibold text-black">• Gen-AI Well-Architected Review Solution: <span class="font-normal text-gray-600">Created an innovative AI-powered solution that automates and accelerates Well-Architected Framework reviews across all 6 pillars, improving efficiency and consistency of architecture assessments.</span></p>
+            </div>
+            
+            <div class="py-3">
+              <p class="text-base md:text-lg font-semibold text-black">• Migration Lens Well-Architected Framework: <span class="font-normal text-gray-600">Co-authored the official AWS framework that enabled 100s of customers to identify migration risks, validate architecture decisions, and implement best practices during their cloud journey.</span></p>
+            </div>
+            
+            <div class="py-3">
+              <p class="text-base md:text-lg font-semibold text-black">• AWS Disaster Recovery Services (AWS DRS) Enhancements: <span class="font-normal text-gray-600">Developed cross-cloud DR solutions enabling organizations to protect GCP and Azure workloads using AWS as recovery site, now used by numerous customers and partners globally.</span></p>
+            </div>
+            
+            <div class="py-3">
+              <p class="text-base md:text-lg font-semibold text-black">• AWS Migration Acceleration Program Automator (MAP): <span class="font-normal text-gray-600">Built automation tools that streamlined cloud migration processes for 1000s of customers worldwide, significantly reducing migration time and complexity while improving success rates.</span></p>
+            </div>
+          </div>
+        </div>
+        
+        <p class="text-lg md:text-xl leading-relaxed">His diverse background includes serving as an <strong class="text-black">ERP escalation engineer at Microsoft</strong> and leading enterprise resource planning implementations across finance, manufacturing, and education sectors, providing him with deep understanding of complex business systems and transformation challenges.</p>
+        
+        <p class="text-lg md:text-xl leading-relaxed">EB is a <strong class="text-black">published author</strong> and prolific contributor to technical whitepapers, industry blog posts, and internal AWS playbooks. He holds a <strong class="text-black">B.S. in Computer Engineering</strong> and <strong class="text-black">two Master's degrees</strong> in IT Management and Enterprise Resource Planning, combining technical expertise with business acumen.</p>
+        
+        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community, a father of three boys, and enjoys balancing his technical pursuits with family time and creative hobbies.</p>
+      </div>
+    </div>
+  &lt;/div&gt;
+</section>
+
+<!-- Current Role Section -->
+<section id="what-i-do-today" class="role-section py-16 px-4 bg-gray-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
+    </div>
+  
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed">
+          As a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, I support the Cloud Optimization team, which owns AWS best practices, the Well-Architected framework, and optimization tools. Working as part of a global team, I ensure customers maximize their AWS investment across three key domains: <strong class="text-black">Cloud Migration &amp; Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          Migration has been my specialty for years, helping organizations transition between data centers and to AWS. Since 2023, I've been deeply involved in AWS Generative AI initiatives, exploring how it enhances efficiency for customers and teams. Examples of this work include my <a href="/video-chat/" class="text-black hover:underline font-medium">YouTube Summarizer</a>, <a href="/wa-gen-ai/" class="text-black hover:underline font-medium">Gen AI Well-Architected Review</a>, and <a href="/chat-with-aws/" class="text-black hover:underline font-medium">Chat with your AWS Bill</a> solutions.
+        </p>
+    
+        <!-- Core Approach -->
+        <div class="mt-8">
+          <h3 class="text-xl md:text-2xl font-bold text-black mb-6">My Approach</h3>
+          <p class="text-lg md:text-xl leading-relaxed mb-6">
+            I serve as a bridge between complex technical concepts and practical business solutions, helping customers understand and navigate technology to transform their operations. My communication spans multiple channels: technical writing, public speaking, hands-on coding, building proof-of-concepts, LinkedIn engagement, and occasional illustration.
+          </p>
+        </div>
+      </div>
+  
+      <div class="flex justify-center mt-10">
+        <div class="text-center">
+          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-4xl rounded-2xl shadow-lg" />
+          <p class="text-base text-gray-500 mt-4 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
+        </div>
+      </div>
+  
+      <!-- A Week in My Life Subsection -->
+      <div class="mt-12">
+        <h3 class="text-xl md:text-2xl font-bold text-black mb-6">A Week in My Life</h3>
+        <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8">A typical week includes a combination of these activities:</p>
+    
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Customer Meetings</p>
+                <p class="text-base md:text-lg text-gray-600">Optimization, Generative AI, Migration discussions</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Meeting Preparation</p>
+                <p class="text-base md:text-lg text-gray-600">Research and planning for customer engagements</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Internal Work</p>
+                <p class="text-base md:text-lg text-gray-600">Meetings, documentation, advocating for customers</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Continuous Learning</p>
+                <p class="text-base md:text-lg text-gray-600">I try not to pass a day without learning something new</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Content Creation</p>
+                <p class="text-base md:text-lg text-gray-600">Writing, reviewing, raising the bar</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Building</p>
+                <p class="text-base md:text-lg text-gray-600">Workshops, conference talks, blog posts</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Mentoring</p>
+                <p class="text-base md:text-lg text-gray-600">Amazon folks during work hours, outside Amazon folks on weekends</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
+              <div>
+                <p class="text-lg md:text-xl font-semibold text-black">Office Commute</p>
+                <p class="text-base md:text-lg text-gray-600">I live in Dallas, TX. I commute 90 minutes/day</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-blue-50 rounded-xl p-8 mt-10 border border-blue-100 shadow-lg">
+          <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic">
+            I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
+          </p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12">
+      <!-- Work History -->
+      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+        <div class="flex items-center mb-8">
+          <div class="p-3 bg-blue-100 rounded-full mr-4">
+            <i data-lucide="briefcase" class="w-6 h-6 text-blue-600"></i>
+          </div>
+          <h3 class="text-2xl md:text-3xl font-bold text-black">Work History</h3>
+        </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-blue-600 pl-4 py-3 hover:bg-blue-50 transition-colors duration-200 rounded-r-lg bg-gradient-to-r from-blue-50 to-transparent">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS Logo" class="w-7 h-7 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">Solutions Architect</h3>
+        </div>
+        <a href="https://aws.amazon.com/" target="_blank" class="text-black font-semibold hover:underline">Amazon Web Services (AWS)</a>
+        <p class="text-sm md:text-base text-gray-600 font-medium">2019–Present • Dallas, TX</p>
+        <p class="text-sm text-gray-500 mt-1">Led 100+ enterprise cloud migrations and optimization projects</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/allegion.com" alt="Allegion Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">ERP Architect and System Admin Lead</h3>
+        </div>
+        <a href="https://www.allegion.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Allegion</a>
+        <p class="text-base text-gray-500">2017–2019 • Indianapolis, IN</p>
+        <p class="text-sm text-gray-400 mt-1">Architected ERP solutions for 10+ manufacturing facilities</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h3>
+        </div>
+        <a href="https://www.microsoft.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Microsoft</a>
+        <p class="text-base text-gray-500">2016–2017 • New York, NY</p>
+        <p class="text-sm text-gray-400 mt-1">Resolved 200+ critical ERP issues for enterprise customers</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/kumon.com" alt="Kumon Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">Technical Architect Lead</h3>
+        </div>
+        <a href="https://www.kumon.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Kumon North America</a>
+        <p class="text-base text-gray-500">2013–2015 • New York, NY</p>
+        <p class="text-sm text-gray-400 mt-1">Led digital transformation for 2000+ learning centers</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/unidosfinancial.com" alt="Unidos Financial Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">Network &amp; Security Consultant</h3>
+        </div>
+        <a href="https://www.unidosfinancial.com/" target="_blank" class="text-gray-600 font-medium hover:underline">Unidos Financial</a>
+        <p class="text-base text-gray-500">2012 • New York, NY</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/albaraka.com" alt="Al Baraka Bank Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">Infrastructure Architect</h3>
+        </div>
+        <a href="https://www.albaraka.com/en/" target="_blank" class="text-gray-600 font-medium hover:underline">Al Baraka Bank</a>
+        <p class="text-base text-gray-500">2010–2012 • Damascus, Syria</p>
+        <p class="text-sm text-gray-400 mt-1">Designed secure banking infrastructure for 50+ branches</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <img src="https://logo.clearbit.com/dse.gov.sy" alt="Damascus Securities Exchange Logo" class="w-6 h-6 mr-3 rounded" />
+          <h3 class="text-lg font-semibold text-black">Infrastructure Lead</h3>
+        </div>
+        <a href="http://www.dse.gov.sy/index.php?lang=en" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus Securities Exchange</a>
+        <p class="text-base text-gray-500">2005–2010 • Damascus, Syria</p>
+        <p class="text-sm text-gray-400 mt-1">Built core IT infrastructure for Syria's primary stock exchange</p>
+      </div>
+    </div>
+      </div>
+
+      <!-- Education -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+        <div class="flex items-center mb-8">
+          <div class="p-3 bg-green-100 rounded-full mr-4">
+            <i data-lucide="graduation-cap" class="w-6 h-6 text-green-600"></i>
+          </div>
+          <h3 class="text-2xl md:text-3xl font-bold text-black">Education</h3>
+        </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-black pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <h3 class="text-lg font-semibold text-black">M.Sc. in IT Management, ERP</h3>
+        <a href="https://www.fit.edu/" target="_blank" class="text-black font-medium hover:underline">Florida Institute of Technology</a>
+        <p class="text-base text-gray-500">2018</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <h3 class="text-lg font-semibold text-black">MBA</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-base text-gray-500">2010</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <h3 class="text-lg font-semibold text-black">B.S. in Computer Engineering</h3>
+        <a href="http://www.damascusuniversity.edu.sy/" target="_blank" class="text-gray-600 font-medium hover:underline">Damascus University</a>
+        <p class="text-base text-gray-500">2004</p>
+      </div>
+      <div class="border-l-4 border-gray-300 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <h3 class="text-lg font-semibold text-black">Professional Certifications</h3>
+        <p class="text-base text-gray-600 mt-2">Most AWS Professional and Advanced Specialty certifications</p>
+      </div>
+    </div>
+      </div>
+    </div>
+    
+    <!-- Recognition Section -->
+    <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 mt-12">
+      <div class="flex items-center mb-8">
+        <div class="p-3 bg-yellow-100 rounded-full mr-4">
+          <i data-lucide="award" class="w-6 h-6 text-yellow-600"></i>
+        </div>
+        <h3 class="text-2xl md:text-3xl font-bold text-black">Recognition and Awards</h3>
+      </div>
+    
+    <div class="space-y-4">
+      <div class="border-l-4 border-yellow-500 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <div class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="trophy" class="w-4 h-4 text-white"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Top Migration SME - AWS Global Recognition</h3>
+        </div>
+        <p class="text-base text-gray-500 mb-2">2022 • Amazon Web Services</p>
+        <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+          Recognized as the <strong class="text-black">SME with the most unlocked migration opportunities across AWS</strong>, identifying and enabling 100+ migration opportunities with an estimated combined value of $100M ARR (Annual Recurring Revenue).
+        </p>
+      </div>
+      <div class="border-l-4 border-blue-500 pl-4 py-2 hover:bg-gray-50 transition-colors duration-200 rounded-r-lg">
+        <div class="flex items-center mb-2">
+          <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="lightbulb" class="w-4 h-4 text-white"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Amazon Patent - Innovation Recognition</h3>
+        </div>
+        <p class="text-base text-gray-500 mb-2">2023 • Amazon Web Services</p>
+        <p class="text-lg text-gray-600 leading-relaxed">
+          Co-inventor on an <strong class="text-black">Amazon patent for a classified project</strong>, contributing to innovative cloud infrastructure solutions.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Journey Section -->
+<section id="the-journey" class="journey-section py-16 px-4 bg-gray-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
+    </div>
+      <div class="space-y-6 text-gray-600">
+        <p class="text-lg md:text-xl leading-relaxed">
+          My technology journey began in 2000 when I enrolled in the School of Computer Engineering. During my studies, I gained practical experience through freelance work—fixing computers and printers, and later teaching IT courses. This combination of academic learning and hands-on problem-solving built both my technical skills and confidence in the field.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          After graduation, my first full-time position was as a <strong class="text-black">Network and System Administrator</strong>, which launched a diverse career spanning multiple roles and industries. Over the years, I've evolved through various positions: technician, developer, support engineer, architect, project manager, and entrepreneur, each role adding depth to my technical expertise and leadership capabilities.
+        </p>
+        <p class="text-lg md:text-xl leading-relaxed">
+          Beyond my professional life, I'm a dedicated father of three boys, an active mentor in the technology community, and enjoy creative pursuits as a hobbyist. This balance between technical excellence and personal fulfillment drives my approach to both work and life.
+        </p>
+      </div>
+      
+      <div class="flex justify-center mt-12">
+        <div class="text-center">
+          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-4xl rounded-2xl shadow-xl border border-gray-200" />
+          <p class="text-base text-gray-500 mt-4 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer - Ways to Connect -->
+<section class="footer-section py-16 px-4 bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <a href="mailto:ekhiyami@gmail.com" class="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg">
+        <i data-lucide="mail" class="w-5 h-5 mr-2"></i>Send Email
+      </a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- Quick Contact Floating Button -->
+<div class="fixed bottom-6 right-6 z-40">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&amp;utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+  </a>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+    lucide.createIcons();
+    AOS.init({
+        once: true,
+        duration: 800,
+        easing: 'ease-out',
+        offset: 50,
+    });
+    
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+    
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    
+
+    
+    // Key Achievements toggle functionality
+    const achievementsToggle = document.getElementById('achievements-toggle');
+    const achievementsContent = document.getElementById('achievements-content');
+    const achievementsArrow = document.getElementById('achievements-arrow');
+    
+    achievementsToggle.addEventListener('click', () => {
+        achievementsContent.classList.toggle('hidden');
+        achievementsArrow.classList.toggle('rotate-180');
+    });
+</script>
+
+:ET
