@@ -1321,3 +1321,176 @@ LiveReload address: http://0.0.0.0:35729
 [33m                    [0m
                     ...done in 0.342907 seconds.
                     
+      Regenerating: 1 file(s) changed at 2025-08-05 20:25:44
+                    index.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.455499 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 20:25:45
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.438061 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-05 20:26:47
+                    _posts/2024-10-23-wa-gen-ai.md
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.373043 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:28:58
+                    mentoring.md
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.300972 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-05 20:29:03
+                    index.html
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.605388 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-06 07:57:38
+                    index.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.37634 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-06 07:57:39
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.283021 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-06 07:59:15
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.350032 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2025-08-06 07:59:30
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.359141 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2025-08-06 07:59:36
+                    jekyll.log
+                    .htaccess
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/automate-wa-review-amazon-q/index.html[0m[0m
+[33m                     - automate-wa-review-amazon-q.md[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-6-15-automate-wa-review-q.md[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/ekhiyami/ekhiyami.github.io/_site/built-with-amazon-q/index.html[0m[0m
+[33m                     - built-with-amazon-q/index.html[0m
+[33m                     - /Users/ekhiyami/ekhiyami.github.io/_posts/2025-07-22-built-with-amazon-q.md[0m
+[33m                    [0m
+                    ...done in 0.29831 seconds.
+                    
