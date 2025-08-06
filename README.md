@@ -6,8 +6,6 @@ layout: page
 
 <div class="landing-page bg-white min-h-screen">
 
-
-
 <!-- Bio Section -->
 <section class="bio-section py-8 md:py-16 px-4 bg-white">
   <div class="max-w-4xl mx-auto">
