@@ -1,68 +1,30 @@
-I"Tp<!-- Navigation Menu -->
-<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 shadow-sm">
-  <div class="max-w-6xl mx-auto px-4 py-4">
-    <div class="flex items-center justify-between">
-      <a href="/" class="font-bold text-xl text-gray-800 hover:text-blue-600 transition-colors">EB Khiyami</a>
-      <div class="hidden md:flex space-x-8">
-        <a href="/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium w-16 text-center">Home</a>
-        <a href="/about/" class="text-blue-600 font-medium w-16 text-center">About</a>
-        <a href="/projects/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium w-16 text-center">Work</a>
-        <a href="/mentoring/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium w-20 text-center">Mentoring</a>
-      </div>
-      <button id="mobile-menu-btn" class="md:hidden p-2">
-        <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
-      </button>
-    </div>
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-200">
-      <div class="flex flex-col space-y-3 pt-4">
-        <a href="/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</a>
-        <a href="/about/" class="text-blue-600 font-medium">About</a>
-        <a href="/projects/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Work</a>
-        <a href="/mentoring/" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Mentoring</a>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<div class="landing-page bg-white min-h-screen pt-20">
-
-
+I"f<div class="landing-page bg-white min-h-screen">
 
 <!-- Bio Section -->
-<section class="bio-section py-16 px-4 bg-white">
-  <div class="max-w-7xl mx-auto">
+<section class="bio-section py-8 md:py-16 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
     </div>
-  
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">Ebrahim (EB) Khiyami</strong> is a cloud technologist and architect with <strong class="text-black">15+ years of experience</strong> transforming businesses through innovative cloud solutions. He specializes in helping startups and enterprises build scalable, secure, and cost-efficient cloud workloads while driving digital transformation initiatives.</p>
         
         <p class="text-lg md:text-xl leading-relaxed">As a <strong class="text-black">Cloud Optimization Solutions Architect at AWS</strong>, EB focuses on enterprise-scale cloud migrations, optimization strategies, and generative AI implementations. He works with customers to evaluate and improve their cloud architecture health, mitigate operational risks, and maximize performance while reducing costs.</p>
     
-        <div class="bg-blue-50 rounded-xl p-6 border border-blue-100 mt-8 shadow-lg">
+        <div class="bg-blue-50 rounded-xl p-4 md:p-6 border border-blue-100 mt-6 md:mt-8 shadow-lg">
           <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
-            <h3 class="text-xl md:text-2xl font-bold text-black">Key Achievements</h3>
+            <h3 class="text-lg md:text-xl font-bold text-black">Key Achievements</h3>
             <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
           </button>
           
-          <div id="achievements-content" class="hidden mt-6 space-y-4">
-            <div class="py-3">
-              <p class="text-base md:text-lg font-semibold text-black">• Gen-AI Well-Architected Review Solution: <span class="font-normal text-gray-600">Created an innovative AI-powered solution that automates and accelerates Well-Architected Framework reviews across all 6 pillars, improving efficiency and consistency of architecture assessments.</span></p>
-            </div>
+          <div id="achievements-content" class="hidden mt-6 space-y-3">
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• Gen-AI Well-Architected Review Solution:</strong> <span class="text-gray-600">AI-powered solution automating Well-Architected reviews across all 6 pillars, improving efficiency by 80%.</span></p>
             
-            <div class="py-3">
-              <p class="text-base md:text-lg font-semibold text-black">• Migration Lens Well-Architected Framework: <span class="font-normal text-gray-600">Co-authored the official AWS framework that enabled 100s of customers to identify migration risks, validate architecture decisions, and implement best practices during their cloud journey.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• Migration Lens Well-Architected Framework:</strong> <span class="text-gray-600">Co-authored official AWS framework enabling 100s of customers to identify migration risks and implement best practices.</span></p>
             
-            <div class="py-3">
-              <p class="text-base md:text-lg font-semibold text-black">• AWS Disaster Recovery Services (AWS DRS) Enhancements: <span class="font-normal text-gray-600">Developed cross-cloud DR solutions enabling organizations to protect GCP and Azure workloads using AWS as recovery site, now used by numerous customers and partners globally.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• AWS Disaster Recovery Services Enhancements:</strong> <span class="text-gray-600">Developed cross-cloud DR solutions protecting GCP and Azure workloads using AWS as recovery site.</span></p>
             
-            <div class="py-3">
-              <p class="text-base md:text-lg font-semibold text-black">• AWS Migration Acceleration Program Automator (MAP): <span class="font-normal text-gray-600">Built automation tools that streamlined cloud migration processes for 1000s of customers worldwide, significantly reducing migration time and complexity while improving success rates.</span></p>
-            </div>
+            <p class="text-base md:text-lg leading-relaxed py-2"><strong class="text-black">• AWS Migration Acceleration Program Automator:</strong> <span class="text-gray-600">Built automation tools streamlining cloud migrations for 1000s of customers, reducing time and complexity.</span></p>
           </div>
         </div>
         
@@ -70,20 +32,18 @@
         
         <p class="text-lg md:text-xl leading-relaxed">EB is a <strong class="text-black">published author</strong> and prolific contributor to technical whitepapers, industry blog posts, and internal AWS playbooks. He holds a <strong class="text-black">B.S. in Computer Engineering</strong> and <strong class="text-black">two Master's degrees</strong> in IT Management and Enterprise Resource Planning, combining technical expertise with business acumen.</p>
         
-        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community, a father of three boys, and enjoys balancing his technical pursuits with family time and creative hobbies.</p>
-      </div>
+        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community. He is also a father of three boys, and enjoys watching, playing and coaching soccer.</p>
     </div>
-  &lt;/div&gt;
+  </div>
 </section>
 
 <!-- Current Role Section -->
-<section id="what-i-do-today" class="role-section py-16 px-4 bg-gray-50">
-  <div class="max-w-7xl mx-auto">
+<section id="what-i-do-today" class="role-section py-8 md:py-16 px-4 bg-gray-50">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
     </div>
-  
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed">
           As a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, I support the Cloud Optimization team, which owns AWS best practices, the Well-Architected framework, and optimization tools. Working as part of a global team, I ensure customers maximize their AWS investment across three key domains: <strong class="text-black">Cloud Migration &amp; Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
         </p>
@@ -102,7 +62,7 @@
   
       <div class="flex justify-center mt-10">
         <div class="text-center">
-          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-4xl rounded-2xl shadow-lg" />
+          <img src="/assets/myjob2.png" alt="EB AWS Job Illustration" class="w-full max-w-full md:max-w-4xl rounded-2xl shadow-lg" />
           <p class="text-base text-gray-500 mt-4 italic">My job as I see it. I'm the bridge. illustration credits: me</p>
         </div>
       </div>
@@ -112,7 +72,7 @@
         <h3 class="text-xl md:text-2xl font-bold text-black mb-6">A Week in My Life</h3>
         <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8">A typical week includes a combination of these activities:</p>
     
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           <div class="space-y-6">
             <div class="flex items-start">
               <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
@@ -176,7 +136,7 @@
           </div>
         </div>
         
-        <div class="bg-blue-50 rounded-xl p-8 mt-10 border border-blue-100 shadow-lg">
+        <div class="bg-blue-50 rounded-xl p-4 md:p-8 mt-6 md:mt-10 border border-blue-100 shadow-lg">
           <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic">
             I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
           </p>
@@ -186,14 +146,14 @@
 </section>
 
 <!-- Experience Section -->
-<section class="experience-section py-16 px-4 bg-white">
-  <div class="max-w-7xl mx-auto">
+<section class="experience-section py-8 md:py-16 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
     </div>
-    <div class="grid md:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
       <!-- Work History -->
-      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+      <div id="work-history" class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200">
         <div class="flex items-center mb-8">
           <div class="p-3 bg-blue-100 rounded-full mr-4">
             <i data-lucide="briefcase" class="w-6 h-6 text-blue-600"></i>
@@ -268,7 +228,7 @@
       </div>
 
       <!-- Education -->
-      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+      <div class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200">
         <div class="flex items-center mb-8">
           <div class="p-3 bg-green-100 rounded-full mr-4">
             <i data-lucide="graduation-cap" class="w-6 h-6 text-green-600"></i>
@@ -301,7 +261,7 @@
     </div>
     
     <!-- Recognition Section -->
-    <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200 mt-12">
+    <div class="bg-white rounded-2xl shadow-xl p-4 md:p-8 border border-gray-200 mt-6 md:mt-12">
       <div class="flex items-center mb-8">
         <div class="p-3 bg-yellow-100 rounded-full mr-4">
           <i data-lucide="award" class="w-6 h-6 text-yellow-600"></i>
@@ -334,16 +294,18 @@
           Co-inventor on an <strong class="text-black">Amazon patent for a classified project</strong>, contributing to innovative cloud infrastructure solutions.
         </p>
       </div>
+    </div>
+    </div>
   </div>
-&lt;/section&gt;
+</section>
 
 <!-- Journey Section -->
-<section id="the-journey" class="journey-section py-16 px-4 bg-gray-50">
-  <div class="max-w-7xl mx-auto">
+<section id="the-journey" class="journey-section py-8 md:py-16 px-4 bg-gray-50">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
     </div>
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed">
           My technology journey began in 2000 when I enrolled in the School of Computer Engineering. During my studies, I gained practical experience through freelance work—fixing computers and printers, and later teaching IT courses. This combination of academic learning and hands-on problem-solving built both my technical skills and confidence in the field.
         </p>
@@ -357,33 +319,31 @@
       
       <div class="flex justify-center mt-12">
         <div class="text-center">
-          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-4xl rounded-2xl shadow-xl border border-gray-200" />
+          <img src="/assets/me.png" alt="EB casual photo" class="w-full max-w-full md:max-w-4xl rounded-2xl shadow-xl border border-gray-200" />
           <p class="text-base text-gray-500 mt-4 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
         </div>
       </div>
-    </div>
-  &lt;/div&gt;
-</section>
-
-<!-- Footer - Ways to Connect -->
-<section class="footer-section py-16 px-4 bg-gray-900 text-white">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
-    <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
-    </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
-        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
-      </a>
-      <a href="mailto:ekhiyami@gmail.com" class="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg">
-        <i data-lucide="mail" class="w-5 h-5 mr-2"></i>Send Email
-      </a>
-    </div>
   </div>
 </section>
 
-</div>
+<!-- Footer - Ways to Connect -->
+<section class="footer-section py-16 px-4 bg-gray-100 text-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <div class="flex items-center px-6 py-3 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+        <i data-lucide="mail" class="w-5 h-5 mr-3 text-gray-500"></i>
+        <span class="text-gray-700 font-mono text-lg">ekhiyami<span class="text-gray-400">@</span>gmail.com</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Quick Contact Floating Button -->
 <div class="fixed bottom-6 right-6 z-40">
@@ -427,25 +387,7 @@
         });
     });
     
-    // Back to top button functionality
-    const backToTopButton = document.getElementById('back-to-top');
-    
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTopButton.classList.remove('opacity-0', 'invisible');
-            backToTopButton.classList.add('opacity-100', 'visible');
-        } else {
-            backToTopButton.classList.add('opacity-0', 'invisible');
-            backToTopButton.classList.remove('opacity-100', 'visible');
-        }
-    });
-    
-    backToTopButton.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
+
     
     // Key Achievements toggle functionality
     const achievementsToggle = document.getElementById('achievements-toggle');
@@ -457,5 +399,6 @@
         achievementsArrow.classList.toggle('rotate-180');
     });
 </script>
-</div></section></div>
+
+</div>
 :ET

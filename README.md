@@ -8,17 +8,16 @@ layout: page
 
 <!-- Bio Section -->
 <section class="bio-section py-8 md:py-16 px-4 bg-white">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
     </div>
-  
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed"><strong class="text-black">Ebrahim (EB) Khiyami</strong> is a cloud technologist and architect with <strong class="text-black">15+ years of experience</strong> transforming businesses through innovative cloud solutions. He specializes in helping startups and enterprises build scalable, secure, and cost-efficient cloud workloads while driving digital transformation initiatives.</p>
         
         <p class="text-lg md:text-xl leading-relaxed">As a <strong class="text-black">Cloud Optimization Solutions Architect at AWS</strong>, EB focuses on enterprise-scale cloud migrations, optimization strategies, and generative AI implementations. He works with customers to evaluate and improve their cloud architecture health, mitigate operational risks, and maximize performance while reducing costs.</p>
     
-        <div class="bg-blue-50 rounded-xl p-6 border border-blue-100 mt-8 shadow-lg">
+        <div class="bg-blue-50 rounded-xl p-4 md:p-6 border border-blue-100 mt-6 md:mt-8 shadow-lg">
           <button id="achievements-toggle" class="flex items-center justify-between w-full text-left">
             <h3 class="text-lg md:text-xl font-bold text-black">Key Achievements</h3>
             <i data-lucide="chevron-down" class="w-5 h-5 text-blue-600 transition-transform duration-200" id="achievements-arrow"></i>
@@ -39,20 +38,18 @@ layout: page
         
         <p class="text-lg md:text-xl leading-relaxed">EB is a <strong class="text-black">published author</strong> and prolific contributor to technical whitepapers, industry blog posts, and internal AWS playbooks. He holds a <strong class="text-black">B.S. in Computer Engineering</strong> and <strong class="text-black">two Master's degrees</strong> in IT Management and Enterprise Resource Planning, combining technical expertise with business acumen.</p>
         
-        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community, a father of three boys, and enjoys balancing his technical pursuits with family time and creative hobbies.</p>
-      </div>
+        <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community. He is also a father of three boys, and enjoys watching, playing and coaching soccer.</p>
     </div>
   </div>
 </section>
 
 <!-- Current Role Section -->
 <section id="what-i-do-today" class="role-section py-8 md:py-16 px-4 bg-gray-50">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
     </div>
-  
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed">
           As a Solutions Architect at <strong class="text-black">Amazon Web Services (AWS)</strong>, I support the Cloud Optimization team, which owns AWS best practices, the Well-Architected framework, and optimization tools. Working as part of a global team, I ensure customers maximize their AWS investment across three key domains: <strong class="text-black">Cloud Migration & Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
         </p>
@@ -145,7 +142,7 @@ layout: page
           </div>
         </div>
         
-        <div class="bg-blue-50 rounded-xl p-8 mt-10 border border-blue-100 shadow-lg">
+        <div class="bg-blue-50 rounded-xl p-4 md:p-8 mt-6 md:mt-10 border border-blue-100 shadow-lg">
           <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic">
             I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
           </p>
@@ -156,7 +153,7 @@ layout: page
 
 <!-- Experience Section -->
 <section class="experience-section py-8 md:py-16 px-4 bg-white">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
     </div>
@@ -310,11 +307,11 @@ layout: page
 
 <!-- Journey Section -->
 <section id="the-journey" class="journey-section py-8 md:py-16 px-4 bg-gray-50">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
     </div>
-      <div class="space-y-6 text-gray-600">
+    <div class="space-y-6 text-gray-600">
         <p class="text-lg md:text-xl leading-relaxed">
           My technology journey began in 2000 when I enrolled in the School of Computer Engineering. During my studies, I gained practical experience through freelance work—fixing computers and printers, and later teaching IT courses. This combination of academic learning and hands-on problem-solving built both my technical skills and confidence in the field.
         </p>
