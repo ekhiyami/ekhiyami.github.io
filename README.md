@@ -8,7 +8,6 @@ layout: page
 
 <!-- Bio Section -->
 <section class="bio-section py-8 md:py-16 px-4 bg-white">
-  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
     </div>
@@ -40,12 +39,10 @@ layout: page
         
         <p class="text-lg md:text-xl leading-relaxed">Beyond his professional achievements, EB is a <strong class="text-black">dedicated mentor</strong> in the technology community. He is also a father of three boys, and enjoys watching, playing and coaching soccer.</p>
     </div>
-  </div>
 </section>
 
 <!-- Current Role Section -->
 <section id="what-i-do-today" class="role-section py-8 md:py-16 px-4 bg-gray-50">
-  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What I do today</h2>
     </div>
@@ -144,16 +141,14 @@ layout: page
         
         <div class="bg-blue-50 rounded-xl p-4 md:p-8 mt-6 md:mt-10 border border-blue-100 shadow-lg">
           <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic">
-            I focus on work that energizes me. When passionate about a project, I maintain a flexible approach that may extend beyond traditional hours while preserving work-life balance. This passion-driven methodology ensures high-quality outcomes and sustained innovation.
+            I'm not a typical 9-5 worker. If I enjoy the work it will keep me busy at nights and weekends. For that, I always try to select projects that I enjoy.
           </p>
         </div>
       </div>
-  </div>
 </section>
 
 <!-- Experience Section -->
 <section class="experience-section py-8 md:py-16 px-4 bg-white">
-  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Experience</h2>
     </div>
@@ -302,12 +297,10 @@ layout: page
       </div>
     </div>
     </div>
-  </div>
 </section>
 
 <!-- Journey Section -->
 <section id="the-journey" class="journey-section py-8 md:py-16 px-4 bg-gray-50">
-  <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Background</h2>
     </div>
@@ -329,7 +322,6 @@ layout: page
           <p class="text-base text-gray-500 mt-4 italic">A driving break at the White Mountains, New Hampshire, 2023. Credits: <a href="https://www.linkedin.com/in/hala-jamal/" target="_blank" class="text-black hover:underline font-medium">my wife</a></p>
         </div>
       </div>
-  </div>
 </section>
 
 <!-- Footer - Ways to Connect -->
