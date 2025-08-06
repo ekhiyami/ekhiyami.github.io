@@ -408,3 +408,5 @@ layout: page
         achievementsArrow.classList.toggle('rotate-180');
     });
 </script>
+
+</div>
