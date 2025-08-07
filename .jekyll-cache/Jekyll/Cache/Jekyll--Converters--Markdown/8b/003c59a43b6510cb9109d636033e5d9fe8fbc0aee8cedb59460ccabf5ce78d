@@ -1,10 +1,4 @@
----
-title: "Work"
-permalink: "/projects/"
-layout: default
----
-
-<div class="work-section bg-white min-h-screen pt-1 pb-4">
+I"°e<div class="work-section bg-white min-h-screen pt-1 pb-4">
 
 <!-- Floating TOC Button -->
 <div class="fixed bottom-20 right-6 z-50">
@@ -141,7 +135,7 @@ layout: default
             </div>
             <h3 class="text-lg font-bold text-black mb-2">
               <a href="/dallas-voc/" class="hover:text-blue-600 transition-colors">
-                Dallas Migration & Modernization Experience Day
+                Dallas Migration &amp; Modernization Experience Day
               </a>
             </h3>
             <p class="text-gray-600 text-sm leading-relaxed">
@@ -451,12 +445,13 @@ layout: default
 
 <!-- Quick Contact Floating Button -->
 <div class="fixed bottom-6 right-6 z-40">
-  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&amp;utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
     <i data-lucide="message-circle" class="w-6 h-6"></i>
   </a>
 </div>
 
 <script src="https://unpkg.com/lucide@latest"></script>
+
 <script>
     lucide.createIcons();
     
@@ -517,3 +512,5 @@ layout: default
         });
     });
 </script>
+
+:ET

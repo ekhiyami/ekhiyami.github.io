@@ -57,9 +57,7 @@ class PortfolioSearch {
             },
             {
                 title: "Mentoring Services",
-                url: "/mentoring/",
                 type: "Service",
-                content: "mentoring career guidance cloud architecture AWS",
                 category: "service"
             },
             {
