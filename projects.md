@@ -50,10 +50,14 @@ layout: default
 <section id="portfolio-stats" class="bg-gray-50 py-12 px-4">
   <div class="max-w-4xl mx-auto">
     <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 shadow-lg">
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
         <div class="transform hover:scale-105 transition-transform duration-200">
           <span class="text-3xl md:text-4xl font-bold text-blue-600 block">40+</span>
           <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Publications</p>
+        </div>
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">200+</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Mentored</p>
         </div>
         <div class="transform hover:scale-105 transition-transform duration-200">
           <span class="text-3xl md:text-4xl font-bold text-blue-600 block">8</span>
