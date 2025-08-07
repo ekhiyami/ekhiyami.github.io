@@ -227,6 +227,148 @@ layout: default
           </div>
         </div>
       </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "EB has been super supportive and encouraging since the beginning. He not only guided me toward the right opportunities, like the AWS program, but also made me feel confident about my learning journey."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">YR</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Yuva R.</p>
+            <p class="text-sm text-gray-600">March 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SP</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Shilpi P.</p>
+            <p class="text-sm text-gray-600">July 2023</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim gave me clear, actionable feedback on how to better organize my behavioral interview responses, and increased my confidence for future interviews."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">JD</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Jeff D.</p>
+            <p class="text-sm text-gray-600">October 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden Additional Testimonials -->
+    <div id="additional-testimonials" class="hidden grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Very well conducted and I liked how each question was either followed by an explanation of why it was asked and what is expected at each level. Thank you so much!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SV</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Srinivasan V.</p>
+            <p class="text-sm text-gray-600">April 2022</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim was extremely professional, empathetic and calm through the process. He often subdivided the question into smaller parts for my understanding and learning."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">NM</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Neeti M.</p>
+            <p class="text-sm text-gray-600">March 2022</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Interviewer clearly explained on the areas that I need to practice on. The feedback was concise and actionable. Totally appreciate his time in the Mock Interview."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">CK</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Chandrasekar K.</p>
+            <p class="text-sm text-gray-600">August 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View More Button -->
+    <div class="text-center mt-12">
+      <button id="view-more-testimonials" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="message-square" class="w-5 h-5 mr-2"></i>View More Testimonials
+      </button>
     </div>
   </div>
 </section>
@@ -281,9 +423,7 @@ layout: default
               <span class="text-base text-gray-600">Custom career roadmap</span>
             </li>
           </ul>
-          <p class="text-gray-500 mt-6 text-sm">
-            Questions? <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="text-black hover:underline">Connect on LinkedIn</a> or email me at ekhiyami@gmail.com
-          </p>
+
         </div>
       </div>
     </div>
@@ -405,6 +545,22 @@ layout: default
         document.getElementById('toc-overlay').classList.add('hidden');
         document.getElementById('toc-panel').classList.add('translate-y-full');
       });
+    });
+    
+    // View More Testimonials functionality
+    document.getElementById('view-more-testimonials').addEventListener('click', function() {
+      const additionalTestimonials = document.getElementById('additional-testimonials');
+      const btn = this;
+      
+      if (additionalTestimonials.classList.contains('hidden')) {
+        additionalTestimonials.classList.remove('hidden');
+        btn.innerHTML = '<i data-lucide="chevron-up" class="w-5 h-5 mr-2"></i>Show Less';
+        lucide.createIcons();
+      } else {
+        additionalTestimonials.classList.add('hidden');
+        btn.innerHTML = '<i data-lucide="message-square" class="w-5 h-5 mr-2"></i>View More Testimonials';
+        lucide.createIcons();
+      }
     });
     
     // FAQ Toggle functionality
