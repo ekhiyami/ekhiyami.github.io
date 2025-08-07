@@ -72,70 +72,63 @@ layout: default
 
     <!-- A Week in My Life Subsection -->
     <div class="mt-12">
-      <h3 class="text-xl md:text-2xl font-bold text-black mb-6 text-center">A Week in My Life</h3>
-      <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8 text-center">A typical week includes a combination of these activities:</p>
-  
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Customer Meetings</p>
-              <p class="text-base text-gray-600">Optimization, Generative AI, Migration discussions</p>
-            </div>
+      <h3 class="text-xl md:text-2xl font-bold text-black mb-8 text-center">A Week in My Life</h3>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="users" class="w-5 h-5 text-blue-600"></i>
           </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Meeting Preparation</p>
-              <p class="text-base text-gray-600">Research and planning for customer engagements</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Internal Work</p>
-              <p class="text-base text-gray-600">Meetings, documentation, advocating for customers</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Continuous Learning</p>
-              <p class="text-base text-gray-600">I try not to pass a day without learning something new</p>
-            </div>
-          </div>
+          <p class="text-sm font-semibold text-black">Customer Meetings</p>
         </div>
         
-        <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Content Creation</p>
-              <p class="text-base text-gray-600">Writing, reviewing, raising the bar</p>
-            </div>
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="search" class="w-5 h-5 text-green-600"></i>
           </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Building</p>
-              <p class="text-base text-gray-600">Workshops, conference talks, blog posts</p>
-            </div>
+          <p class="text-sm font-semibold text-black">Research</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="building" class="w-5 h-5 text-purple-600"></i>
           </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Mentoring</p>
-              <p class="text-base text-gray-600">Amazon folks during work hours, outside Amazon folks on weekends</p>
-            </div>
+          <p class="text-sm font-semibold text-black">Internal Work</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
           </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Office Commute</p>
-              <p class="text-base text-gray-600">I live in Dallas, TX. I commute 90 minutes/day</p>
-            </div>
+          <p class="text-sm font-semibold text-black">Learning</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="pen-tool" class="w-5 h-5 text-red-600"></i>
           </div>
+          <p class="text-sm font-semibold text-black">Content Creation</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="hammer" class="w-5 h-5 text-indigo-600"></i>
+          </div>
+          <p class="text-sm font-semibold text-black">Building</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="heart" class="w-5 h-5 text-teal-600"></i>
+          </div>
+          <p class="text-sm font-semibold text-black">Mentoring</p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+            <i data-lucide="car" class="w-5 h-5 text-gray-600"></i>
+          </div>
+          <p class="text-sm font-semibold text-black">Commuting</p>
         </div>
       </div>
     </div>
@@ -160,22 +153,34 @@ layout: default
     
         <div class="space-y-4">
           <div class="border-l-4 border-blue-600 pl-4 py-2">
-            <h4 class="font-semibold text-black">Solutions Architect</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS" class="w-5 h-5 mr-2 rounded">
+              <h4 class="font-semibold text-black">Solutions Architect</h4>
+            </div>
             <p class="text-blue-600 font-medium">Amazon Web Services (AWS)</p>
             <p class="text-sm text-gray-500">2019–Present • Dallas, TX</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">ERP Architect and System Admin Lead</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/allegion.com" alt="Allegion" class="w-5 h-5 mr-2 rounded">
+              <h4 class="font-semibold text-black">ERP Architect and System Admin Lead</h4>
+            </div>
             <p class="text-gray-600">Allegion</p>
             <p class="text-sm text-gray-500">2017–2019 • Indianapolis, IN</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" class="w-5 h-5 mr-2 rounded">
+              <h4 class="font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h4>
+            </div>
             <p class="text-gray-600">Microsoft</p>
             <p class="text-sm text-gray-500">2016–2017 • New York, NY</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">Technical Architect Lead</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/kumon.com" alt="Kumon" class="w-5 h-5 mr-2 rounded">
+              <h4 class="font-semibold text-black">Technical Architect Lead</h4>
+            </div>
             <p class="text-gray-600">Kumon North America</p>
             <p class="text-sm text-gray-500">2013–2015 • New York, NY</p>
           </div>
