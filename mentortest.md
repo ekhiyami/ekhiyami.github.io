@@ -1,0 +1,614 @@
+---
+title: "Career Mentoring"
+permalink: "/mentortest/"
+layout: default
+---
+
+<div class="mentoring-section bg-white min-h-screen pt-1 pb-4">
+
+<!-- Floating TOC Button -->
+<div class="fixed bottom-20 right-6 z-50">
+  <button id="toc-toggle" class="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all">
+    <i data-lucide="list" class="w-5 h-5"></i>
+  </button>
+</div>
+
+<!-- TOC Overlay -->
+<div id="toc-overlay" class="fixed inset-0 bg-black/50 z-40 hidden">
+  <div class="fixed bottom-0 left-0 right-0 bg-white rounded-t-2xl p-6 transform translate-y-full transition-transform" id="toc-panel">
+    <h3 class="font-bold text-lg mb-4">Contents</h3>
+    <div class="space-y-2">
+      <a href="#hero" class="block py-2 text-gray-700 hover:text-blue-600">Career Mentoring</a>
+      <a href="#profile" class="block py-2 text-gray-700 hover:text-blue-600">My Profile</a>
+      <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">How I Can Help</a>
+      <a href="#testimonials" class="block py-2 text-gray-700 hover:text-blue-600">Testimonials</a>
+      <a href="#pricing" class="block py-2 text-gray-700 hover:text-blue-600">Monthly Mentoring</a>
+      <a href="#faq" class="block py-2 text-gray-700 hover:text-blue-600">FAQ</a>
+      <a href="#connect" class="block py-2 text-gray-700 hover:text-blue-600">Let's Connect</a>
+    </div>
+  </div>
+</div>
+
+<!-- Hero Section -->
+<section id="hero" class="bg-white py-8 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Career Mentoring</h2>
+    </div>
+    
+    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-12 border border-gray-200">
+      <div class="space-y-6 text-gray-600">
+        <p class="text-base md:text-lg leading-relaxed text-center">
+          I help individual contributors succeed in their tech career.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Profile Section -->
+<section id="profile" class="bg-gray-50 py-12 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">My Mentoring Profile</h2>
+    </div>
+    
+    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-12 border border-gray-200">
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="md:w-2/3 space-y-6 text-gray-600">
+          <p class="text-base md:text-lg leading-relaxed">
+            <strong class="text-black">I wish I had a mentor earlier in my career.</strong> The right guidance could have saved me years of trial and error. Now, I'm that mentor for ambitious tech professionals who refuse to figure it out alone.
+          </p>
+          <p class="text-base md:text-lg leading-relaxed">
+            With <strong class="text-black">15+ years</strong> at Amazon, Microsoft, and Fortune 500 companies, I spot career blind spots others miss and show you exactly how to fix them.
+          </p>
+          <p class="text-base md:text-lg leading-relaxed">
+            Since 2020, I've conducted <strong class="text-black">200+</strong> interviews, reviewed <strong class="text-black">500+</strong> resumes, and guided <strong class="text-black">100s</strong> of professionals to breakthrough moments in their careers. I also founded <a href="https://mentory-sy.net" target="_blank" class="text-black font-medium hover:underline">mentory-sy.net</a>, a free mentoring platform for Syrian tech professionals.
+          </p>
+          <p class="text-base md:text-lg leading-relaxed font-medium">
+            <strong class="text-black">Your career is too important to leave to chance.</strong> Let's accelerate your growth together.
+          </p>
+        </div>
+        <div class="md:w-1/3 flex justify-center">
+          <div class="relative">
+            <img src="https://topmate-staging.s3.amazonaws.com/h9Quj31LQm2gtRuiLfN8rM.jpeg" alt="Ebrahim Khiyami" class="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover shadow-xl border-4 border-white" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+            <div class="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-black text-white p-2 md:p-3 rounded-full shadow-lg">
+              <i data-lucide="check-circle" class="w-4 h-4 md:w-6 md:h-6"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-white py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">How I Can Help</h2>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="target" class="w-5 h-5 text-blue-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Define Your Career Goal</h3>
+        </div>
+        <p class="text-sm text-gray-600">Discover your strengths, map realistic tech paths, and create a 90-day action plan to move forward with confidence.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="compass" class="w-5 h-5 text-green-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Navigate Tech Specializations</h3>
+        </div>
+        <p class="text-sm text-gray-600">Get insider knowledge on AI, Cloud, DevOps, and Data roles—what they involve, salary expectations, and which matches your background.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="refresh-cw" class="w-5 h-5 text-purple-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Career Transitions</h3>
+        </div>
+        <p class="text-sm text-gray-600">Get a realistic timeline, skill gaps analysis, and proven transition strategy from someone who's guided 100+ professionals into tech.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="trending-up" class="w-5 h-5 text-amber-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Get Promoted Faster</h3>
+        </div>
+        <p class="text-sm text-gray-600">Learn what Senior/Principal/Staff engineers do differently, the unwritten rules, and high-impact projects that get you promoted.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="file-text" class="w-5 h-5 text-indigo-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Stand Out Online</h3>
+        </div>
+        <p class="text-sm text-gray-600">Craft a LinkedIn that stops scrolling, optimize your resume for ATS systems, and build a GitHub that showcases real impact.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
+        <div class="flex items-center mb-4">
+          <div class="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center mr-3">
+            <i data-lucide="users" class="w-5 h-5 text-rose-600"></i>
+          </div>
+          <h3 class="text-lg font-semibold text-black">Ace Your Interviews</h3>
+        </div>
+        <p class="text-sm text-gray-600">Practice with real interview questions and learn what answers actually impress, from someone who's conducted 200+ interviews at top tech companies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="bg-gray-50 py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">What People Are Saying</h2>
+    </div>
+    
+    <!-- First 6 testimonials -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim tries his best to help me thrive as much as possible. I am impressed by his understanding of my current situation. He tries to gives me directions which are suitable with my situation."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">LN</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Ladan N.</p>
+            <p class="text-sm text-gray-600">June 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim is a proactive mentor. He brought both clarity and strategic insight to our conversation. He was approachable, articulate, and immediately understood where I was in my journey."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SM</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Said M.</p>
+            <p class="text-sm text-gray-600">July 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Every time I talk to EB I learn something new that I can put in actions the next day at work. He always asks and check on my improvement without pressure. Love being his mentee."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">AN</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Anonymous</p>
+            <p class="text-sm text-gray-600">2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "EB has been super supportive and encouraging since the beginning. He not only guided me toward the right opportunities, like the AWS program, but also made me feel confident about my learning journey."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">YR</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Yuva R.</p>
+            <p class="text-sm text-gray-600">March 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SP</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Shilpi P.</p>
+            <p class="text-sm text-gray-600">July 2023</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim gave me clear, actionable feedback on how to better organize my behavioral interview responses, and increased my confidence for future interviews."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">JD</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Jeff D.</p>
+            <p class="text-sm text-gray-600">October 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden Additional Testimonials -->
+    <div id="additional-testimonials" class="hidden grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Very well conducted and I liked how each question was either followed by an explanation of why it was asked and what is expected at each level. Thank you so much!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SV</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Srinivasan V.</p>
+            <p class="text-sm text-gray-600">April 2022</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Ebrahim was extremely professional, empathetic and calm through the process. He often subdivided the question into smaller parts for my understanding and learning."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">NM</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Neeti M.</p>
+            <p class="text-sm text-gray-600">March 2022</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
+          "Interviewer clearly explained on the areas that I need to practice on. The feedback was concise and actionable. Totally appreciate his time in the Mock Interview."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">CK</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Chandrasekar K.</p>
+            <p class="text-sm text-gray-600">August 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View More Button -->
+    <div class="text-center mt-12">
+      <button id="view-more-testimonials" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="message-square" class="w-5 h-5 mr-2"></i>View More Testimonials
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="bg-white py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">Monthly Mentoring</h2>
+    </div>
+    
+    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border border-gray-200">
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="w-full md:w-1/2">
+          <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-100 relative">
+            <div class="absolute top-0 right-0 -mt-3 -mr-3 bg-black text-white text-sm font-semibold px-4 py-2 rounded-full shadow-sm">
+              Best Value
+            </div>
+            <div class="flex items-center mb-4">
+              <span class="text-4xl font-bold text-black">$100</span>
+              <span class="text-xl text-gray-600 ml-2">/month</span>
+            </div>
+            <p class="text-lg text-gray-600 mb-6">
+              Monthly 1:1 sessions plus unlimited support to accelerate your career growth.
+            </p>
+            <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="inline-flex items-center justify-center w-full px-4 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium">
+              <i data-lucide="handshake" class="w-4 h-4 mr-2"></i>Start Monthly Mentoring
+            </a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <h3 class="text-xl font-semibold text-black mb-4">What You Get:</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0"></i>
+              <span class="text-base text-gray-600">Monthly 1:1 strategy sessions</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0"></i>
+              <span class="text-base text-gray-600">Unlimited chat & email support</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0"></i>
+              <span class="text-base text-gray-600">Resume & LinkedIn optimization</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0"></i>
+              <span class="text-base text-gray-600">Interview prep & mock sessions</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="check-circle" class="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0"></i>
+              <span class="text-base text-gray-600">Custom career roadmap</span>
+            </li>
+          </ul>
+          <p class="text-gray-500 mt-6 text-sm">
+            Questions? <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="text-black hover:underline">Connect on LinkedIn</a> or email me at ekhiyami@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="bg-gray-50 py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">Frequently Asked Questions</h2>
+    </div>
+    
+    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border border-gray-200">
+      <div class="space-y-6">
+        <!-- FAQ Item 1 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(1)">
+            <span class="text-lg font-semibold text-black">What am I offering you?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-1"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-1">
+            <p>15+ years of real experience navigating tech industry transformations at companies like Amazon and Microsoft. I don't give generic advice—I share my actual path and apply proven strategies to your specific situation.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 2 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(2)">
+            <span class="text-lg font-semibold text-black">Why do you need a mentor?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-2"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-2">
+            <p>A mentor will show you the fastest way to achieve your goal. Be mindful, this is not a shortcut. This is an experience-sharing exercise where you work with someone with similar background, who has proven success, deep industry exposure, and real experience—not just an influencer selling courses. The mentor will show what works and what doesn't from their experiences being in your place for a long time.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 3 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(3)">
+            <span class="text-lg font-semibold text-black">Is this right for you?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-3"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-3">
+            <p class="mb-4">You will benefit from my experience if you are a young professional (0-5 years of experience) or mid-level professional (5-15 years), looking to succeed in an individual contributor role (IC), not a manager or executive. Also, I can help if you need advice to transition between tech roles, building online brands, or prep for big interviews.</p>
+            <p>If you're still not sure, shoot me an email and we can discuss your case further.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 4 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(4)">
+            <span class="text-lg font-semibold text-black">How quickly will I see results?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-4"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-4">
+            <p class="mb-3">Most mentees see clarity within the first session and actionable progress within 30 days. Career pivots typically take 3-6 months, while interview prep shows results in 2-4 weeks.</p>
+            <p class="text-sm text-gray-500 italic">"After just one session with EB, I had a clear 90-day plan and felt confident about my next steps." - Recent mentee</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Trust Indicators -->
+      <div class="mt-8 text-center">
+        <div class="flex items-center justify-center gap-6 text-sm text-gray-500">
+          <div class="flex items-center">
+            <i data-lucide="users" class="w-4 h-4 mr-2"></i>
+            <span>100+ mentees</span>
+          </div>
+          <div class="flex items-center">
+            <i data-lucide="star" class="w-4 h-4 mr-2 text-yellow-400"></i>
+            <span>4.9/5 rating</span>
+          </div>
+          <div class="flex items-center">
+            <i data-lucide="clock" class="w-4 h-4 mr-2"></i>
+            <span>20+ years experience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer - Ways to Connect -->
+<section id="connect" class="footer-section py-16 px-4 bg-gray-100 text-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <div class="flex items-center px-6 py-3 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+        <i data-lucide="mail" class="w-5 h-5 mr-3 text-gray-500"></i>
+        <span class="text-gray-700 font-mono text-lg">ekhiyami<span class="text-gray-400">@</span>gmail.com</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- Quick Contact Floating Button -->
+<div class="fixed bottom-6 right-6 z-40">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+  </a>
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+    
+    // TOC Toggle functionality
+    document.getElementById('toc-toggle').addEventListener('click', function() {
+      const overlay = document.getElementById('toc-overlay');
+      const panel = document.getElementById('toc-panel');
+      
+      overlay.classList.toggle('hidden');
+      panel.classList.toggle('translate-y-full');
+    });
+    
+    // Close TOC when clicking overlay
+    document.getElementById('toc-overlay').addEventListener('click', function(e) {
+      if (e.target === this) {
+        this.classList.add('hidden');
+        document.getElementById('toc-panel').classList.add('translate-y-full');
+      }
+    });
+    
+    // Close TOC when clicking a link
+    document.querySelectorAll('#toc-panel a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.getElementById('toc-overlay').classList.add('hidden');
+        document.getElementById('toc-panel').classList.add('translate-y-full');
+      });
+    });
+    
+    // View More Testimonials functionality
+    document.getElementById('view-more-testimonials').addEventListener('click', function() {
+      const additionalTestimonials = document.getElementById('additional-testimonials');
+      const btn = this;
+      
+      if (additionalTestimonials.classList.contains('hidden')) {
+        additionalTestimonials.classList.remove('hidden');
+        btn.innerHTML = '<i data-lucide="chevron-up" class="w-5 h-5 mr-2"></i>Show Less';
+        lucide.createIcons();
+      } else {
+        additionalTestimonials.classList.add('hidden');
+        btn.innerHTML = '<i data-lucide="message-square" class="w-5 h-5 mr-2"></i>View More Testimonials';
+        lucide.createIcons();
+      }
+    });
+    
+    // FAQ Toggle functionality
+    function toggleFaq(id) {
+      const answer = document.getElementById(`answer-${id}`);
+      const icon = document.getElementById(`icon-${id}`);
+      
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        answer.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+    
+    // Smooth scroll for anchor links
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+</script>
