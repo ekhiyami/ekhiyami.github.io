@@ -1,4 +1,4 @@
-I"�A<!-- Bio Section -->
+I"(9<!-- Bio Section -->
 <section class="py-16 px-4 bg-gray-50">
   <div class="max-w-4xl mx-auto">
     <div class="text-center mb-12">
@@ -65,70 +65,10 @@
     <!-- A Week in My Life Subsection -->
     <div class="mt-12">
       <h3 class="text-xl md:text-2xl font-bold text-black mb-6 text-center">A Week in My Life</h3>
-      <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8 text-center">A typical week includes a combination of these activities:</p>
-  
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Customer Meetings</p>
-              <p class="text-base text-gray-600">Optimization, Generative AI, Migration discussions</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Meeting Preparation</p>
-              <p class="text-base text-gray-600">Research and planning for customer engagements</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Internal Work</p>
-              <p class="text-base text-gray-600">Meetings, documentation, advocating for customers</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Continuous Learning</p>
-              <p class="text-base text-gray-600">I try not to pass a day without learning something new</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="space-y-6">
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Content Creation</p>
-              <p class="text-base text-gray-600">Writing, reviewing, raising the bar</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Building</p>
-              <p class="text-base text-gray-600">Workshops, conference talks, blog posts</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Mentoring</p>
-              <p class="text-base text-gray-600">Amazon folks during work hours, outside Amazon folks on weekends</p>
-            </div>
-          </div>
-          <div class="flex items-start">
-            <div class="w-4 h-4 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-            <div>
-              <p class="text-lg font-semibold text-black">Office Commute</p>
-              <p class="text-base text-gray-600">I live in Dallas, TX. I commute 90 minutes/day</p>
-            </div>
-          </div>
-        </div>
+      <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+        <p class="text-lg leading-relaxed text-gray-700">
+          Customer meetings • Research &amp; preparation • Internal work • Continuous learning • Content creation • Building solutions • Mentoring • Commuting (Dallas, TX)
+        </p>
       </div>
     </div>
   </div>
@@ -152,22 +92,34 @@
     
         <div class="space-y-4">
           <div class="border-l-4 border-blue-600 pl-4 py-2">
-            <h4 class="font-semibold text-black">Solutions Architect</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS" class="w-5 h-5 mr-2 rounded" />
+              <h4 class="font-semibold text-black">Solutions Architect</h4>
+            </div>
             <p class="text-blue-600 font-medium">Amazon Web Services (AWS)</p>
             <p class="text-sm text-gray-500">2019–Present • Dallas, TX</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">ERP Architect and System Admin Lead</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/allegion.com" alt="Allegion" class="w-5 h-5 mr-2 rounded" />
+              <h4 class="font-semibold text-black">ERP Architect and System Admin Lead</h4>
+            </div>
             <p class="text-gray-600">Allegion</p>
             <p class="text-sm text-gray-500">2017–2019 • Indianapolis, IN</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" class="w-5 h-5 mr-2 rounded" />
+              <h4 class="font-semibold text-black">ERP (Dynamics AX) Escalation Engineer</h4>
+            </div>
             <p class="text-gray-600">Microsoft</p>
             <p class="text-sm text-gray-500">2016–2017 • New York, NY</p>
           </div>
           <div class="border-l-4 border-gray-300 pl-4 py-2">
-            <h4 class="font-semibold text-black">Technical Architect Lead</h4>
+            <div class="flex items-center mb-2">
+              <img src="https://logo.clearbit.com/kumon.com" alt="Kumon" class="w-5 h-5 mr-2 rounded" />
+              <h4 class="font-semibold text-black">Technical Architect Lead</h4>
+            </div>
             <p class="text-gray-600">Kumon North America</p>
             <p class="text-sm text-gray-500">2013–2015 • New York, NY</p>
           </div>

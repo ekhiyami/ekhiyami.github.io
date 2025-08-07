@@ -1,508 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Home | Ebrahim Khiyami</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-<meta name="author" content="Blog Author">
-<meta name="generator" content="Jekyll v4.2.0">
-<link rel="canonical" href="http://0.0.0.0:4000/index_old/">
+---
+title: "Work Samples"
+permalink: "/projects/"
+layout: page
+---
 
-<!-- Social sharing meta tags -->
-<meta property="og:title" content="Home | Ebrahim Khiyami">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://ekhiyami.github.io/assets/eb-clean.jpg">
-<meta property="og:url" content="http://0.0.0.0:4000/index_old/">
-<meta name="twitter:card" content="summary_large_image">
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    primary: 'var(--primary-bg)',
-                    'primary-text': 'var(--primary-text)',
-                    secondary: 'var(--secondary-text)',
-                    accent: 'var(--accent-color)',
-                    'dark-bg': 'var(--dark-bg)',
-                    'light-grey-bg': 'var(--light-grey-bg)',
-                },
-                fontFamily: {
-                    sans: ['Inter', 'sans-serif'],
-                },
-                borderRadius: {
-                    'lg': 'var(--border-radius-lg)',
-                    'xl': 'var(--border-radius-xl)',
-                },
-                boxShadow: {
-                    'subtle': '0 2px 4px rgba(0,0,0,0.05), 0 4px 6px rgba(0,0,0,0.05)',
-                }
-            }
-        }
-    }
-</script>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-    :root {
-        --primary-bg: #FFFFFF;
-        --primary-text: #000000;
-        --secondary-text: #4A4A4A;
-        --dark-bg: #000000;
-        --accent-color: #2563EB;
-        --light-grey-bg: #F8F8F8;
-        --border-radius-lg: 12px;
-        --border-radius-xl: 20px;
-    }
-
-    body {
-        font-family: 'Inter', sans-serif;
-        background-color: var(--primary-bg);
-        color: var(--primary-text);
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-    }
-
-    /* Global Typography - Mobile Responsive */
-    h1, h2, h3, h4, h5, h6 {
-        color: #000000;
-        font-weight: 700;
-        font-family: 'Inter', sans-serif;
-    }
-
-    h1 {
-        font-size: 1.75rem;
-        line-height: 1.2;
-        margin-bottom: 1rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        line-height: 1.3;
-        margin-bottom: 0.75rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
-        line-height: 1.4;
-        margin-bottom: 0.5rem;
-    }
-
-    p {
-        color: #000000;
-        font-size: 1rem;
-        line-height: 1.75;
-        margin-bottom: 1rem;
-    }
-
-    /* Desktop Typography */
-    @media (min-width: 768px) {
-        h1 {
-            font-size: 2.25rem;
-        }
-        h2 {
-            font-size: 1.875rem;
-        }
-        h3 {
-            font-size: 1.5rem;
-        }
-        p {
-            font-size: 1.125rem;
-        }
-    }
-
-    /* Ensure consistent styling across all pages */
-    .modern-page h1, .modern-page h2, .modern-page h3, .modern-page h4, .modern-page h5, .modern-page h6 {
-        color: #000000;
-        font-weight: 700;
-    }
-
-    .modern-page p {
-        color: #000000;
-        font-size: 1.125rem;
-        line-height: 1.75;
-    }
-
-    /* Page Section Styling - Consistent with About Page */
-    .page-section {
-        background: white;
-        min-height: 100vh;
-        padding-top: 0.25rem;
-        padding-bottom: 1rem;
-    }
-
-    .section-header {
-        background: white;
-        padding: 1rem;
-    }
-
-    @media (min-width: 768px) {
-        .section-header {
-            padding: 2rem 1rem;
-        }
-    }
-
-    .section-header .container {
-        max-width: 64rem;
-        margin: 0 auto;
-    }
-
-    .section-title {
-        position: relative;
-        margin-bottom: 2rem;
-    }
-
-    .section-title h1 {
-        font-size: 1.5rem;
-        font-weight: 300;
-        color: #000000;
-        letter-spacing: -0.025em;
-        line-height: 1.2;
-        margin-bottom: 0;
-    }
-
-    @media (min-width: 768px) {
-        .section-title {
-            margin-bottom: 4rem;
-        }
-        .section-title h1 {
-            font-size: 2.25rem;
-        }
-    }
-
-    .section-title .highlight {
-        padding: 0.25rem 0.75rem;
-        background-color: #000000;
-        color: white;
-        border-radius: 0.375rem;
-        position: relative;
-    }
-
-    .section-title .highlight::after {
-        content: '';
-        position: absolute;
-        bottom: -0.5rem;
-        left: 0;
-        right: 0;
-        height: 0.125rem;
-        background-color: #2563EB;
-        border-radius: 9999px;
-    }
-
-    .cta-button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--dark-bg);
-        color: var(--primary-bg);
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--border-radius-lg);
-        font-weight: 600;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        font-size: 0.875rem;
-        width: 100%;
-        text-align: center;
-    }
-
-    @media (min-width: 768px) {
-        .cta-button {
-            padding: 1rem 2rem;
-            font-size: 1rem;
-            width: auto;
-        }
-    }
-
-    .cta-button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        background-color: #2a3a44;
-    }
-
-    .text-gradient {
-        background: linear-gradient(90deg, #2563EB, #1D4ED8);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .link-text {
-        color: var(--accent-color);
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-    .link-text:hover {
-        text-decoration: underline;
-    }
-
-    .nav-link {
-        color: var(--primary-text);
-        text-decoration: none;
-        font-weight: 500;
-        padding: 0.5rem 1rem;
-        border-radius: var(--border-radius-lg);
-        transition: all 0.2s ease-in-out;
-    }
-
-    .nav-link:hover {
-        background-color: #f8f9fa;
-        color: #000000;
-    }
-
-    .nav-link.active {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    /* Mobile-specific improvements */
-    .mobile-stack {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    @media (min-width: 768px) {
-        .mobile-stack {
-            flex-direction: row;
-            gap: 2rem;
-        }
-    }
-
-    .mobile-full-width {
-        width: 100%;
-    }
-
-    @media (min-width: 768px) {
-        .mobile-full-width {
-            width: auto;
-        }
-    }
-
-    /* Table responsiveness */
-    .responsive-table {
-        font-size: 0.875rem;
-    }
-
-    @media (min-width: 768px) {
-        .responsive-table {
-            font-size: 1rem;
-        }
-    }
-
-    .responsive-table th,
-    .responsive-table td {
-        padding: 0.5rem;
-    }
-
-    @media (min-width: 768px) {
-        .responsive-table th,
-        .responsive-table td {
-            padding: 1.5rem;
-        }
-    }
-
-    /* Card improvements */
-    .responsive-card {
-        padding: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    @media (min-width: 768px) {
-        .responsive-card {
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-    }
-
-    /* Stats grid mobile optimization */
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-    }
-
-    @media (min-width: 640px) {
-        .stats-grid {
-            grid-template-columns: repeat(5, 1fr);
-            gap: 1rem;
-        }
-    }
-
-    /* Image responsiveness */
-    .responsive-image {
-        width: 100%;
-        height: auto;
-        max-width: 200px;
-        margin: 0 auto;
-    }
-
-    @media (min-width: 768px) {
-        .responsive-image {
-            max-width: 300px;
-        }
-    }
-
-    /* Mobile touch improvements */
-    @media (max-width: 767px) {
-        /* Ensure minimum touch target size of 44px */
-        button, .nav-link, a {
-            min-height: 44px;
-            min-width: 44px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Better mobile button spacing */
-        .mobile-stack a, .mobile-stack button {
-            padding: 12px 16px;
-            margin: 4px 0;
-        }
-        
-        /* Prevent horizontal scroll */
-        body {
-            overflow-x: hidden;
-        }
-        
-        /* Better mobile text sizing */
-        .text-xs { font-size: 0.75rem; }
-        .text-sm { font-size: 0.875rem; }
-        .text-base { font-size: 1rem; }
-    }
-
-</style>
-
-
-</head>
-
-<body>
-<!-- Fixed Top Navigation -->
-<nav class="fixed top-0 left-0 w-full bg-primary bg-opacity-95 backdrop-blur-sm z-50 shadow-sm py-3 px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between max-w-7xl mx-auto">
-        <div class="flex items-center space-x-3">
-            <img src="/assets/eb-clean.jpg" alt="Ebrahim Khiyami" class="w-10 h-10 rounded-full object-cover border-2 border-gray-300">
-            <span class="hidden sm:block text-primary-text font-semibold text-lg">Ebrahim Khiyami</span>
-        </div>
-        
-        <!-- Desktop Navigation -->
-        <div class="hidden md:flex items-center space-x-1">
-            <a href="/" class="nav-link ">Home</a>
-            <a href="/about/" class="nav-link ">About</a>
-            <a href="/abouttest/" class="nav-link ">AboutMe</a>
-            <a href="/projects/" class="nav-link ">Work</a>
-            <a href="/mentoring/" class="nav-link ">Mentoring</a>
-        </div>
-        
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-light-grey-bg">
-            <i data-lucide="menu" class="w-6 h-6"></i>
-        </button>
-    </div>
-    
-    <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-200">
-        <div class="flex flex-col space-y-2 pt-4">
-            <a href="/" class="nav-link ">Home</a>
-            <a href="/about/" class="nav-link ">About</a>
-            <a href="/abouttest/" class="nav-link ">AboutMe</a>
-            <a href="/projects/" class="nav-link ">Work</a>
-            <a href="/mentoring/" class="nav-link ">Mentoring</a>
-        </div>
-    </div>
-</nav>
-
-<div class="modern-page">
-    <main class="pt-20">
-        <div class="publications-section bg-white min-h-screen pt-1 pb-4">
+<div class="landing-page bg-white min-h-screen">
 
 <!-- Hero Section -->
-<div class="bg-white py-8 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="mb-16">
-      <div class="relative">
-        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
-          Work <span class="px-3 py-1 bg-black text-white rounded-md relative">Samples
-            <div class="absolute -bottom-2 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></div>
-          </span>
-        </h1>
-      </div>
+<section class="hero-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h1 class="text-3xl md:text-4xl font-bold text-black mb-4">
+        Work Samples
+      </h1>
     </div>
     
-    <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-xl">
-      <div class="mb-6">
-      
-      <div class="prose prose-lg max-w-none text-gray-600 space-y-4 mb-8">
-        <p class="text-base md:text-lg leading-relaxed">
-          This is a sample collection of my work, including technical contributions, POCs, solutions I delivered to customers, technical improvements on different AWS services, publications, and more.
-        </p>
-        <p class="text-base md:text-lg leading-relaxed">
-          I work on solving customer problems daily, so my complete portfolio is much longer. This is just a public sample that showcases the breadth and depth of my technical expertise across cloud architecture, migration, optimization, and generative AI.
-        </p>
-      </div>
-      
-      <!-- Portfolio Stats -->
-      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 mb-8 border border-blue-100 shadow-md">
-        <div class="flex items-center justify-center gap-8 text-center">
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">28+</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Publications</p>
-          </div>
-          <div class="w-px h-10 bg-blue-200"></div>
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">8</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Solutions</p>
-          </div>
-          <div class="w-px h-10 bg-blue-200"></div>
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">6</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Workshops</p>
-          </div>
-          <div class="w-px h-10 bg-blue-200"></div>
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">5+</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Launches</p>
-          </div>
-          <div class="w-px h-10 bg-blue-200"></div>
-          <div class="transform hover:scale-105 transition-transform duration-200">
-            <span class="text-2xl md:text-3xl font-bold text-blue-600">4</span>
-            <p class="text-sm md:text-base text-gray-700 mt-1 font-medium">Training</p>
-          </div>
+    <div class="space-y-6 text-gray-600 mb-8">
+      <p class="text-lg md:text-xl leading-relaxed">
+        This is a sample collection of my work, including technical contributions, POCs, solutions I delivered to customers, technical improvements on different AWS services, publications, and more.
+      </p>
+      <p class="text-lg md:text-xl leading-relaxed">
+        I work on solving customer problems daily, so my complete portfolio is much longer. This is just a public sample that showcases the breadth and depth of my technical expertise across cloud architecture, migration, optimization, and generative AI.
+      </p>
+    </div>
+    
+    <!-- Portfolio Stats -->
+    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-100 shadow-lg">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">40+</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Publications</p>
+        </div>
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">8</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Solutions</p>
+        </div>
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">6</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Workshops</p>
+        </div>
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">5+</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Events</p>
+        </div>
+        <div class="transform hover:scale-105 transition-transform duration-200">
+          <span class="text-3xl md:text-4xl font-bold text-blue-600 block">4</span>
+          <p class="text-sm md:text-base text-gray-700 mt-2 font-medium">Training</p>
         </div>
       </div>
-      
-
     </div>
   </div>
-</div>
+</section>
 
-<!-- Elegant Section Separator -->
-<div class="max-w-4xl mx-auto px-4 mb-12">
-  <div class="flex items-center justify-center">
-    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
-    <div class="px-6">
-      <div class="flex space-x-2">
-        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
-        <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
-        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
-      </div>
+<!-- Work Samples Section -->
+<section class="portfolio-section py-16 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Portfolio Showcase</h2>
     </div>
-    <div class="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
-  </div>
-</div>
-
-<!-- Work Samples Table -->
-<div class="max-w-4xl mx-auto px-4 mt-8">
-  <div class="mb-8">
-    <h2 class="text-2xl md:text-3xl font-bold text-black relative text-center">Portfolio Showcase
-      <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-0.5 bg-blue-600 rounded-full"></div>
-    </h2>
-  </div>
-<div class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+    <div class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
   
   <div class="overflow-x-auto">
     <table class="w-full">
@@ -516,6 +72,38 @@
       <tbody class="divide-y divide-gray-100">
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
+            <a href="/automate-wa-review-amazon-q/" class="text-black hover:text-gray-600 font-medium text-base md:text-lg leading-relaxed transition-colors hover:underline">
+              Automate the Well-Architected Review w. Amazon Q
+            </a>
+            <p class="text-gray-600 text-sm md:text-base mt-2 leading-relaxed">
+              Originally published on AWS Builder Center. This post shows how to use Amazon Q to perform automated Well-Architected Framework reviews on Infrastructure as Code templates, reducing review time from hours to minutes.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Jun 2025</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises" class="text-black hover:text-gray-600 font-medium text-base md:text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected For Enterprises
+            </a>
+            <p class="text-gray-600 text-sm md:text-base mt-2 leading-relaxed">
+              Official AWS SkillBuilder course that provides enterprise architects with practical guidance on implementing Well-Architected Framework in large-scale environments.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">2025</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
             <a href="/dallas-voc/" class="text-black hover:text-gray-600 font-medium text-base md:text-lg leading-relaxed transition-colors hover:underline">
               Dallas Migration & Modernization Experience Day
             </a>
@@ -524,8 +112,8 @@
             </p>
           </td>
           <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              <i data-lucide="calendar" class="w-3 h-3 mr-1 text-purple-600"></i>Event
             </span>
           </td>
           <td class="px-6 py-8 text-gray-600 font-medium">Jul 2025</td>
@@ -596,6 +184,38 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
+            <a href="https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Well-Architected for Enterprises blog+ Digital Course
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Comprehensive blog post and accompanying digital course that teaches enterprise organizations how to implement AWS Well-Architected Framework at scale.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2025</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="/wa-enterprise/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              New Digital Course: AWS Well-Architected for Enterprise
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Developed a specialized digital training course focused on enterprise-scale implementation of AWS Well-Architected Framework principles and best practices.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Feb 2025</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
             <a href="/wa-gen-ai/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
               Gen-AI Assisted AWS Well-Architected Review
             </a>
@@ -606,6 +226,22 @@
           <td class="px-6 py-8">
             <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
               <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Oct 2024</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="/idc-dallas/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              FutureIT Dallas Summit
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Keynote presentation at IDC's FutureIT Dallas Summit, discussing cloud transformation strategies and AWS best practices for enterprise organizations.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              <i data-lucide="calendar" class="w-3 h-3 mr-1 text-purple-600"></i>Event
             </span>
           </td>
           <td class="px-6 py-8 text-gray-600 font-medium">Oct 2024</td>
@@ -644,27 +280,11 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
-            <a href="/map/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              The AWS MAP Automation
+            <a href="/blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Top 20 Blog Posts I Authored for AWS
             </a>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Developed automation tools for the AWS Migration Acceleration Program (MAP) that streamline migration processes and reduce manual effort for customers worldwide.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Feb 2024</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Well-Architected for Enterprises blog+ Digital Course
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Comprehensive blog post and accompanying digital course that teaches enterprise organizations how to implement AWS Well-Architected Framework at scale.
+              Curated collection of my most impactful AWS blog posts covering migration, Well-Architected Framework, disaster recovery, and cloud optimization strategies.
             </p>
           </td>
           <td class="px-6 py-8">
@@ -672,55 +292,7 @@
               <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
             </span>
           </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2025</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="/wa-enterprise/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              New Digital Course: AWS Well-Architected for Enterprise
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Developed a specialized digital training course focused on enterprise-scale implementation of AWS Well-Architected Framework principles and best practices.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Feb 2025</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected For Enterprises
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Official AWS SkillBuilder course that provides enterprise architects with practical guidance on implementing Well-Architected Framework in large-scale environments.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">2025</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected Migration Lens
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Co-authored the official AWS Well-Architected Migration Lens, providing comprehensive guidance for evaluating migration architectures against AWS best practices.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
-              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">2024</td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2024</td>
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
@@ -740,6 +312,22 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
+            <a href="/map/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              The AWS MAP Automation
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Developed automation tools for the AWS Migration Acceleration Program (MAP) that streamline migration processes and reduce manual effort for customers worldwide.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
+              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Feb 2024</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
             <a href="https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
               Announcing The AWS Well-Architected Migration Lens
             </a>
@@ -756,19 +344,35 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
-            <a href="https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected Foundations
+            <a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected Migration Lens
             </a>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Foundational AWS SkillBuilder course that introduces the Well-Architected Framework principles and provides hands-on learning for cloud architects.
+              Co-authored the official AWS Well-Architected Migration Lens, providing comprehensive guidance for evaluating migration architectures against AWS best practices.
             </p>
           </td>
           <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
             </span>
           </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">2023</td>
+          <td class="px-6 py-8 text-gray-600 font-medium">2024</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Final part of the Spanish Well-Architected series, focusing on optimization recommendations and continuous improvement practices.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Oct 2023</td>
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
@@ -801,22 +405,6 @@
             </span>
           </td>
           <td class="px-6 py-8 text-gray-600 font-medium">Sep 2023</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Final part of the Spanish Well-Architected series, focusing on optimization recommendations and continuous improvement practices.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Oct 2023</td>
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
@@ -868,6 +456,22 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
+            <a href="/wa-course/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              The Well-Architected Foundation Digital Course
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Comprehensive digital learning experience that introduces the AWS Well-Architected Framework fundamentals through interactive modules and hands-on exercises.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Jul 2023</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
             <a href="https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
               5 Steps to learn AWS best practices and become Well-Architected
             </a>
@@ -916,70 +520,6 @@
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
-            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Microsoft Azure
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Comprehensive guide for implementing disaster recovery solutions on AWS to protect Microsoft Azure workloads, including architecture patterns and best practices.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2023</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="/idc-dallas/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              FutureIT Dallas Summit
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Keynote presentation at IDC's FutureIT Dallas Summit, discussing cloud transformation strategies and AWS best practices for enterprise organizations.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Oct 2024</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="/blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Top 20 Blog Posts I Authored for AWS
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Curated collection of my most impactful AWS blog posts covering migration, Well-Architected Framework, disaster recovery, and cloud optimization strategies.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2024</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
-            <a href="/wa-course/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              The Well-Architected Foundation Digital Course
-            </a>
-            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
-              Comprehensive digital learning experience that introduces the AWS Well-Architected Framework fundamentals through interactive modules and hands-on exercises.
-            </p>
-          </td>
-          <td class="px-6 py-8">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-          <td class="px-6 py-8 text-gray-600 font-medium">Jul 2023</td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-8">
             <a href="/migration-workshop/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
               Migration Best Practices- re:Invent Workshop
             </a>
@@ -1009,6 +549,38 @@
             </span>
           </td>
           <td class="px-6 py-8 text-gray-600 font-medium">May 2023</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              Building a disaster recovery site on AWS for workloads on Microsoft Azure
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Comprehensive guide for implementing disaster recovery solutions on AWS to protect Microsoft Azure workloads, including architecture patterns and best practices.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">Mar 2023</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
+          <td class="px-8 py-8">
+            <a href="https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
+              AWS Well-Architected Foundations
+            </a>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+              Foundational AWS SkillBuilder course that introduces the Well-Architected Framework principles and provides hands-on learning for cloud architects.
+            </p>
+          </td>
+          <td class="px-6 py-8">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
+            </span>
+          </td>
+          <td class="px-6 py-8 text-gray-600 font-medium">2023</td>
         </tr>
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
@@ -1138,7 +710,6 @@
           </td>
           <td class="px-6 py-8 text-gray-600 font-medium">Jun 2020</td>
         </tr>
-
         <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
           <td class="px-8 py-8">
             <a href="https://d1.awsstatic.com/whitepapers/oracle-postgres-cdc-monitoring-aws-dms.pdf" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
@@ -1158,24 +729,36 @@
       </tbody>
     </table>
   </div>
-</div>
-</div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer - Ways to Connect -->
+<section class="footer-section py-16 px-4 bg-gray-100 text-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <div class="flex items-center px-6 py-3 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+        <i data-lucide="mail" class="w-5 h-5 mr-3 text-gray-500"></i>
+        <span class="text-gray-700 font-mono text-lg">ekhiyami<span class="text-gray-400">@</span>gmail.com</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 </div>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-    lucide.createIcons();
-    AOS.init({
-        once: true,
-        duration: 800,
-        easing: 'ease-out',
-        offset: 50,
-    });
-</script>
-
-    </main>
+<!-- Quick Contact Floating Button -->
+<div class="fixed bottom-6 right-6 z-40">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+  </a>
 </div>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -1189,31 +772,13 @@
         offset: 50,
     });
     
-    // Mobile menu toggle - robust version
-    document.addEventListener('DOMContentLoaded', function() {
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        if (mobileMenuBtn && mobileMenu) {
-            // Remove any existing listeners
-            mobileMenuBtn.replaceWith(mobileMenuBtn.cloneNode(true));
-            const newBtn = document.getElementById('mobile-menu-btn');
-            
-            newBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-            });
-            
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!newBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                    mobileMenu.classList.add('hidden');
-                }
-            });
-        }
-    });
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
 </script>
-
-</body>
-</html>
