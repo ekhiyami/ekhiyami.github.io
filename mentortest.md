@@ -320,6 +320,30 @@ layout: default
             <p>A mentor will show you the fastest way to achieve your goal. Be mindful, this is not a shortcut. This is an experience-sharing exercise where you work with someone with similar background, who has proven success, deep industry exposure, and real experience—not just an influencer selling courses. The mentor will show what works and what doesn't from their experiences being in your place for a long time.</p>
           </div>
         </div>
+        
+        <!-- FAQ Item 3 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(3)">
+            <span class="text-lg font-semibold text-black">Is this right for you?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-3"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-3">
+            <p class="mb-4">You will benefit from my experience if you are a young professional (0-5 years of experience) or mid-level professional (5-15 years), looking to succeed in an individual contributor role (IC), not a manager or executive. Also, I can help if you need advice to transition between tech roles, building online brands, or prep for big interviews.</p>
+            <p>If you're still not sure, shoot me an email and we can discuss your case further.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 4 -->
+        <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+          <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors" onclick="toggleFaq(4)">
+            <span class="text-lg font-semibold text-black">How quickly will I see results?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transform transition-transform" id="icon-4"></i>
+          </button>
+          <div class="px-6 pb-4 text-base text-gray-600 leading-relaxed hidden" id="answer-4">
+            <p class="mb-3">Most mentees see clarity within the first session and actionable progress within 30 days. Career pivots typically take 3-6 months, while interview prep shows results in 2-4 weeks.</p>
+            <p class="text-sm text-gray-500 italic">"After just one session with EB, I had a clear 90-day plan and felt confident about my next steps." - Recent mentee</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
