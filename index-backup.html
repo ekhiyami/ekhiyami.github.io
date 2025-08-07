@@ -1,577 +1,624 @@
 ---
 layout: default
-title: "Home"
 ---
 
-<div class="publications-section bg-white min-h-screen pt-1 pb-4">
+<div class="landing-page bg-white min-h-screen">
 
-<!-- Publications Table -->
-<div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden" data-aos="fade-up" data-aos-delay="400">
-  <div class="bg-gray-50 border-b border-gray-200 px-8 py-4">
-    <h2 class="text-xl font-semibold text-black flex items-center">
-      <i data-lucide="file-text" class="w-5 h-5 mr-3 text-black"></i>
-      Work Samples
-    </h2>
+<!-- Hero Section - Restored Previous Version -->
+<section class="hero-section bg-gradient-to-br from-gray-50 to-white py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-12 items-center">
+      <div class="lg:w-2/3 space-y-6">
+        <div class="space-y-4">
+          <h1 class="text-4xl md:text-6xl font-bold text-black leading-tight">
+            Hi, I'm <span class="text-blue-600">EB</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-600 leading-relaxed">
+            <strong class="text-black">Cloud Technologist</strong>, <strong class="text-black">Architect</strong>, <strong class="text-black">Mentor</strong>, <strong class="text-black">Inventor</strong> and <strong class="text-black">Builder</strong>.
+          </p>
+
+          <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+            Currently a <strong class="text-black">Solutions Architect</strong> on the Cloud Migration & Optimization team at <strong class="text-black">AWS</strong>. I specialize in three key domains: <strong class="text-black">Cloud Migration & Transformation</strong>, <strong class="text-black">Cloud Optimization</strong>, and <strong class="text-black">Generative AI</strong>.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="/projects/" class="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium focus:ring-2 focus:ring-black focus:ring-offset-2">
+            <i data-lucide="briefcase" class="w-5 h-5 mr-2"></i>Work Samples
+          </a>
+          <a href="/about/" class="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            <i data-lucide="user" class="w-5 h-5 mr-2"></i>More About Me
+          </a>
+          <a href="/mentoring/" class="inline-flex items-center justify-center px-6 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
+            <i data-lucide="users" class="w-5 h-5 mr-2"></i>Mentoring
+          </a>
+        </div>
+      </div>
+      <div class="lg:w-1/3 flex justify-center">
+        <div class="relative">
+          <img src="/assets/eb-clean.jpg" alt="EB Khiyami - Cloud Solutions Architect at AWS" class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-white" style="image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;" loading="eager">
+          <div class="absolute -bottom-4 -right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg">
+            <i data-lucide="cloud" class="w-6 h-6"></i>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <div class="overflow-x-auto">
-    <table class="w-full">
-      <thead class="bg-gray-50 border-b border-gray-200">
-        <tr>
-          <th class="px-8 py-4 text-left font-bold text-black text-lg">Title</th>
-          <th class="px-6 py-4 text-left font-bold text-black text-lg">Date</th>
-          <th class="px-6 py-4 text-left font-bold text-black text-lg">Type</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-gray-100">
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/dallas-voc/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Migration and Modernization Experience Day - Dallas
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">30 Jul 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/built-with-amazon-q/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              I vibe-coded this website completely using Amazon Kiro/Q
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">22 Jul 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/wa-gen-workshop/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              New hands-on workshop: Accelerate Well-Architected Review using Generative AI
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">22 Jul 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
-              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://catalog.us-east-1.prod.workshops.aws/workshops/827bfeea-d375-4215-911d-62bf2c7d8cea/en-US" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Generative AI Accelerator for Well-Architected Review
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">22 Jul 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
-              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/chat-with-aws/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Chat with your AWS bill using AWS MCP, Amazon Q CLI
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">06 May 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/wa-gen-ai/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Gen-AI Assisted AWS Well-Architected Review
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">23 Oct 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/video-chat/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              My YouTube Summarizer that Went Viral
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">10 Jun 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/dr/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Disaster Recovery for Azure/GCP on AWS
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 May 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/map/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              The AWS MAP Automation
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 Feb 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
-              <i data-lucide="lightbulb" class="w-3 h-3 mr-1 text-teal-600"></i>Solution
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/training-and-certification/well-architected-for-enterprises/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Well-Architected for Enterprises blog+ Digital Course
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 Mar 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/wa-enterprise/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              New Digital Course: AWS Well-Architected for Enterprise
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">15 Feb 2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected For Enterprises
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/migration-lens.html" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected Migration Lens
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
-              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/the-migration-well-architected-review-a-mechanism-to-validate-your-migration-for-aws-best-practices/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              The Migration Well-Architected Review – a Mechanism to validate your migration for AWS best practices
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">26 Mar 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/announcing-aws-well-architected-migration-lens/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Announcing The AWS Well-Architected Migration Lens
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">24 Jan 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://explore.skillbuilder.aws/learn/courses/108/aws-well-architected-foundations" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              AWS Well-Architected Foundations
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Cómo realizar una revisión de Well-Architected Framework - Parte 1 (Spanish)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">18 Sep 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Cómo realizar una revisión de Well-Architected Framework - Parte 2 (Spanish)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">29 Sep 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/es/blogs/aws-spanish/como-realizar-una-revision-de-well-architected-framework-parte-3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Cómo realizar una revisión de Well-Architected Framework - Parte 3 (Spanish)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">10 Oct 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              How to perform a Well-Architected Framework Review- Part 1
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part2" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              How to perform a Well-Architected Framework Review- Part 2
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/how-to-perform-a-well-architected-framework-review-part3/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              How to perform a Well-Architected Framework Review- Part 3
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">03 Aug 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/training-and-certification/5-steps-to-learn-aws-best-practices-and-become-well-architected/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              5 Steps to learn AWS best practices and become Well-Architected
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">25 Jul 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Google Cloud Part 1 (Japanese)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">28 Jul 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/jp/blogs/news/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Google Cloud Part 2 (Japanese)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">28 Jul 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-microsoft-azure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Microsoft Azure
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">23 Mar 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/idc-dallas/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              FutureIT Dallas Summit
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">15 Oct 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Top 20 Blog Posts I Authored for AWS
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">15 Mar 2024</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/wa-course/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              The Well-Architected Foundation Digital Course
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 Jul 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              <i data-lucide="play-circle" class="w-3 h-3 mr-1 text-green-600"></i>Training
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/migration-workshop/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Migration Best Practices- re:Invent Workshop
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 Jun 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
-              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="/wa-blogs/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              How to Perform WA Review Blog Series
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">01 May 2023</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/storage/securely-installing-aws-replication-agent-using-aws-security-token-service/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Securely installing AWS Replication Agent using AWS Security Token Service
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">13 Jun 2022</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-2/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Google Cloud Part 2
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">24 Jun 2022</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/storage/building-a-disaster-recovery-site-on-aws-for-workloads-on-google-cloud-part-1/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Building a disaster recovery site on AWS for workloads on Google Cloud Part 1
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">24 Jun 2022</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/es/blogs/aws-spanish/configurando-un-plan-de-recuperacion-de-desastres-drp-entre-aws-y-azure-utilizando-cloudendure/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Configurando un plan de recuperación de desastres (DRP) entre AWS y Azure utilizando CloudEndure (Spanish)
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">16 Jul 2021</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Accelerate vCenter Migration using AWS Migration Service Agentless Migration
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">21 Jan 2021</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/storage/migrating-your-microsoft-windows-clusters-to-aws-using-cloudendure-migration/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Migrating your Microsoft Windows clusters to AWS using CloudEndure Migration
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">22 Jan 2021</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/architecture/field-notes-building-a-disaster-recovery-site-on-aws-for-your-azure-workload/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Field Notes: Building a Disaster Recovery site on AWS for your Azure Workload
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">24 Jul 2020</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://aws.amazon.com/blogs/architecture/field-notes-choosing-a-rehost-migration-tool-cloudendure-or-aws-sms/" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Field Notes: Choosing a Rehost Migration Tool – CloudEndure or AWS SMS
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">10 Jun 2020</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-              <i data-lucide="edit-3" class="w-3 h-3 mr-1 text-blue-600"></i>Blog
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <span class="text-black font-medium text-lg leading-relaxed">
-              Implementing Infrastructure as Code using AWS CloudFormation
-            </span>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">2025</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
-              <i data-lucide="wrench" class="w-3 h-3 mr-1 text-orange-600"></i>Workshop
-            </span>
-          </td>
-        </tr>
-        <tr class="hover:bg-gray-50 transition-all duration-300 hover:shadow-sm">
-          <td class="px-8 py-7">
-            <a href="https://d1.awsstatic.com/whitepapers/oracle-postgres-cdc-monitoring-aws-dms.pdf" class="text-black hover:text-gray-600 font-medium text-lg leading-relaxed transition-colors hover:underline">
-              Monitoring Oracle to PostgreSQL Migration using AWS DMS
-            </a>
-          </td>
-          <td class="px-6 py-7 text-gray-600 font-medium">2020</td>
-          <td class="px-6 py-7">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
-              <i data-lucide="file-text" class="w-3 h-3 mr-1 text-purple-600"></i>Whitepaper
-            </span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+</section>
+
+<!-- Enhanced Featured Work Section -->
+<section class="featured-work-section py-16 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Sample of My Work</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Sample of my recent work that delivered to customers or community.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      <!-- Project 1 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-blue-500 to-blue-600 relative overflow-hidden">
+          <img src="/assets/wa-genai.webp" alt="Gen AI Well-Architected Review" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-blue-800 text-sm font-semibold rounded-full">AI Solution</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">Gen AI Well-Architected Review</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• Automates architecture assessments across 6 pillars</li>
+            <li>• Improves review efficiency by 80%</li>
+            <li>• Used by 100+ AWS customers globally</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">AWS Bedrock</span>
+            </div>
+            <a href="/wa-gen-ai/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-gray-600 to-black relative overflow-hidden">
+          <img src="/assets/chat-bill.webp" alt="Chat with AWS Bill" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-gray-800 text-sm font-semibold rounded-full">Cost Optimization</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">Chat with your AWS Bill</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• Natural language cost analysis</li>
+            <li>• Identifies optimization opportunities</li>
+            <li>• Saves customers 20-40% on AWS costs</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">AI</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Cost Explorer</span>
+            </div>
+            <a href="/chat-with-aws/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-blue-600 to-gray-700 relative overflow-hidden">
+          <img src="/assets/migration-lens1.webp" alt="Migration Lens Framework" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-gray-800 text-sm font-semibold rounded-full">Framework</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">Migration Lens Framework</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• Official AWS Well-Architected lens</li>
+            <li>• Guides 1000+ customer migrations</li>
+            <li>• Reduces migration risks by 60%</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">AWS</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Migration</span>
+            </div>
+            <a href="/migration-lens/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-gray-500 to-blue-600 relative overflow-hidden">
+          <img src="/assets/video-chat.webp" alt="YouTube Summarizer" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-blue-800 text-sm font-semibold rounded-full">AI Solution</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">YouTube Summarizer</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• AI-powered video content analysis</li>
+            <li>• Extracts key insights automatically</li>
+            <li>• Saves 80% of video watching time</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">YouTube API</span>
+            </div>
+            <a href="/video-chat/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-black to-blue-600 relative overflow-hidden">
+          <img src="/assets/dr.webp" alt="Disaster Recovery Solution" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-gray-800 text-sm font-semibold rounded-full">DR Solution</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">Cross-Cloud Disaster Recovery</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• Protects GCP and Azure workloads</li>
+            <li>• Uses AWS as recovery site</li>
+            <li>• Reduces RTO by 70%</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">AWS DRS</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Multi-Cloud</span>
+            </div>
+            <a href="/dr/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+        <div class="h-48 bg-gradient-to-br from-blue-500 to-gray-600 relative overflow-hidden">
+          <img src="/assets/workshop1.webp" alt="Migration Workshop" class="w-full h-full object-cover opacity-90" loading="lazy">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 bg-white/90 text-blue-800 text-sm font-semibold rounded-full">Workshop</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-black mb-3">Migration Workshop Series</h3>
+          <ul class="text-sm text-gray-600 mb-4 space-y-1">
+            <li>• Comprehensive migration training</li>
+            <li>• Hands-on enterprise scenarios</li>
+            <li>• Trained 500+ professionals</li>
+          </ul>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">AWS</span>
+              <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded-full">Training</span>
+            </div>
+            <a href="/migration-workshop/" class="text-blue-600 hover:text-blue-700 font-medium">View →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="/projects/" class="inline-flex items-center justify-center px-8 py-4 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-semibold text-lg">
+        <i data-lucide="grid" class="w-5 h-5 mr-2"></i>View All Work Samples
+      </a>
+    </div>
   </div>
+</section>
+
+<!-- Professional Summary -->
+<section class="resume-preview py-16 px-4 bg-gray-50">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Professional Summary</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        20+ years transforming businesses through cloud innovation and leadership.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100">
+          <img src="https://logo.clearbit.com/aws.amazon.com" alt="AWS" class="w-12 h-12 rounded-lg">
+          <div class="flex-1">
+            <h3 class="text-lg font-bold text-black">Solutions Architect</h3>
+            <p class="text-blue-600 font-medium">Amazon Web Services</p>
+            <p class="text-sm text-gray-600">2019–Present • 100+ enterprise migrations</p>
+          </div>
+        </div>
+        
+        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100">
+          <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" class="w-12 h-12 rounded-lg">
+          <div class="flex-1">
+            <h3 class="text-lg font-bold text-black">ERP Escalation Engineer</h3>
+            <p class="text-gray-600 font-medium">Microsoft</p>
+            <p class="text-sm text-gray-600">2016–2017 • 200+ critical issues resolved</p>
+          </div>
+        </div>
+        
+        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100">
+          <img src="https://logo.clearbit.com/allegion.com" alt="Allegion" class="w-12 h-12 rounded-lg">
+          <div class="flex-1">
+            <h3 class="text-lg font-bold text-black">ERP Architect</h3>
+            <p class="text-gray-600 font-medium">Allegion</p>
+            <p class="text-sm text-gray-600">2017–2019 • 10+ manufacturing facilities</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <h3 class="text-2xl font-bold text-black mb-6">Recognition and Awards</h3>
+        <div class="space-y-6">
+          <div class="flex items-start space-x-4">
+            <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="trophy" class="w-4 h-4 text-blue-600"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-black">Top Migration SME - AWS Global</p>
+              <p class="text-sm text-gray-600">$100M ARR in identified opportunities</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="lightbulb" class="w-4 h-4 text-gray-600"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-black">Amazon Patent Holder</p>
+              <p class="text-sm text-gray-600">Cloud infrastructure innovation</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="users" class="w-4 h-4 text-blue-600"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-black">100+ Professionals Mentored</p>
+              <p class="text-sm text-gray-600">4.9/5 rating across 200+ sessions</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-8 pt-6 border-t border-gray-200">
+          <a href="/about/" class="w-full inline-flex items-center justify-center px-4 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold">
+            <i data-lucide="file-text" class="w-4 h-4 mr-2"></i>Resume and Full Background
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mentoring Section -->
+<section class="mentoring-section py-16 px-4 bg-gradient-to-br from-blue-50 to-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Career Mentoring</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Accelerate your tech career with personalized guidance from someone who's been there.
+      </p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="space-y-8">
+        <div class="space-y-4">
+          <h3 class="text-2xl md:text-3xl font-bold text-black">Transform Your Career</h3>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            <strong class="text-black">I wish I had a mentor earlier in my career.</strong> The right guidance could have saved me years of trial and error. Now, I help ambitious professionals accelerate their growth.
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="flex items-start space-x-3">
+            <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="target" class="w-4 h-4 text-blue-600"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-black">Career Strategy</h4>
+              <p class="text-sm text-gray-600">Define goals & create action plans</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="users" class="w-4 h-4 text-gray-600"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-black">Interview Prep</h4>
+              <p class="text-sm text-gray-600">Mock interviews & feedback</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="trending-up" class="w-4 h-4 text-blue-600"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-black">Career Transitions</h4>
+              <p class="text-sm text-gray-600">Navigate role & industry changes</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <i data-lucide="file-text" class="w-4 h-4 text-gray-600"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-black">Personal Branding</h4>
+              <p class="text-sm text-gray-600">LinkedIn & resume optimization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex justify-center">
+        <!-- Monthly Mentoring -->
+        <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 shadow-xl max-w-md w-full">
+          <div class="text-center mb-6">
+            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <i data-lucide="users" class="w-8 h-8 text-white"></i>
+            </div>
+            <h4 class="text-2xl font-bold text-black mb-2">Monthly Mentoring</h4>
+            <p class="text-gray-600 mb-4">1:1 sessions + unlimited support</p>
+            <div class="mb-6">
+              <span class="text-4xl font-bold text-blue-600">$100</span>
+              <span class="text-gray-600 text-lg">/month</span>
+            </div>
+          </div>
+          <div class="space-y-3">
+            <a href="https://topmate.io/ekhiyami/1615386/pay?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="w-full inline-flex items-center justify-center px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-200 font-semibold text-lg shadow-lg hover:shadow-xl">
+              <i data-lucide="handshake" class="w-5 h-5 mr-2"></i>Start Now
+            </a>
+            <a href="/mentoring/" class="w-full inline-flex items-center justify-center px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-50 transition-colors font-semibold border border-blue-200">
+              <i data-lucide="info" class="w-5 h-5 mr-2"></i>Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Trust Indicators -->
+      <div class="flex items-center justify-center gap-8 text-sm text-gray-500 mt-8">
+        <div class="flex items-center">
+          <i data-lucide="users" class="w-4 h-4 mr-2"></i>
+          <span>100+ mentees</span>
+        </div>
+        <div class="flex items-center">
+          <i data-lucide="star" class="w-4 h-4 mr-2 text-blue-600"></i>
+          <span>4.9/5 rating</span>
+        </div>
+        <div class="flex items-center">
+          <i data-lucide="clock" class="w-4 h-4 mr-2"></i>
+          <span>5+ years experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What People Are Saying -->
+<section class="testimonials-section py-16 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">What People Are Saying</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Real feedback from professionals who've worked with me and benefited from my mentoring.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "EB has been super supportive and encouraging since the beginning. He not only guided me toward the right opportunities, like the AWS program, but also made me feel confident about my learning journey."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">YR</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Yuva R.</p>
+            <p class="text-sm text-gray-600">March 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-100">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "Ebrahim is a proactive mentor. He brought both clarity and strategic insight to our conversation. He was approachable, articulate, and immediately understood where I was in my journey."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SM</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Said M.</p>
+            <p class="text-sm text-gray-600">July 2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "Every time I talk to EB I learn something new that I can put in actions the next day at work. He always asks and check on my improvement without pressure. Love being his mentee."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">AN</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Anonymous</p>
+            <p class="text-sm text-gray-600">2025</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SP</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Shilpi P.</p>
+            <p class="text-sm text-gray-600">July 2023</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "Ebrahim gave me clear, actionable feedback on how to better organize my behavioral interview responses, and increased my confidence for future interviews."
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">JD</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Jeff D.</p>
+            <p class="text-sm text-gray-600">October 2021</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-50 rounded-xl p-6 shadow-lg border border-gray-200">
+        <div class="flex mb-4">
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+          <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
+        </div>
+        <p class="text-gray-700 mb-4 italic leading-relaxed">
+          "Very well conducted and I liked how each question was either followed by an explanation of why it was asked and what is expected at each level. Thank you so much!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SV</span>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">Srinivasan V.</p>
+            <p class="text-sm text-gray-600">April 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-12">
+      <a href="/mentoring/#testimonials" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="message-square" class="w-5 h-5 mr-2"></i>View More Testimonials
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer - Ways to Connect -->
+<section class="footer-section py-16 px-4 bg-gray-100 text-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
+      </a>
+      <div class="flex items-center px-6 py-3 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+        <i data-lucide="mail" class="w-5 h-5 mr-3 text-gray-500"></i>
+        <span class="text-gray-700 font-mono text-lg">ekhiyami<span class="text-gray-400">@</span>gmail.com</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 </div>
 
+<!-- Quick Contact Floating Button -->
+<div class="fixed bottom-6 right-6 z-40">
+  <a href="https://topmate.io/ekhiyami/1354001?utm_source=spotlight&utm_campaign=ekhiyami" target="_blank" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-200 hover:scale-110">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+  </a>
 </div>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
 <script>
-    lucide.createIcons();
-    AOS.init({
-        once: true,
-        duration: 800,
-        easing: 'ease-out',
-        offset: 50,
+    // Smooth scroll for anchor links
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
     });
+</script>
+
+<!-- SEO and Performance -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ebrahim Khiyami",
+  "jobTitle": "Solutions Architect",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Amazon Web Services"
+  },
+  "url": "https://ekhiyami.github.io",
+  "sameAs": [
+    "https://www.linkedin.com/in/eb-khiyami/"
+  ],
+  "knowsAbout": ["Cloud Computing", "AWS", "Migration", "Artificial Intelligence", "Mentoring"],
+  "description": "Cloud Solutions Architect at AWS specializing in Cloud Migration & Transformation, Cloud Optimization, and Generative AI. Mentor to 100+ tech professionals."
+}
 </script>
