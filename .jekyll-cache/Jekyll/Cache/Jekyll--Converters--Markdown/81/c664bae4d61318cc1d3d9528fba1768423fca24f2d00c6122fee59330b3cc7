@@ -1,0 +1,23 @@
+I"-	<p><strong>[Deliverable: hands-on workshop + Internal training]</strong>.</p>
+
+<p><img src="/assets/gen-ai-ws.png" alt="Well-Architected Framework" /></p>
+
+<p>This is a hands-on workshop that I built with my team to train customers and internal AWS SAs and account teams on how to use the<a href="https://ekhiyami.github.io/wa-gen-ai/">Well-Architected Review Gen-AI Accelerator</a> that we released a few months ago.</p>
+
+<p>This is a pattern that I usually follow to scale: build something useful, then build a mechanism for other people to use it effectively. In this example, the solution was the IaC Analyzer and the mechanism is this workshop that we built for AWS folks to practice with. We’ve also made it available for our customers who want to train their teams.</p>
+
+<p><strong>This section is taken from my <a href="https://www.linkedin.com/posts/eb-khiyami_accelerate-well-architected-reviews-using-activity-7353858410670379010-H4Zj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAALV-AEByriO-neqsWiP7QcZkthfNqE6-Oo">announcement on LinkedIn</a></strong></p>
+
+<p>Glad to announce the availability of this brand-new hands-on workshop on how to accelerate the <strong>AWS Well-Architected Review process using Generative AI</strong>. We also just completed an internal training for 50 <strong>AWS SAs and TAMs</strong> on using it.</p>
+
+<p>Reach out to your AWS account team (or to me directly) if you’d like to <strong>run this workshop with your team</strong> and learn how Gen AI can accelerate the validation of AWS best practices for your architecture.</p>
+
+<p>This is based on the <a href="https://github.com/aws-samples/aws-well-architected-genai-iac-analyzer">Well-Architected Generative AI Accelerator</a> we released on GitHub a few months ago (IaC Analyzer).</p>
+
+<p>The workshop walks you through the process of deploying the solution and testing it on sample workloads. The tests include validating architecture diagrams, code, and design documents for AWS best practices. It shows you how to complete a full WAR review in minutes (vs. hours using the traditional review process).</p>
+
+<h2 id="access-the-workshop">Access the Workshop</h2>
+
+<p>You can access the workshop here: <a href="https://catalog.workshops.aws/wellarchitected-genai/en-US">Generative AI Accelerator for Well-Architected Review</a></p>
+
+:ET
