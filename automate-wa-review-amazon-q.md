@@ -58,7 +58,7 @@ layout: page
     <!-- Introduction -->
     <div class="prose prose-lg max-w-none text-gray-600 space-y-6">
       <p class="text-lg leading-relaxed">
-        Building on my previous work showing how Amazon Q can review draw.io architecture diagrams, this post demonstrates something even more powerful: using Amazon Q to perform a complete Well-Architected Framework Review (WAFR) on Infrastructure as Code templates like CloudFormation or Terraform.
+        Building on my <a href="https://www.linkedin.com/posts/ekhiyami_this-amazon-q-prompt-gives-you-a-%F0%9D%90%9F%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E-activity-7343284453441474562-r-ym?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALV-AEByriO-neqsWiP7QcZkthfNqE6-Oo" target="_blank" class="text-blue-600 hover:underline font-medium">previous work showing how Amazon Q can review draw.io architecture diagrams</a>, this post demonstrates something even more powerful: using Amazon Q to perform a complete Well-Architected Framework Review (WAFR) on Infrastructure as Code templates like CloudFormation or Terraform.
       </p>
       
       <p class="text-lg leading-relaxed">

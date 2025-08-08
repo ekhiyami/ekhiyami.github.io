@@ -1,6 +1,6 @@
 ---
 title: "Automate the Well-Architected Review w. Amazon Q"
-permalink: "/automate-wa-review-amazon-q/"
+permalink: "/posts/automate-wa-review-amazon-q/"
 layout: post
 categories: media
 tags: ["Generative AI", "Well-Architected", "Automation"]

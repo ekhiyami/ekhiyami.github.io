@@ -1,107 +1,72 @@
 ---
 title: "How I Built My Site with Amazon Q: The Unfiltered Journey"
-layout: page
 permalink: "/built-with-amazon-q/"
+layout: page
 ---
 
-<div class="post-content">
-  <img src="/assets/kiro.webp" alt="AWS Kiro" class="featured-image">
-  <p><em>Disclaimer: This post was built 100% with Amazon Q</em></p>
-  
-  <h2>I Built My Entire Website Using AWS Kiro/Amazon Q Developer</h2>
-  <p>I re-built my entire website using <a href="https://kiro.dev/">AWS Kiro</a> and Amazon Q Developer. This is to show the capabilities of both tools. I was surprised (and mind blown) at the same time with the ease and simplicity of this process.</p>
-  <p>I'm not a web developer, but I was still able to live code the entire process that started with taking a basic Jekyll template and keep adding pages, visual components, and other functions to it until I was satisfied with its design. I then connected Kiro with my GitHub account and asked it to publish it to GitHub Pages.</p>
+<div class="about-section bg-white min-h-screen pt-1 pb-4">
 
-  <h2>Tech Stack</h2>
-  <ul>
-    <li>Jekyll 4.2.0</li>
-    <li>GitHub Pages</li>
-    <li>Sass</li>
-    <li>Amazon Q CLI</li>
-    <li>WebP image optimization</li>
-    <li>Git for version control</li>
-  </ul>
-
-  <h2>Fixing the Template</h2>
-  <p>Started with a Jekyll template that needed serious work. Amazon Q immediately spotted issues with the sidebar.sass file - inconsistent indentation that would break the build:</p>
-
-  <pre><code class="language-sass">body > article
- margin: 0  # This single-space indent was breaking everything
-  padding: 2em</code></pre>
-
-  <p>Fixed it with proper two-space indentation. Small fix, huge impact.</p>
-
-  <h2>Content Structure</h2>
-  <p>Amazon Q helped organize my professional content into:</p>
-  <ul>
-    <li>Home page with professional introduction</li>
-    <li>Work samples section showcasing AWS projects</li>
-    <li>Publications page for my technical writing</li>
-    <li>About me section with career journey from network admin to AWS Solutions Architect</li>
-  </ul>
-
-  <h2>Image Optimization Wizardry</h2>
-  <p>Site was loading like molasses. Amazon Q suggested converting all images to WebP:</p>
-
-  <pre><code class="language-bash"># Amazon Q generated this script
-for img in $(find assets -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \)); do
-  webp_file="${img%.*}.webp"
-  cwebp -q 80 "$img" -o "$webp_file"
-done</code></pre>
-
-  <p>Added picture tags with fallbacks for older browsers. Page load time dropped by 65%.</p>
-
-  <h2>SEO Boost</h2>
-  <p>Amazon Q scanned the site and added missing meta tags for social sharing:</p>
-
-  <pre><code class="language-html">&lt;meta property="og:title" content="{{ page.title }}"&gt;
-&lt;meta property="og:image" content="{{ site.url }}/assets/eb-clean.webp"&gt;
-&lt;meta property="og:description" content="Solutions Architect at AWS. Technical Mentor. 15+ years in technology leadership."&gt;</code></pre>
-
-  <p>Now LinkedIn and Twitter previews actually look professional. Also added:</p>
-  <ul>
-    <li>robots.txt configuration</li>
-    <li>Sitemap generation via jekyll-sitemap</li>
-    <li>Proper heading hierarchy</li>
-  </ul>
-
-  <h2>Deployment Hell</h2>
-  <p>Initially, I had some errors in deployment due to Ruby compatibility issues. GitHub Pages kept rejecting the site with cryptic errors:</p>
-
-  <pre><code>The github-pages gem can't satisfy your Gemfile's dependencies.</code></pre>
-
-  <p>Amazon Q diagnosed the issue - Jekyll 4.2.0 isn't supported by GitHub Pages, which uses Jekyll 3.9.x. We encountered Ruby version conflicts between my local Ruby 3.1.7 and GitHub's environment. We tried:</p>
-  <ol>
-    <li>Using the github-pages gem (failed)</li>
-    <li>Custom GitHub Actions workflow (failed)</li>
-    <li>Fixing SASS indentation errors (success!)</li>
-  </ol>
-
-  <p>The culprit was a single space vs. two spaces in sidebar.sass. Amazon Q spotted it immediately.</p>
-
-  <h2>Branch Strategy</h2>
-  <p>Created a fix-sidebar branch to test changes without breaking the main site:</p>
-
-  <pre><code class="language-bash">git checkout -b fix-sidebar
-git add assets/css/sidebar.sass
-git commit -m "Fix indentation in sidebar.sass"
-git push origin fix-sidebar</code></pre>
-
-  <p>Merged after confirming the fix worked.</p>
-
-  <h2>Iterative Development Flow</h2>
-  <p>The real power came from the rapid iteration cycle:</p>
-  <ol>
-    <li>Describe issue to Amazon Q</li>
-    <li>Get code solution</li>
-    <li>Implement and test</li>
-    <li>Debug with Amazon Q if needed</li>
-    <li>Repeat</li>
-  </ol>
-
-  <p>No more endless Stack Overflow searches - just describe the problem and get solutions tailored to my specific codebase.</p>
-
-  <div class="author-section">
-    <p><strong>Author:</strong> Ebrahim Khiyami</p>
+<!-- Blog Post Header -->
+<div class="bg-white py-8 px-4">
+  <div class="max-w-4xl mx-auto">
+    <div class="mb-16">
+      <div class="relative">
+        <h1 class="text-2xl md:text-3xl font-light text-black tracking-tight leading-tight">
+          How I Built My Site with Amazon Q: The Unfiltered Journey
+        </h1>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Main Content -->
+<div class="max-w-4xl mx-auto px-4">
+  <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+    
+    <!-- Featured Image -->
+    <div class="text-center mb-8">
+      <img src="/assets/kiro.webp" alt="AWS Kiro" class="w-full max-w-2xl mx-auto rounded-lg shadow-lg">
+      <p class="text-sm text-gray-500 mt-3 italic">Disclaimer: This post was built 100% with Amazon Q</p>
+    </div>
+    
+    <!-- Introduction -->
+    <div class="prose prose-lg max-w-none text-gray-600 space-y-6">
+      <h2 class="text-2xl font-bold text-black mt-8 mb-4">I Built My Entire Website Using AWS Kiro/Amazon Q Developer</h2>
+      
+      <p class="text-lg leading-relaxed">
+        I re-built my entire website using <a href="https://kiro.dev/" target="_blank" class="text-blue-600 hover:underline font-medium">AWS Kiro</a> and Amazon Q Developer. This is to show the capabilities of both tools. I was surprised (and mind blown) at the same time with the ease and simplicity of this process.
+      </p>
+      
+      <p class="text-lg leading-relaxed">
+        I'm not a web developer, but I was still able to live code the entire process that started with taking a basic Jekyll template and keep adding pages, visual components, and other functions to it until I was satisfied with its design. I then connected Kiro with my GitHub account and asked it to publish it to GitHub Pages.
+      </p>
+    </div>
+    
+    <!-- Tags -->
+    <div class="mt-12 pt-8 border-t border-gray-200">
+      <div class="flex flex-wrap gap-3">
+        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">#aws-kiro</span>
+        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">#amazon-q</span>
+        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">#web-development</span>
+        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">#jekyll</span>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Back to Portfolio -->
+<div class="max-w-4xl mx-auto px-4 mt-8 mb-12">
+  <div class="text-center">
+    <a href="/" class="inline-flex items-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium">
+      <i data-lucide="arrow-left" class="w-4 h-4 mr-2"></i>Back to Portfolio
+    </a>
+  </div>
+</div>
+
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>

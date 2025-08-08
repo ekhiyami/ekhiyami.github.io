@@ -1,6 +1,7 @@
 ---
 title:  "I vibe-coded this webstite completely using Amazon Kiro/Q"
 layout: post
+permalink: "/posts/built-with-amazon-q/"
 categories: media
 tags: ["Generative AI", "Solution"]
 author: "Ebrahim Khiyami"
