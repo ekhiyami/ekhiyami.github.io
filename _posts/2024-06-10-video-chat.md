@@ -12,8 +12,9 @@ As part of learning Gen AI, I built an app that 'summarizes YouTube videos and m
 
   <img src="/assets/video-chat.png" alt="Video Chat App">
 
-
-The whole process from starting building the code to writing a blog post about it took about 6 hours. The app was received with celebration by the community and many VPs at AWS because it shows how efficiently you can be to build quick products that solve real problems using AWS Gen AI Stack.
+  <img src="/assets/yt.png" alt="Video Chat App">
+  
+  The whole process from starting building the code to writing a blog post about it took about 6 hours. The app was received with celebration by the community and many VPs at AWS because it shows how efficiently you can be to build quick products that solve real problems using AWS Gen AI Stack.
 
 To date, the app has been used by more than ***100k** users. Wow, beyond my expectation. Maybe I should build a commercial version?
 
