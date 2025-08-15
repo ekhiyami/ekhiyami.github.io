@@ -5,7 +5,9 @@ layout: post
 
 **[Deliverable: Whitepaper, AWS Service, 2 blog posts, AWS Documentation,].**
 
-  <img src="/assets/migration-lens0.png" alt="wa-migration">
+  <img src="/assets/m-wa.png" alt="wa-migration">
+  
+  
 
 
 This is one of the important projects I created, led, and delivered. 
@@ -26,7 +28,12 @@ In Amazon fashion, to start a project, you need to write a two-pager and go thro
 
 > **The Migration Lens is a collection of best practices that extend the original, well-known Well-Architected Framework but specifically addresses best practices across the three phases of migration (assess, mobilize, migrate) and intersects them with the six pillars of the Well-Architected Framework. So, there were 18 areas to address**
 
+<img src="/assets/migration-lens0.png" alt="wa-migration">
+
+
 I built and led a team of about [30 SMEs](https://docs.aws.amazon.com/wellarchitected/latest/migration-lens/contributors.html) across all areas, and we started defining the structure of how the content should look. It took us about 10 months to build it and clear all the review requirements and bar-raising from different experts.
+
+
 
 ## The package I built included the following:
 
