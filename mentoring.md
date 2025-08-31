@@ -36,37 +36,32 @@ layout: default
       <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">Career Mentoring</h2>
     </div>
     
-    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-12 border border-gray-200">
-      <div class="space-y-6 text-gray-600">
-        <p class="text-base md:text-lg leading-relaxed text-center">
-          I help individual contributors succeed in their tech career.
-        </p>
-      </div>
-    </div>
+
   </div>
 </section>
 
 <!-- Profile Section -->
 <section id="profile" class="bg-gray-50 py-12 px-4">
   <div class="max-w-4xl mx-auto">
-    <div class="text-center mb-12">
-      <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">My Mentoring Profile</h2>
-    </div>
+
     
     <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-12 border border-gray-200">
       <div class="flex flex-col md:flex-row gap-8 items-center">
         <div class="md:w-2/3 space-y-6 text-gray-600">
           <p class="text-base md:text-lg leading-relaxed">
-            <strong class="text-black">I wish I had a mentor earlier in my career.</strong> The right guidance could have saved me years of trial and error. Now, I'm that mentor for ambitious tech professionals who refuse to figure it out alone.
+            <strong class="text-black">I wish I had a mentor earlier in my career.</strong> The right guidance could have saved me years of trial and error. Now, I'm that mentor for tech professionals who refuse to figure it out alone.
           </p>
           <p class="text-base md:text-lg leading-relaxed">
-            With <strong class="text-black">15+ years</strong> at Amazon, Microsoft, and Fortune 500 companies, I spot career blind spots others miss and show you exactly how to fix them.
+            With <strong class="text-black">15+ years</strong> at Amazon, Microsoft, and Fortune 500 companies, I can detect gaps in your career and show you how to fix them. I also had to switch my specialty in tech multiple times to adapt to new markets, so I know how it feels and how to do it successfully.
           </p>
           <p class="text-base md:text-lg leading-relaxed">
-            Since 2020, I've conducted <strong class="text-black">200+</strong> interviews, reviewed <strong class="text-black">500+</strong> resumes, and guided <strong class="text-black">100s</strong> of professionals to breakthrough moments in their careers. I also founded <a href="https://mentory-sy.net" target="_blank" class="text-black font-medium hover:underline">mentory-sy.net</a>, a free mentoring platform for Syrian tech professionals.
+            Since 2020, I've conducted <strong class="text-black">200+</strong> interviews, reviewed <strong class="text-black">500+</strong> resumes, and helped <strong class="text-black">100s</strong> of professionals to succeed in their careers in tech.
+          </p>
+          <p class="text-base md:text-lg leading-relaxed">
+            I was recently <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded-md font-semibold"><a href="/mentor-nyc/" class="text-yellow-800 hover:underline">recognized as a top mentor in Times Square, NYC</a></span> for my mentoring accomplishments in the community. I'm also the <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md font-semibold">founder of <a href="https://mentory-sy.net" target="_blank" class="text-blue-800 hover:underline">mentory-sy.net</a></span>, a free mentoring platform for Syrian tech professionals worldwide.
           </p>
           <p class="text-base md:text-lg leading-relaxed font-medium">
-            <strong class="text-black">Your career is too important to leave to chance.</strong> Let's accelerate your growth together.
+            <strong class="text-black">Your career is too important to leave to chance.</strong> Let me be your partner to grow it with you.
           </p>
         </div>
         <div class="md:w-1/3 flex justify-center">
@@ -215,15 +210,15 @@ layout: default
           <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
         </div>
         <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
-          "Every time I talk to EB I learn something new that I can put in actions the next day at work. He always asks and check on my improvement without pressure. Love being his mentee."
+          "Hi EB, just wanted to thank you again for the mock session. Your advice to frame stories around scope, scale, and impact (with data) was a game-changer. I just accepted the offer to join AWS Startups as an SA. Really appreciate your help"
         </p>
         <div class="flex items-center">
           <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-            <span class="text-blue-600 font-bold text-sm">AN</span>
+            <span class="text-blue-600 font-bold text-sm">OM</span>
           </div>
           <div>
-            <p class="font-semibold text-gray-800">Anonymous</p>
-            <p class="text-sm text-gray-600">2025</p>
+            <p class="font-semibold text-gray-800">Odean M.</p>
+            <p class="text-sm text-gray-600">August 2025</p>
           </div>
         </div>
       </div>
@@ -259,15 +254,15 @@ layout: default
           <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
         </div>
         <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
-          "Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"
+          "Every time I talk to EB I learn something new that I can put in actions the next day at work. He always asks and check on my improvement without pressure. Love being his mentee."
         </p>
         <div class="flex items-center">
-          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-            <span class="text-gray-700 font-bold text-sm">SP</span>
+          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-blue-600 font-bold text-sm">AN</span>
           </div>
           <div>
-            <p class="font-semibold text-gray-800">Shilpi P.</p>
-            <p class="text-sm text-gray-600">July 2023</p>
+            <p class="font-semibold text-gray-800">Anonymous</p>
+            <p class="text-sm text-gray-600">2025</p>
           </div>
         </div>
       </div>
@@ -281,15 +276,15 @@ layout: default
           <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-current"></i>
         </div>
         <p class="text-gray-700 mb-4 italic leading-relaxed text-sm">
-          "Ebrahim gave me clear, actionable feedback on how to better organize my behavioral interview responses, and increased my confidence for future interviews."
+          "Received great (really great!) feedback and actionable items. After the interview I felt I have everything I need to prepare for Amazon's IC Behavioral interview. Thanks!"
         </p>
         <div class="flex items-center">
-          <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-            <span class="text-blue-600 font-bold text-sm">JD</span>
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
+            <span class="text-gray-700 font-bold text-sm">SP</span>
           </div>
           <div>
-            <p class="font-semibold text-gray-800">Jeff D.</p>
-            <p class="text-sm text-gray-600">October 2021</p>
+            <p class="font-semibold text-gray-800">Shilpi P.</p>
+            <p class="text-sm text-gray-600">July 2023</p>
           </div>
         </div>
       </div>
@@ -384,13 +379,12 @@ layout: default
       <div class="flex flex-col md:flex-row gap-8 items-start">
         <div class="w-full md:w-1/2">
           <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-100 relative">
-            <div class="absolute top-0 right-0 -mt-3 -mr-3 bg-black text-white text-sm font-semibold px-4 py-2 rounded-full shadow-sm">
-              Best Value
+            <div class="flex justify-center mb-4">
+              <div class="bg-black text-white text-sm font-semibold px-4 py-2 rounded-full shadow-sm">
+                Best Value
+              </div>
             </div>
-            <div class="flex items-center mb-4">
-              <span class="text-4xl font-bold text-black">$100</span>
-              <span class="text-xl text-gray-600 ml-2">/month</span>
-            </div>
+
             <p class="text-lg text-gray-600 mb-6">
               Monthly 1:1 sessions plus unlimited support to accelerate your career growth.
             </p>
@@ -493,9 +487,7 @@ layout: default
 <section id="connect" class="footer-section py-16 px-4 bg-gray-100 text-black">
   <div class="max-w-4xl mx-auto text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
-    <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-      Whether you're interested in my work, need career guidance, or want to collaborate on cloud innovation projects.
-    </p>
+
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
       <a href="https://www.linkedin.com/in/eb-khiyami/" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
         <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i>Connect on LinkedIn
